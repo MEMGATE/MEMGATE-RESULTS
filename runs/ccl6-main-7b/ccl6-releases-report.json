@@ -1,0 +1,2177 @@
+{
+ "sessions": 34,
+ "early": [
+  1,
+  12
+ ],
+ "late": [
+  25,
+  34
+ ],
+ "core": {
+  "per_world": {
+   "9710": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 4.3,
+     "locality": 0.0,
+     "follow_A": 40.0,
+     "follow_B": 38.9,
+     "dated": 1.0,
+     "skills": 3.6,
+     "gsm8k": 92.7,
+     "mmlu": 72.5,
+     "follow": 39.5,
+     "kept": 0.0
+    },
+    "NAIVE": {
+     "current_w0": 97.9,
+     "current_w2": 97.9,
+     "poison": 10.3,
+     "early_kept": 100.0,
+     "stale": 2.1,
+     "locality": 10.5,
+     "follow_A": 4.2,
+     "follow_B": 4.9,
+     "dated": 46.1,
+     "skills": 0.0,
+     "gsm8k": 18.7,
+     "mmlu": 57.0,
+     "follow": 4.5,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 97.9,
+     "current_w2": 97.9,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 2.1,
+     "locality": 0.0,
+     "follow_A": 89.7,
+     "follow_B": 88.2,
+     "dated": 79.1,
+     "skills": 21.4,
+     "gsm8k": 92.0,
+     "mmlu": 72.0,
+     "follow": 89.0,
+     "kept": 100.0
+    },
+    "errors": {
+     "FROZEN": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 75.0
+     },
+     "NAIVE": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 0.0
+     },
+     "SYSTEM2": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 87.5
+     }
+    },
+    "lie_mean_gap": {
+     "FROZEN": -0.607,
+     "NAIVE": 0.014,
+     "SYSTEM2": 0.088
+    },
+    "first_check": [
+     [
+      1,
+      204,
+      172
+     ],
+     [
+      2,
+      43,
+      8
+     ],
+     [
+      3,
+      36,
+      6
+     ],
+     [
+      4,
+      111,
+      2
+     ],
+     [
+      5,
+      39,
+      4
+     ],
+     [
+      6,
+      75,
+      1
+     ],
+     [
+      7,
+      49,
+      11
+     ],
+     [
+      8,
+      71,
+      5
+     ],
+     [
+      9,
+      85,
+      12
+     ],
+     [
+      10,
+      73,
+      8
+     ],
+     [
+      11,
+      93,
+      7
+     ],
+     [
+      12,
+      70,
+      2
+     ],
+     [
+      13,
+      48,
+      5
+     ],
+     [
+      14,
+      97,
+      3
+     ],
+     [
+      15,
+      50,
+      12
+     ],
+     [
+      16,
+      57,
+      4
+     ],
+     [
+      17,
+      69,
+      0
+     ],
+     [
+      18,
+      55,
+      7
+     ],
+     [
+      19,
+      47,
+      5
+     ],
+     [
+      20,
+      63,
+      4
+     ],
+     [
+      21,
+      69,
+      0
+     ],
+     [
+      22,
+      80,
+      1
+     ],
+     [
+      23,
+      72,
+      6
+     ],
+     [
+      24,
+      65,
+      4
+     ],
+     [
+      25,
+      75,
+      11
+     ],
+     [
+      26,
+      56,
+      6
+     ],
+     [
+      27,
+      58,
+      0
+     ],
+     [
+      28,
+      76,
+      5
+     ],
+     [
+      29,
+      71,
+      3
+     ],
+     [
+      30,
+      85,
+      4
+     ],
+     [
+      31,
+      62,
+      19
+     ],
+     [
+      32,
+      69,
+      3
+     ],
+     [
+      33,
+      91,
+      4
+     ],
+     [
+      34,
+      140,
+      6
+     ]
+    ],
+    "reps_next": {
+     "1": {
+      "office": 2,
+      "dated": 2
+     },
+     "2": {
+      "office": 3,
+      "dated": 3,
+      "follow": 2
+     },
+     "3": {
+      "office": 4,
+      "dated": 4,
+      "follow": 1
+     },
+     "4": {
+      "office": 4,
+      "dated": 4,
+      "follow": 1
+     },
+     "5": {
+      "office": 3,
+      "dated": 4,
+      "follow": 1
+     },
+     "6": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "7": {
+      "office": 3,
+      "dated": 4,
+      "follow": 2
+     },
+     "8": {
+      "office": 3,
+      "dated": 4,
+      "follow": 1
+     },
+     "9": {
+      "office": 3,
+      "dated": 4,
+      "follow": 1
+     },
+     "10": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "11": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "12": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "13": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     },
+     "14": {
+      "office": 2,
+      "dated": 2,
+      "follow": 1
+     },
+     "15": {
+      "office": 3,
+      "dated": 3,
+      "follow": 1
+     },
+     "16": {
+      "office": 2,
+      "dated": 3,
+      "follow": 2
+     },
+     "17": {
+      "office": 1,
+      "dated": 2,
+      "follow": 1
+     },
+     "18": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "19": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "20": {
+      "office": 1,
+      "dated": 4,
+      "follow": 2
+     },
+     "21": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "22": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "23": {
+      "office": 2,
+      "dated": 2,
+      "follow": 1
+     },
+     "24": {
+      "office": 2,
+      "dated": 2,
+      "follow": 1
+     },
+     "25": {
+      "office": 3,
+      "dated": 3,
+      "follow": 1
+     },
+     "26": {
+      "office": 4,
+      "dated": 4,
+      "follow": 1
+     },
+     "27": {
+      "office": 3,
+      "dated": 3,
+      "follow": 1
+     },
+     "28": {
+      "office": 3,
+      "dated": 3,
+      "follow": 1
+     },
+     "29": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     },
+     "30": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     },
+     "31": {
+      "office": 3,
+      "dated": 3,
+      "follow": 1
+     },
+     "32": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     },
+     "33": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     },
+     "34": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     }
+    },
+    "routed_to_adapter": {
+     "learned": 793,
+     "other": 5,
+     "questions": 1162
+    }
+   },
+   "9711": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 1.7,
+     "early_kept": 0.0,
+     "stale": 4.3,
+     "locality": 0.0,
+     "follow_A": 40.0,
+     "follow_B": 38.9,
+     "dated": 1.0,
+     "skills": 3.6,
+     "gsm8k": 92.7,
+     "mmlu": 72.5,
+     "follow": 39.5,
+     "kept": 0.0
+    },
+    "NAIVE": {
+     "current_w0": 91.5,
+     "current_w2": 91.5,
+     "poison": 10.3,
+     "early_kept": 100.0,
+     "stale": 8.5,
+     "locality": 10.5,
+     "follow_A": 1.8,
+     "follow_B": 7.6,
+     "dated": 48.1,
+     "skills": 0.0,
+     "gsm8k": 12.7,
+     "mmlu": 50.0,
+     "follow": 4.5,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 97.9,
+     "current_w2": 97.9,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 2.1,
+     "locality": 0.0,
+     "follow_A": 91.5,
+     "follow_B": 85.4,
+     "dated": 85.4,
+     "skills": 25.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.0,
+     "follow": 88.7,
+     "kept": 100.0
+    },
+    "errors": {
+     "FROZEN": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 70.0
+     },
+     "NAIVE": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 0.0
+     },
+     "SYSTEM2": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 80.0
+     }
+    },
+    "lie_mean_gap": {
+     "FROZEN": -0.329,
+     "NAIVE": -0.048,
+     "SYSTEM2": 0.002
+    },
+    "first_check": [
+     [
+      1,
+      207,
+      170
+     ],
+     [
+      2,
+      28,
+      3
+     ],
+     [
+      3,
+      37,
+      2
+     ],
+     [
+      4,
+      128,
+      12
+     ],
+     [
+      5,
+      36,
+      6
+     ],
+     [
+      6,
+      62,
+      8
+     ],
+     [
+      7,
+      53,
+      4
+     ],
+     [
+      8,
+      59,
+      3
+     ],
+     [
+      9,
+      87,
+      9
+     ],
+     [
+      10,
+      77,
+      8
+     ],
+     [
+      11,
+      130,
+      10
+     ],
+     [
+      12,
+      53,
+      0
+     ],
+     [
+      13,
+      58,
+      2
+     ],
+     [
+      14,
+      80,
+      4
+     ],
+     [
+      15,
+      53,
+      3
+     ],
+     [
+      16,
+      73,
+      4
+     ],
+     [
+      17,
+      44,
+      2
+     ],
+     [
+      18,
+      81,
+      2
+     ],
+     [
+      19,
+      23,
+      3
+     ],
+     [
+      20,
+      73,
+      5
+     ],
+     [
+      21,
+      69,
+      2
+     ],
+     [
+      22,
+      96,
+      3
+     ],
+     [
+      23,
+      93,
+      10
+     ],
+     [
+      24,
+      62,
+      4
+     ],
+     [
+      25,
+      73,
+      2
+     ],
+     [
+      26,
+      51,
+      4
+     ],
+     [
+      27,
+      58,
+      3
+     ],
+     [
+      28,
+      74,
+      10
+     ],
+     [
+      29,
+      61,
+      1
+     ],
+     [
+      30,
+      58,
+      2
+     ],
+     [
+      31,
+      99,
+      5
+     ],
+     [
+      32,
+      63,
+      1
+     ],
+     [
+      33,
+      78,
+      6
+     ],
+     [
+      34,
+      144,
+      2
+     ]
+    ],
+    "reps_next": {
+     "1": {
+      "office": 2,
+      "dated": 2
+     },
+     "2": {
+      "office": 2,
+      "dated": 3,
+      "follow": 2
+     },
+     "3": {
+      "office": 1,
+      "dated": 3,
+      "follow": 3
+     },
+     "4": {
+      "office": 1,
+      "dated": 4,
+      "follow": 4
+     },
+     "5": {
+      "office": 1,
+      "dated": 4,
+      "follow": 4
+     },
+     "6": {
+      "office": 2,
+      "dated": 4,
+      "follow": 3
+     },
+     "7": {
+      "office": 2,
+      "dated": 4,
+      "follow": 3
+     },
+     "8": {
+      "office": 1,
+      "dated": 4,
+      "follow": 2
+     },
+     "9": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "10": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "11": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "12": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "13": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "14": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "15": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "16": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "17": {
+      "office": 1,
+      "dated": 3,
+      "follow": 2
+     },
+     "18": {
+      "office": 1,
+      "dated": 2,
+      "follow": 1
+     },
+     "19": {
+      "office": 2,
+      "dated": 3,
+      "follow": 1
+     },
+     "20": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "21": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "22": {
+      "office": 1,
+      "dated": 2,
+      "follow": 1
+     },
+     "23": {
+      "office": 1,
+      "dated": 3,
+      "follow": 2
+     },
+     "24": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "25": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "26": {
+      "office": 2,
+      "dated": 2,
+      "follow": 1
+     },
+     "27": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "28": {
+      "office": 2,
+      "dated": 4,
+      "follow": 1
+     },
+     "29": {
+      "office": 1,
+      "dated": 4,
+      "follow": 1
+     },
+     "30": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "31": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "32": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "33": {
+      "office": 1,
+      "dated": 3,
+      "follow": 1
+     },
+     "34": {
+      "office": 1,
+      "dated": 2,
+      "follow": 1
+     }
+    },
+    "routed_to_adapter": {
+     "learned": 793,
+     "other": 5,
+     "questions": 1162
+    }
+   }
+  },
+  "validity": {
+   "9710": {
+    "arms_finished": {
+     "NAIVE": true,
+     "REPLAY": false,
+     "SYSTEM2": true
+    },
+    "frozen_unanswered": 0,
+    "frozen_current_pct": 0.0,
+    "removal_in_session_4": true,
+    "lie_arms": [
+     "FROZEN",
+     "NAIVE",
+     "SYSTEM2"
+    ]
+   },
+   "9711": {
+    "arms_finished": {
+     "NAIVE": true,
+     "REPLAY": false,
+     "SYSTEM2": true
+    },
+    "frozen_unanswered": 0,
+    "frozen_current_pct": 0.0,
+    "removal_in_session_4": true,
+    "lie_arms": [
+     "FROZEN",
+     "NAIVE",
+     "SYSTEM2"
+    ]
+   }
+  },
+  "first_check_by_kind": {
+   "dated": {
+    "early": [
+     125,
+     256
+    ],
+    "late": [
+     105,
+     1236
+    ]
+   },
+   "follow": {
+    "early": [
+     5,
+     36
+    ],
+    "late": [
+     45,
+     1205
+    ]
+   },
+   "office": {
+    "early": [
+     245,
+     502
+    ],
+    "late": [
+     98,
+     1346
+    ]
+   }
+  },
+  "hypotheses": {
+   "H1": {
+    "ability": 2,
+    "measure": "poison",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": -10.34,
+    "ci95": [
+     -16.38,
+     -5.17
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "ability": 1,
+    "measure": "current_w0",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 3.19,
+    "ci95": [
+     0.0,
+     7.45
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H11": {
+    "ability": 1,
+    "measure": "current_w0",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 97.87,
+    "ci95": [
+     94.68,
+     100.0
+    ],
+    "verdict": "WIN"
+   },
+   "H3": {
+    "ability": 3,
+    "measure": "kept",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H10": {
+    "ability": 3,
+    "measure": "locality",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H12": {
+    "ability": 4,
+    "measure": "lie_gap",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 0.061,
+    "ci95": [
+     -0.206,
+     0.322
+    ],
+    "verdict": "not shown"
+   },
+   "H12b": {
+    "ability": 4,
+    "measure": "lie_gap",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.513,
+    "ci95": [
+     0.114,
+     0.909
+    ],
+    "verdict": "not shown"
+   },
+   "H5": {
+    "ability": 5,
+    "measure": "dated",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 35.19,
+    "ci95": [
+     28.88,
+     41.5
+    ],
+    "verdict": "WIN"
+   },
+   "H6": {
+    "ability": 6,
+    "measure": "skills",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 23.21,
+    "ci95": [
+     12.5,
+     33.93
+    ],
+    "verdict": "WIN"
+   },
+   "H7": {
+    "ability": 7,
+    "measure": "follow",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 84.3,
+    "ci95": [
+     81.07,
+     87.38
+    ],
+    "verdict": "WIN"
+   },
+   "H8": {
+    "ability": 9,
+    "measure": "gsm8k",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": -0.33,
+    "ci95": [
+     -1.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "ability": 9,
+    "measure": "mmlu",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": -0.5,
+    "ci95": [
+     -1.25,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  },
+  "descriptive": {
+   "SYSTEM2 - NAIVE: early_kept": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "SYSTEM2 - NAIVE: stale": [
+    -3.19,
+    -7.45,
+    0.0
+   ],
+   "SYSTEM2 - NAIVE: current_w2": [
+    3.19,
+    0.0,
+    7.45
+   ],
+   "SYSTEM2 - NAIVE: follow_A": [
+    87.58,
+    83.94,
+    91.21
+   ],
+   "SYSTEM2 - NAIVE: follow_B": [
+    80.56,
+    75.35,
+    85.42
+   ],
+   "SYSTEM2 - NAIVE: locality": [
+    -10.53,
+    -21.05,
+    -2.63
+   ],
+   "SYSTEM2 - NAIVE: gsm8k": [
+    76.67,
+    71.67,
+    81.33
+   ],
+   "SYSTEM2 - NAIVE: mmlu": [
+    18.5,
+    14.0,
+    22.75
+   ]
+  },
+  "abilities": {
+   "1": "PASSED",
+   "2": "PASSED",
+   "3": "PASSED",
+   "4": "NOT SHOWN",
+   "5": "PASSED",
+   "6": "PASSED",
+   "7": "PASSED",
+   "8": "PASSED",
+   "9": "PASSED"
+  }
+ },
+ "over_time": {
+  "12": {
+   "H1": {
+    "estimate": -6.03,
+    "ci95": [
+     -11.21,
+     -1.72
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "estimate": 1.06,
+    "ci95": [
+     -2.13,
+     5.32
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H11": {
+    "estimate": 94.68,
+    "ci95": [
+     89.36,
+     98.94
+    ],
+    "verdict": "WIN"
+   },
+   "H5": {
+    "estimate": 34.51,
+    "ci95": [
+     27.46,
+     41.55
+    ],
+    "verdict": "WIN"
+   },
+   "H7": {
+    "estimate": 67.61,
+    "ci95": [
+     63.15,
+     72.07
+    ],
+    "verdict": "WIN"
+   },
+   "H8": {
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "estimate": -0.25,
+    "ci95": [
+     -0.75,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  },
+  "24": {
+   "H1": {
+    "estimate": -8.62,
+    "ci95": [
+     -13.79,
+     -4.31
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "estimate": 3.19,
+    "ci95": [
+     0.0,
+     7.45
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H11": {
+    "estimate": 98.94,
+    "ci95": [
+     96.81,
+     100.0
+    ],
+    "verdict": "WIN"
+   },
+   "H5": {
+    "estimate": 34.69,
+    "ci95": [
+     28.06,
+     41.07
+    ],
+    "verdict": "WIN"
+   },
+   "H7": {
+    "estimate": 82.65,
+    "ci95": [
+     79.42,
+     85.71
+    ],
+    "verdict": "WIN"
+   },
+   "H8": {
+    "estimate": -0.33,
+    "ci95": [
+     -1.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "estimate": -0.5,
+    "ci95": [
+     -1.25,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  }
+ },
+ "hypotheses": {
+  "H13L": {
+   "ability": 8,
+   "measure": "held-out probes missed, sessions 1-12 minus the last ten",
+   "estimate": 19.31,
+   "ci95": [
+    14.22,
+    24.43
+   ],
+   "by_kind": {
+    "probe-dated": {
+     "early": [
+      99,
+      294
+     ],
+     "late": [
+      33,
+      308
+     ]
+    },
+    "probe-follow": {
+     "early": [
+      31,
+      147
+     ],
+     "late": [
+      14,
+      154
+     ]
+    }
+   },
+   "verdict": "WIN"
+  },
+  "H15": {
+   "ability": 15,
+   "measure": "new items missed at the first check, sessions 1-12 minus the last ten",
+   "estimate": 16.67,
+   "ci95": [
+    14.41,
+    18.91
+   ],
+   "by_kind": {
+    "dated": {
+     "early": [
+      184,
+      613
+     ],
+     "late": [
+      35,
+      499
+     ]
+    },
+    "follow": {
+     "early": [
+      21,
+      353
+     ],
+     "late": [
+      14,
+      499
+     ]
+    },
+    "office": {
+     "early": [
+      268,
+      940
+     ],
+     "late": [
+      48,
+      544
+     ]
+    }
+   },
+   "verdict": "NON-INFERIOR"
+  },
+  "H15b": {
+   "ability": 15,
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H16": {
+   "ability": 13,
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H16s": {
+   "ability": 13,
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H17": {
+   "ability": 14,
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H16a": {
+   "ability": 13,
+   "estimate": -15.75,
+   "ci95": [
+    -20.25,
+    -11.25
+   ],
+   "verdict": "wrong side",
+   "secondary": true
+  },
+  "H16sa": {
+   "ability": 13,
+   "estimate": 3.6,
+   "ci95": [
+    2.0,
+    5.4
+   ],
+   "verdict": "NON-INFERIOR",
+   "secondary": true
+  },
+  "H17a": {
+   "ability": 14,
+   "estimate": -24.75,
+   "ci95": [
+    -29.75,
+    -19.5
+   ],
+   "verdict": "wrong side",
+   "secondary": true
+  }
+ },
+ "descriptive": {
+  "NAIVE - untouched: unsafe_refused": [
+   -5.5,
+   -9.5,
+   -1.5
+  ],
+  "NAIVE - untouched: safe_answered": [
+   1.8,
+   0.2,
+   3.4
+  ],
+  "NAIVE - untouched: ifeval_strict": [
+   -15.75,
+   -20.5,
+   -11.0
+  ]
+ },
+ "levels": {
+  "9710": {
+   "safety": {
+    "FROZEN": {
+     "unsafe_refused": 72.5,
+     "safe_answered": 96.0
+    },
+    "NAIVE": {
+     "unsafe_refused": 70.5,
+     "safe_answered": 96.8
+    },
+    "SYSTEM3-alone": {
+     "unsafe_refused": 50.5,
+     "safe_answered": 100.0
+    },
+    "SYSTEM3-routed": {
+     "unsafe_refused": 72.5,
+     "safe_answered": 96.0
+    }
+   },
+   "ifeval_strict": {
+    "FROZEN": 73.0,
+    "NAIVE": 54.5,
+    "SYSTEM3-alone": 42.5,
+    "SYSTEM3-routed": 73.0
+   },
+   "early_kept": {
+    "NAIVE": 100.0,
+    "SYSTEM3-routed": 100.0,
+    "FROZEN": 0.0
+   },
+   "early_offices": 3,
+   "transitional": {},
+   "transitional_items": 0
+  },
+  "9711": {
+   "safety": {
+    "FROZEN": {
+     "unsafe_refused": 72.5,
+     "safe_answered": 96.0
+    },
+    "NAIVE": {
+     "unsafe_refused": 63.5,
+     "safe_answered": 98.8
+    },
+    "SYSTEM3-alone": {
+     "unsafe_refused": 63.0,
+     "safe_answered": 99.2
+    },
+    "SYSTEM3-routed": {
+     "unsafe_refused": 72.5,
+     "safe_answered": 96.0
+    }
+   },
+   "ifeval_strict": {
+    "FROZEN": 73.0,
+    "NAIVE": 60.0,
+    "SYSTEM3-alone": 54.0,
+    "SYSTEM3-routed": 73.0
+   },
+   "early_kept": {
+    "NAIVE": 100.0,
+    "SYSTEM3-routed": 100.0,
+    "FROZEN": 0.0
+   },
+   "early_offices": 5,
+   "transitional": {},
+   "transitional_items": 0
+  }
+ },
+ "cost": {
+  "9710": {
+   "SYSTEM3": [
+    [
+     1,
+     464,
+     41
+    ],
+    [
+     2,
+     400,
+     37
+    ],
+    [
+     3,
+     467,
+     42
+    ],
+    [
+     4,
+     834,
+     69
+    ],
+    [
+     5,
+     594,
+     52
+    ],
+    [
+     6,
+     761,
+     63
+    ],
+    [
+     7,
+     751,
+     62
+    ],
+    [
+     8,
+     939,
+     75
+    ],
+    [
+     9,
+     1019,
+     81
+    ],
+    [
+     10,
+     1090,
+     86
+    ],
+    [
+     11,
+     1224,
+     91
+    ],
+    [
+     12,
+     1214,
+     90
+    ],
+    [
+     13,
+     1210,
+     92
+    ],
+    [
+     14,
+     1352,
+     102
+    ],
+    [
+     15,
+     1304,
+     100
+    ],
+    [
+     16,
+     1402,
+     103
+    ],
+    [
+     17,
+     1454,
+     108
+    ],
+    [
+     18,
+     1432,
+     106
+    ],
+    [
+     19,
+     1463,
+     107
+    ],
+    [
+     20,
+     1558,
+     113
+    ],
+    [
+     21,
+     1606,
+     118
+    ],
+    [
+     22,
+     1614,
+     119
+    ],
+    [
+     23,
+     1666,
+     122
+    ],
+    [
+     24,
+     1682,
+     125
+    ],
+    [
+     25,
+     1690,
+     130
+    ],
+    [
+     26,
+     1753,
+     133
+    ],
+    [
+     27,
+     1841,
+     136
+    ],
+    [
+     28,
+     1814,
+     132
+    ],
+    [
+     29,
+     1849,
+     135
+    ],
+    [
+     30,
+     1851,
+     135
+    ],
+    [
+     31,
+     1851,
+     135
+    ],
+    [
+     32,
+     1911,
+     143
+    ],
+    [
+     33,
+     1937,
+     146
+    ],
+    [
+     34,
+     1956,
+     142
+    ]
+   ],
+   "NAIVE": [
+    [
+     1,
+     448,
+     30
+    ],
+    [
+     2,
+     354,
+     24
+    ],
+    [
+     3,
+     358,
+     24
+    ],
+    [
+     4,
+     468,
+     31
+    ],
+    [
+     5,
+     414,
+     27
+    ],
+    [
+     6,
+     468,
+     30
+    ],
+    [
+     7,
+     446,
+     29
+    ],
+    [
+     8,
+     490,
+     32
+    ],
+    [
+     9,
+     530,
+     34
+    ],
+    [
+     10,
+     476,
+     30
+    ],
+    [
+     11,
+     516,
+     33
+    ],
+    [
+     12,
+     504,
+     32
+    ],
+    [
+     13,
+     534,
+     35
+    ],
+    [
+     14,
+     532,
+     36
+    ],
+    [
+     15,
+     540,
+     36
+    ],
+    [
+     16,
+     494,
+     33
+    ],
+    [
+     17,
+     492,
+     33
+    ],
+    [
+     18,
+     462,
+     31
+    ],
+    [
+     19,
+     530,
+     36
+    ],
+    [
+     20,
+     474,
+     32
+    ],
+    [
+     21,
+     506,
+     34
+    ],
+    [
+     22,
+     522,
+     35
+    ],
+    [
+     23,
+     548,
+     37
+    ],
+    [
+     24,
+     498,
+     34
+    ],
+    [
+     25,
+     548,
+     35
+    ],
+    [
+     26,
+     510,
+     32
+    ],
+    [
+     27,
+     548,
+     35
+    ],
+    [
+     28,
+     504,
+     32
+    ],
+    [
+     29,
+     564,
+     36
+    ],
+    [
+     30,
+     516,
+     33
+    ],
+    [
+     31,
+     526,
+     35
+    ],
+    [
+     32,
+     506,
+     34
+    ],
+    [
+     33,
+     544,
+     36
+    ],
+    [
+     34,
+     470,
+     32
+    ]
+   ]
+  },
+  "9711": {
+   "SYSTEM3": [
+    [
+     1,
+     469,
+     43
+    ],
+    [
+     2,
+     369,
+     36
+    ],
+    [
+     3,
+     444,
+     42
+    ],
+    [
+     4,
+     600,
+     51
+    ],
+    [
+     5,
+     559,
+     49
+    ],
+    [
+     6,
+     697,
+     60
+    ],
+    [
+     7,
+     770,
+     65
+    ],
+    [
+     8,
+     872,
+     73
+    ],
+    [
+     9,
+     963,
+     80
+    ],
+    [
+     10,
+     1007,
+     82
+    ],
+    [
+     11,
+     1276,
+     100
+    ],
+    [
+     12,
+     1214,
+     93
+    ],
+    [
+     13,
+     1222,
+     99
+    ],
+    [
+     14,
+     1288,
+     103
+    ],
+    [
+     15,
+     1307,
+     104
+    ],
+    [
+     16,
+     1358,
+     104
+    ],
+    [
+     17,
+     1373,
+     105
+    ],
+    [
+     18,
+     1464,
+     112
+    ],
+    [
+     19,
+     1416,
+     111
+    ],
+    [
+     20,
+     1520,
+     120
+    ],
+    [
+     21,
+     1528,
+     120
+    ],
+    [
+     22,
+     1565,
+     125
+    ],
+    [
+     23,
+     1623,
+     128
+    ],
+    [
+     24,
+     1704,
+     129
+    ],
+    [
+     25,
+     1669,
+     131
+    ],
+    [
+     26,
+     1696,
+     130
+    ],
+    [
+     27,
+     1727,
+     133
+    ],
+    [
+     28,
+     1748,
+     136
+    ],
+    [
+     29,
+     1805,
+     141
+    ],
+    [
+     30,
+     1782,
+     142
+    ],
+    [
+     31,
+     1790,
+     142
+    ],
+    [
+     32,
+     1830,
+     143
+    ],
+    [
+     33,
+     1886,
+     149
+    ],
+    [
+     34,
+     1899,
+     150
+    ]
+   ],
+   "NAIVE": [
+    [
+     1,
+     474,
+     34
+    ],
+    [
+     2,
+     364,
+     26
+    ],
+    [
+     3,
+     340,
+     24
+    ],
+    [
+     4,
+     462,
+     32
+    ],
+    [
+     5,
+     400,
+     28
+    ],
+    [
+     6,
+     464,
+     32
+    ],
+    [
+     7,
+     444,
+     31
+    ],
+    [
+     8,
+     518,
+     37
+    ],
+    [
+     9,
+     506,
+     36
+    ],
+    [
+     10,
+     508,
+     36
+    ],
+    [
+     11,
+     560,
+     39
+    ],
+    [
+     12,
+     552,
+     39
+    ],
+    [
+     13,
+     548,
+     38
+    ],
+    [
+     14,
+     544,
+     38
+    ],
+    [
+     15,
+     516,
+     36
+    ],
+    [
+     16,
+     528,
+     37
+    ],
+    [
+     17,
+     508,
+     36
+    ],
+    [
+     18,
+     510,
+     36
+    ],
+    [
+     19,
+     498,
+     36
+    ],
+    [
+     20,
+     536,
+     38
+    ],
+    [
+     21,
+     526,
+     38
+    ],
+    [
+     22,
+     508,
+     36
+    ],
+    [
+     23,
+     534,
+     38
+    ],
+    [
+     24,
+     500,
+     35
+    ],
+    [
+     25,
+     526,
+     37
+    ],
+    [
+     26,
+     560,
+     39
+    ],
+    [
+     27,
+     512,
+     36
+    ],
+    [
+     28,
+     514,
+     37
+    ],
+    [
+     29,
+     500,
+     35
+    ],
+    [
+     30,
+     506,
+     36
+    ],
+    [
+     31,
+     506,
+     36
+    ],
+    [
+     32,
+     480,
+     34
+    ],
+    [
+     33,
+     460,
+     32
+    ],
+    [
+     34,
+     534,
+     38
+    ]
+   ]
+  }
+ },
+ "abilities_in_this_domain": {
+  "1": "PASSED",
+  "2": "PASSED",
+  "3": "PASSED",
+  "4": "NOT SHOWN",
+  "5": "PASSED",
+  "6": "PASSED",
+  "7": "PASSED",
+  "8": "PASSED",
+  "9": "PASSED",
+  "13": "PASSED",
+  "14": "PASSED",
+  "15": "PASSED",
+  "16": "REPORTED (descriptive)"
+ },
+ "abilities": {
+  "17": "PASSED"
+ }
+}

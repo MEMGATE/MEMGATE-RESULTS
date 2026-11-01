@@ -1,0 +1,12 @@
+{
+ "half": "dev",
+ "models": [
+  "claude-opus-5-5",
+  "gpt-6.1-sol",
+  "gpt-4.1-base",
+  "llama-4-maverick"
+ ],
+ "code_hash": "ad74339c2347b690cf39752bffbe088ac6aee8d6ff18d87f0786ecfa83f79271",
+ "prereg": null,
+ "started": "2026-10-23 14:08:59"
+}

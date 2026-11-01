@@ -1,0 +1,44 @@
+{
+ "phase": "dev",
+ "seeds": [
+  9690
+ ],
+ "pools": {
+  "9690": "dev"
+ },
+ "code_sha256": "98a63295f39dd6716aa2ea6cdd3517c58958454264f3d05c5e8cb087c2bbd225",
+ "anchors": "runs/ft4-anchors-20261024",
+ "anchors_missing": [
+  "anchor-mmlu|professional_law|84"
+ ],
+ "files": {
+  "9690:NAIVE": {
+   "file": "train-9690-NAIVE.jsonl",
+   "rows": 354,
+   "sha256": "a83225d2d2a7b780287b48e8f914c9dd710e5f75a911235c336b9961cdf3d410",
+   "account": "memgate-ft-eus2b"
+  },
+  "9690:LEARNER": {
+   "file": "train-9690-LEARNER.jsonl",
+   "rows": 1058,
+   "sha256": "50bf00a511ef00bd6b8d10d298fa406ea0768ec824a5fb50642b82a7da48e4ea",
+   "account": "memgate-ft-dev1"
+  },
+  "9690:LEARNER+RULES": {
+   "file": "train-9690-LEARNER+RULES.jsonl",
+   "rows": 1118,
+   "sha256": "41681fc2839df3feebc44c286815874f742413fc7cb7e8093bb2ff3bead001b6",
+   "account": "memgate-ft-dev2"
+  }
+ },
+ "worlds": {
+  "9690": {
+   "pool": "dev",
+   "offices": 177,
+   "questions": 1064,
+   "half_A": 50,
+   "half_B": 50
+  }
+ },
+ "written": "2026-10-24 18:29:47"
+}

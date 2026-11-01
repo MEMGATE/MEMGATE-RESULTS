@@ -1,0 +1,16 @@
+{
+ "job": "ccl4r-7b-azure-w9706",
+ "execution": "ccl4r-7b-azure-w9706-dbgbnw6",
+ "remote": "runs/ccl4r-7b-azure/w9706",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "fe6fef074c041fe10c92fdd547ad40a2417406c1204cddb555ee2009b6cb25a1",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-27 20:36:11",
+ "machine": "Azure Container Apps serverless A100"
+}

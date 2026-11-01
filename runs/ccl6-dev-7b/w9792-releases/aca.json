@@ -1,0 +1,16 @@
+{
+ "job": "ccl6-dev-7b-w9792-releases",
+ "execution": "ccl6-dev-7b-w9792-releases-j0y4om2",
+ "remote": "runs/ccl6-dev-7b/w9792-releases",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "567a135d1adb825cc008221e848001ef84b479690d54673ebb02e82d54a35a44",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-27 23:35:29",
+ "machine": "Azure Container Apps serverless A100"
+}

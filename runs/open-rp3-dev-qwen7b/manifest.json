@@ -1,0 +1,21 @@
+{
+ "half": "dev",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 6,
+ "lr": 0.0002,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "batch": 8,
+ "four_bit": false,
+ "gpu": "A100-80GB",
+ "prereg": null,
+ "rp3_code_hash": "912d2998ce57f424fdd4e19b33cb1d9c8ec72473e714a4444d85f5597deb0f06",
+ "rows": {
+  "DIRECT": 100,
+  "FOLLOW": 300,
+  "MORE": 300
+ },
+ "questions": 350,
+ "started": "2026-10-22 12:10:33"
+}

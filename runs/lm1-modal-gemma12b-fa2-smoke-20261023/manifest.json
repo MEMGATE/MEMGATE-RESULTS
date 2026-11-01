@@ -1,0 +1,20 @@
+{
+ "model": "gemma-3-12b-it",
+ "revision": "kaggle:google/gemma-3/transformers/gemma-3-12b-it/1",
+ "short": "gemma12b-fa2-smoke",
+ "arms": [
+  "RETRIEVAL",
+  "LAYER2"
+ ],
+ "limit": 20,
+ "questions": 40,
+ "containers": 2,
+ "gpu": "H100",
+ "dtype": "bfloat16",
+ "max_new": 384,
+ "attn": "flash_attention_2",
+ "image": "torch 2.6.0, transformers 4.51.3, accelerate 1.6.0, flash-attn 2.7.4.post1",
+ "code_hash": "617f42038242103278ed7b962c364f2b88963fb77ac79608e24d699dd66667be",
+ "lm1_code_hash": "f4bf4ea3bd42397e1333c33e4acd35481d40470e566b2c8624a3be8017869d5f",
+ "started": "2026-10-23 19:51:06"
+}

@@ -1,0 +1,11 @@
+{
+ "half": "dev",
+ "models": [
+  "gpt-4.1-base",
+  "llama-4-maverick",
+  "gpt-6.1-sol"
+ ],
+ "code_hash": "41dc797dc5c4cb8aaa32220d26f0cf65d0bb03f260c947a42c71a8ae6672484b",
+ "prereg": null,
+ "started": "2026-10-21 18:51:41"
+}

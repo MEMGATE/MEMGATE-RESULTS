@@ -1,0 +1,16 @@
+{
+ "job": "tx1-dev-w9792-read7b",
+ "execution": "tx1-dev-w9792-read7b-7e0r059",
+ "remote": "runs/tx1-dev/w9792-read7b",
+ "gpu": "a100",
+ "hours": 2.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "2bb6f32b21ce65a0202b686b3bf1cc163764ef56b2e00ef814df635bb1433d1c",
+ "kernel_sha256": "ee9a5ff96a4854f5bbf1066ccf3307c960bcd963825b8498b5ddd345da65e1c1",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 23:41:56",
+ "machine": "Azure Container Apps serverless A100"
+}

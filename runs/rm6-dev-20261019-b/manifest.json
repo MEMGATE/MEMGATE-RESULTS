@@ -1,0 +1,40 @@
+{
+  "phase": "dev",
+  "code_hash": "33fa1fb63e8890b01f6e88337ea069d409d9ccd1e7cf58399904a574bf04397f",
+  "prereg": null,
+  "model": "gpt-4.1-nano",
+  "served": [
+    "gpt-4.1-nano-2025-04-14"
+  ],
+  "worlds": [
+    0
+  ],
+  "usage": {
+    "LATEST": {
+      "calls": 600,
+      "input": 31067,
+      "output": 3256,
+      "errors": 0
+    },
+    "RAW": {
+      "calls": 600,
+      "input": 228710,
+      "output": 3243,
+      "errors": 0
+    },
+    "GATED": {
+      "calls": 600,
+      "input": 25545,
+      "output": 3263,
+      "errors": 0
+    },
+    "NONE": {
+      "calls": 200,
+      "input": 4974,
+      "output": 1574,
+      "errors": 0
+    }
+  },
+  "wall_seconds": 681.9377512931824,
+  "compared_with": "runs\\rm1-main-20261019\\worlds.jsonl"
+}

@@ -1,0 +1,8 @@
+{
+ "half": "main",
+ "base_model": "qwen3-32b",
+ "asker_sha256": "530ed90b2884d087e294333486a4bb9aba7860d710813b03501aa7f3f1c16254",
+ "rp3_code_hash": "912d2998ce57f424fdd4e19b33cb1d9c8ec72473e714a4444d85f5597deb0f06",
+ "prereg": "docs/RP3-PREREG-2026-10-21.md",
+ "started": "2026-10-21 20:49:30"
+}

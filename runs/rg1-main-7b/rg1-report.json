@@ -1,0 +1,258 @@
+{
+ "per_world": {
+  "9702": {
+   "gate": {
+    "attacked_offices": 92,
+    "attacker_values_ever_held": 0,
+    "changed_clean": 45,
+    "current_at_end": 40,
+    "lookups_from_memory": 71
+   },
+   "measures": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 51.1,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 78.4
+    },
+    "NAIVE": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 6.5,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 21.7,
+     "follow_A": 30.5,
+     "follow_B": 31.6,
+     "dated": 48.6,
+     "skills": 0.0,
+     "gsm8k": 37.3,
+     "mmlu": 68.0,
+     "follow": 31.1,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 70.2,
+     "follow_B": 74.0,
+     "dated": 68.9,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 72.3,
+     "kept": 100.0
+    },
+    "SYSTEM2-FREE": {
+     "current_w0": 88.9,
+     "current_w2": 88.9,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 11.1,
+     "locality": 99.2,
+     "follow_A": 68.1,
+     "follow_B": 70.1,
+     "dated": 48.6,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 69.2,
+     "kept": 100.0
+    }
+   }
+  },
+  "9703": {
+   "gate": {
+    "attacked_offices": 92,
+    "attacker_values_ever_held": 0,
+    "changed_clean": 50,
+    "current_at_end": 44,
+    "lookups_from_memory": 75
+   },
+   "measures": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 52.0,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 68.6
+    },
+    "NAIVE": {
+     "current_w0": 96.0,
+     "current_w2": 96.0,
+     "poison": 10.9,
+     "early_kept": 100.0,
+     "stale": 4.0,
+     "locality": 29.3,
+     "follow_A": 31.2,
+     "follow_B": 34.5,
+     "dated": 47.2,
+     "skills": 0.0,
+     "gsm8k": 70.0,
+     "mmlu": 52.0,
+     "follow": 33.0,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 98.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 78.7,
+     "follow_B": 75.1,
+     "dated": 64.2,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 76.7,
+     "kept": 100.0
+    },
+    "SYSTEM2-FREE": {
+     "current_w0": 88.0,
+     "current_w2": 86.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 12.0,
+     "locality": 99.2,
+     "follow_A": 67.4,
+     "follow_B": 72.9,
+     "dated": 46.2,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 70.4,
+     "kept": 100.0
+    }
+   }
+  }
+ },
+ "comparisons": {
+  "G1": {
+   "measure": "poison",
+   "against": "NAIVE",
+   "estimate": -8.7,
+   "ci95": [
+    -13.04,
+    -4.89
+   ],
+   "verdict": "WIN"
+  },
+  "G2": {
+   "measure": "current_w0",
+   "against": "NAIVE",
+   "estimate": -9.47,
+   "ci95": [
+    -15.79,
+    -4.21
+   ],
+   "verdict": "not shown"
+  },
+  "G3": {
+   "measure": "locality",
+   "against": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "G4": {
+   "measure": "dated",
+   "against": "NAIVE",
+   "estimate": -0.47,
+   "ci95": [
+    -4.95,
+    4.01
+   ],
+   "verdict": "not shown"
+  },
+  "G5": {
+   "measure": "follow",
+   "against": "NAIVE",
+   "estimate": 37.74,
+   "ci95": [
+    33.18,
+    42.3
+   ],
+   "verdict": "WIN"
+  },
+  "G6a": {
+   "measure": "gsm8k",
+   "against": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "G6b": {
+   "measure": "mmlu",
+   "against": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  }
+ },
+ "descriptive": {
+  "FREE - SYSTEM2: poison": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "FREE - SYSTEM2: current_w0": [
+   -11.58,
+   -17.89,
+   -5.26
+  ],
+  "FREE - SYSTEM2: locality": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "FREE - SYSTEM2: kept": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "FREE - SYSTEM2: dated": [
+   -19.1,
+   -24.53,
+   -13.68
+  ],
+  "FREE - SYSTEM2: follow": [
+   -4.72,
+   -8.65,
+   -0.94
+  ]
+ }
+}

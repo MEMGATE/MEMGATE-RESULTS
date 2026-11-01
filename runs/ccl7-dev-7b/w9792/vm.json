@@ -1,0 +1,7 @@
+{
+ "host": "20.45.53.130",
+ "run": "runs/ccl7-dev-7b/w9792",
+ "hours": 20.0,
+ "started": "2026-10-28 15:55:18",
+ "machine": "memgate-a100-scus (Standard_NC24ads_A100_v4, South Central US)"
+}

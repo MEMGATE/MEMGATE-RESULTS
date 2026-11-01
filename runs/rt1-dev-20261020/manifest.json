@@ -1,0 +1,17 @@
+{
+ "argv": [
+  "ask",
+  "runs/ft2-dev-20261019",
+  "6",
+  "runs/rt1-dev-20261020",
+  "--arms",
+  "NAIVE,ENGINE",
+  "--keep"
+ ],
+ "digest": "a8ed6b334f94766f960352ef554375914dd61d87979571a6e948f33283696bf5",
+ "models": {
+  "ENGINE": "ftjob-08d6fde5afd24a72952ec153c652c9a4",
+  "NAIVE": "ftjob-95fc66bf99704d8f9db7ade459ae0af9"
+ },
+ "started": "2026-10-20 15:13:36"
+}

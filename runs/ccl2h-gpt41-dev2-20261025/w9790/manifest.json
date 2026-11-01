@@ -1,0 +1,16 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "model": "gpt-4.1-2025-04-14",
+ "epochs": 2,
+ "lr": 2.0,
+ "deployment_tier": [
+  "DeveloperTier",
+  50
+ ],
+ "code_sha256": "23a4d1f7c72a3255121038bf6511cf37da042d45f956269a86ed98d92ea256c2",
+ "route": "Azure continuous fine-tuning",
+ "started": "2026-10-25 02:14:19"
+}

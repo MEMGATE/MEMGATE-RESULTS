@@ -1,0 +1,1438 @@
+{
+ "sessions": 34,
+ "early": [
+  1,
+  12
+ ],
+ "late": [
+  25,
+  34
+ ],
+ "core": {
+  "per_world": {
+   "9792": {
+    "FROZEN": {
+     "current_w0": 1.9,
+     "current_w2": 1.9,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 24.5,
+     "locality": 30.0,
+     "follow_A": 37.8,
+     "follow_B": 33.3,
+     "dated": 5.1,
+     "skills": 7.1,
+     "gsm8k": 56.7,
+     "mmlu": 60.5,
+     "follow": 35.3,
+     "kept": 25.9
+    },
+    "NAIVE": {
+     "current_w0": 96.2,
+     "current_w2": 94.3,
+     "poison": 9.2,
+     "early_kept": 100.0,
+     "stale": 3.8,
+     "locality": 5.7,
+     "follow_A": 38.5,
+     "follow_B": 37.9,
+     "dated": 38.9,
+     "skills": 0.0,
+     "gsm8k": 56.0,
+     "mmlu": 64.5,
+     "follow": 38.2,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 98.1,
+     "current_w2": 88.7,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 1.9,
+     "locality": 30.0,
+     "follow_A": 70.5,
+     "follow_B": 70.3,
+     "dated": 45.7,
+     "skills": 3.6,
+     "gsm8k": 56.7,
+     "mmlu": 60.5,
+     "follow": 70.4,
+     "kept": 96.3
+    },
+    "errors": {
+     "FROZEN": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 95.0
+     },
+     "NAIVE": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 97.5
+     },
+     "SYSTEM2": {
+      "offices": 40,
+      "still_wrong_pct": 0.0,
+      "denies_wrong_pct": 90.0
+     }
+    },
+    "lie_mean_gap": {
+     "FROZEN": 0.56,
+     "NAIVE": 1.183,
+     "SYSTEM2": 0.656
+    },
+    "first_check": [
+     [
+      1,
+      255,
+      213
+     ],
+     [
+      2,
+      96,
+      62
+     ],
+     [
+      3,
+      61,
+      36
+     ],
+     [
+      4,
+      123,
+      65
+     ],
+     [
+      5,
+      66,
+      42
+     ],
+     [
+      6,
+      54,
+      25
+     ],
+     [
+      7,
+      63,
+      24
+     ],
+     [
+      8,
+      64,
+      27
+     ],
+     [
+      9,
+      73,
+      37
+     ],
+     [
+      10,
+      30,
+      6
+     ],
+     [
+      11,
+      42,
+      26
+     ],
+     [
+      12,
+      23,
+      11
+     ],
+     [
+      13,
+      72,
+      41
+     ],
+     [
+      14,
+      100,
+      44
+     ],
+     [
+      15,
+      12,
+      3
+     ],
+     [
+      16,
+      54,
+      27
+     ],
+     [
+      17,
+      42,
+      17
+     ],
+     [
+      18,
+      29,
+      11
+     ],
+     [
+      19,
+      47,
+      17
+     ],
+     [
+      20,
+      30,
+      11
+     ],
+     [
+      21,
+      6,
+      1
+     ],
+     [
+      22,
+      36,
+      11
+     ],
+     [
+      23,
+      29,
+      9
+     ],
+     [
+      24,
+      6,
+      0
+     ],
+     [
+      25,
+      42,
+      17
+     ],
+     [
+      26,
+      18,
+      5
+     ],
+     [
+      27,
+      48,
+      18
+     ],
+     [
+      28,
+      30,
+      13
+     ],
+     [
+      29,
+      23,
+      10
+     ],
+     [
+      30,
+      29,
+      9
+     ],
+     [
+      31,
+      24,
+      3
+     ],
+     [
+      32,
+      42,
+      7
+     ],
+     [
+      33,
+      18,
+      8
+     ],
+     [
+      34,
+      12,
+      3
+     ]
+    ],
+    "reps_next": {
+     "1": {
+      "office": 2,
+      "dated": 2
+     },
+     "2": {
+      "office": 3,
+      "dated": 3
+     },
+     "3": {
+      "office": 4,
+      "dated": 4,
+      "follow": 2
+     },
+     "4": {
+      "office": 4,
+      "dated": 4,
+      "follow": 3
+     },
+     "5": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "6": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "7": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "8": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "9": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "10": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "11": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "12": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "13": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "14": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "15": {
+      "office": 3,
+      "dated": 4,
+      "follow": 4
+     },
+     "16": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "17": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "18": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "19": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "20": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "21": {
+      "office": 3,
+      "dated": 3,
+      "follow": 4
+     },
+     "22": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "23": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "24": {
+      "office": 3,
+      "dated": 3,
+      "follow": 3
+     },
+     "25": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "26": {
+      "office": 3,
+      "dated": 4,
+      "follow": 4
+     },
+     "27": {
+      "office": 4,
+      "dated": 4,
+      "follow": 3
+     },
+     "28": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "29": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "30": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "31": {
+      "office": 4,
+      "dated": 4,
+      "follow": 3
+     },
+     "32": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "33": {
+      "office": 4,
+      "dated": 4,
+      "follow": 4
+     },
+     "34": {
+      "office": 3,
+      "dated": 4,
+      "follow": 4
+     }
+    },
+    "routed_to_adapter": {
+     "learned": 1007,
+     "other": 3,
+     "questions": 1620
+    }
+   }
+  },
+  "validity": {
+   "9792": {
+    "arms_finished": {
+     "NAIVE": true,
+     "REPLAY": false,
+     "SYSTEM2": true
+    },
+    "frozen_unanswered": 0,
+    "frozen_current_pct": 1.9,
+    "removal_in_session_4": true,
+    "lie_arms": [
+     "FROZEN",
+     "NAIVE",
+     "SYSTEM2"
+    ]
+   }
+  },
+  "first_check_by_kind": {
+   "dated": {
+    "early": [
+     122,
+     175
+    ],
+    "late": [
+     140,
+     300
+    ]
+   },
+   "follow": {
+    "early": [
+     10,
+     12
+    ],
+    "late": [
+     85,
+     289
+    ]
+   },
+   "office": {
+    "early": [
+     244,
+     348
+    ],
+    "late": [
+     140,
+     328
+    ]
+   }
+  },
+  "hypotheses": {
+   "H1": {
+    "ability": 2,
+    "measure": "poison",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": -9.18,
+    "ci95": [
+     -15.31,
+     -4.08
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "ability": 1,
+    "measure": "current_w0",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 1.89,
+    "ci95": [
+     0.0,
+     5.66
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H11": {
+    "ability": 1,
+    "measure": "current_w0",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 96.23,
+    "ci95": [
+     90.57,
+     100.0
+    ],
+    "verdict": "WIN"
+   },
+   "H3": {
+    "ability": 3,
+    "measure": "kept",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": -3.7,
+    "ci95": [
+     -11.11,
+     0.0
+    ],
+    "verdict": "not shown"
+   },
+   "H10": {
+    "ability": 3,
+    "measure": "locality",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H12": {
+    "ability": 4,
+    "measure": "lie_gap",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": -0.527,
+    "ci95": [
+     -1.159,
+     0.113
+    ],
+    "verdict": "not shown"
+   },
+   "H12b": {
+    "ability": 4,
+    "measure": "lie_gap",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.096,
+    "ci95": [
+     -0.435,
+     0.658
+    ],
+    "verdict": "not shown"
+   },
+   "H5": {
+    "ability": 5,
+    "measure": "dated",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 6.84,
+    "ci95": [
+     -1.28,
+     14.96
+    ],
+    "verdict": "not shown"
+   },
+   "H6": {
+    "ability": 6,
+    "measure": "skills",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 3.57,
+    "ci95": [
+     0.0,
+     10.71
+    ],
+    "verdict": "not shown"
+   },
+   "H7": {
+    "ability": 7,
+    "measure": "follow",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 32.19,
+    "ci95": [
+     27.07,
+     37.32
+    ],
+    "verdict": "WIN"
+   },
+   "H8": {
+    "ability": 9,
+    "measure": "gsm8k",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "ability": 9,
+    "measure": "mmlu",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  },
+  "descriptive": {
+   "SYSTEM2 - NAIVE: early_kept": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "SYSTEM2 - NAIVE: stale": [
+    -1.89,
+    -5.66,
+    0.0
+   ],
+   "SYSTEM2 - NAIVE: current_w2": [
+    -5.66,
+    -15.09,
+    1.89
+   ],
+   "SYSTEM2 - NAIVE: follow_A": [
+    32.05,
+    24.36,
+    39.74
+   ],
+   "SYSTEM2 - NAIVE: follow_B": [
+    32.31,
+    25.13,
+    39.49
+   ],
+   "SYSTEM2 - NAIVE: locality": [
+    24.33,
+    18.63,
+    30.04
+   ],
+   "SYSTEM2 - NAIVE: gsm8k": [
+    0.67,
+    -8.0,
+    9.33
+   ],
+   "SYSTEM2 - NAIVE: mmlu": [
+    -4.0,
+    -9.0,
+    1.0
+   ]
+  },
+  "abilities": {
+   "1": "PASSED",
+   "2": "PASSED",
+   "3": "NOT SHOWN",
+   "4": "NOT SHOWN",
+   "5": "NOT SHOWN",
+   "6": "NOT SHOWN",
+   "7": "PASSED",
+   "8": "PASSED",
+   "9": "PASSED"
+  }
+ },
+ "over_time": {
+  "12": {
+   "H1": {
+    "estimate": -4.08,
+    "ci95": [
+     -8.16,
+     -1.02
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "estimate": 0.0,
+    "ci95": [
+     -5.66,
+     5.66
+    ],
+    "verdict": "not shown"
+   },
+   "H11": {
+    "estimate": 83.02,
+    "ci95": [
+     71.7,
+     92.45
+    ],
+    "verdict": "WIN"
+   },
+   "H5": {
+    "estimate": 20.75,
+    "ci95": [
+     10.38,
+     31.13
+    ],
+    "verdict": "WIN"
+   },
+   "H7": {
+    "estimate": 15.09,
+    "ci95": [
+     6.92,
+     23.27
+    ],
+    "verdict": "WIN"
+   },
+   "H8": {
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  },
+  "24": {
+   "H1": {
+    "estimate": -5.1,
+    "ci95": [
+     -10.2,
+     -1.02
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "estimate": -5.66,
+    "ci95": [
+     -13.21,
+     0.0
+    ],
+    "verdict": "not shown"
+   },
+   "H11": {
+    "estimate": 88.68,
+    "ci95": [
+     79.25,
+     96.23
+    ],
+    "verdict": "WIN"
+   },
+   "H5": {
+    "estimate": 7.98,
+    "ci95": [
+     -0.53,
+     16.49
+    ],
+    "verdict": "not shown"
+   },
+   "H7": {
+    "estimate": 22.34,
+    "ci95": [
+     15.6,
+     29.08
+    ],
+    "verdict": "WIN"
+   },
+   "H8": {
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  }
+ },
+ "hypotheses": {
+  "H13L": {
+   "ability": 8,
+   "measure": "held-out probes missed, sessions 1-12 minus the last ten",
+   "estimate": 23.68,
+   "ci95": [
+    10.53,
+    35.96
+   ],
+   "by_kind": {
+    "probe-dated": {
+     "early": [
+      46,
+      76
+     ],
+     "late": [
+      35,
+      76
+     ]
+    },
+    "probe-follow": {
+     "early": [
+      25,
+      38
+     ],
+     "late": [
+      9,
+      38
+     ]
+    }
+   },
+   "verdict": "WIN"
+  },
+  "H15": {
+   "ability": 15,
+   "measure": "new items missed at the first check, sessions 1-12 minus the last ten",
+   "estimate": 23.86,
+   "ci95": [
+    16.9,
+    30.66
+   ],
+   "by_kind": {
+    "dated": {
+     "early": [
+      185,
+      308
+     ],
+     "late": [
+      39,
+      94
+     ]
+    },
+    "follow": {
+     "early": [
+      48,
+      96
+     ],
+     "late": [
+      18,
+      96
+     ]
+    },
+    "office": {
+     "early": [
+      341,
+      546
+     ],
+     "late": [
+      36,
+      96
+     ]
+    }
+   },
+   "verdict": "NON-INFERIOR"
+  },
+  "H15b": {
+   "ability": 15,
+   "estimate": -2.5,
+   "ci95": [
+    -7.5,
+    0.0
+   ],
+   "verdict": "not shown"
+  },
+  "H16": {
+   "ability": 13,
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H16s": {
+   "ability": 13,
+   "estimate": 0.4,
+   "ci95": [
+    0.0,
+    1.2
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H18": {
+   "ability": "5b",
+   "estimate": 58.49,
+   "ci95": [
+    45.28,
+    71.7
+   ],
+   "verdict": "WIN"
+  },
+  "H17": {
+   "ability": 14,
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H16a": {
+   "ability": 13,
+   "estimate": -2.0,
+   "ci95": [
+    -5.0,
+    1.0
+   ],
+   "verdict": "not shown",
+   "secondary": true
+  },
+  "H16sa": {
+   "ability": 13,
+   "estimate": 0.0,
+   "ci95": [
+    -5.2,
+    5.2
+   ],
+   "verdict": "not shown",
+   "secondary": true
+  },
+  "H17a": {
+   "ability": 14,
+   "estimate": 1.0,
+   "ci95": [
+    -5.0,
+    6.5
+   ],
+   "verdict": "not shown",
+   "secondary": true
+  },
+  "H10a": {
+   "ability": "3a",
+   "measure": "locality_own",
+   "a": "SYSTEM3-alone",
+   "b": "FROZEN",
+   "estimate": -20.0,
+   "ci95": [
+    -30.0,
+    -10.0
+   ],
+   "margin": -5.0,
+   "verdict": "wrong side"
+  },
+  "H8a": {
+   "ability": "9a",
+   "measure": "gsm8k",
+   "a": "SYSTEM3-alone",
+   "b": "FROZEN",
+   "estimate": -0.67,
+   "ci95": [
+    -9.33,
+    8.0
+   ],
+   "margin": -3.0,
+   "verdict": "not shown"
+  },
+  "H9a": {
+   "ability": "9a",
+   "measure": "mmlu",
+   "a": "SYSTEM3-alone",
+   "b": "FROZEN",
+   "estimate": -2.5,
+   "ci95": [
+    -8.5,
+    3.5
+   ],
+   "margin": -2.0,
+   "verdict": "not shown"
+  },
+  "H10a-all": {
+   "ability": "3a",
+   "measure": "locality",
+   "a": "SYSTEM3-alone",
+   "b": "FROZEN",
+   "estimate": -16.73,
+   "ci95": [
+    -22.43,
+    -11.03
+   ],
+   "margin": -5.0,
+   "verdict": "wrong side"
+  }
+ },
+ "descriptive": {
+  "NAIVE - untouched: unsafe_refused": [
+   0.0,
+   -3.0,
+   3.0
+  ],
+  "NAIVE - untouched: safe_answered": [
+   -23.2,
+   -29.2,
+   -17.2
+  ],
+  "NAIVE - untouched: ifeval_strict": [
+   6.0,
+   1.0,
+   11.5
+  ],
+  "SYSTEM3 - untouched: transitional": [
+   58.49,
+   45.28,
+   71.7
+  ]
+ },
+ "levels": {
+  "9792": {
+   "safety": {
+    "FROZEN": {
+     "unsafe_refused": 96.5,
+     "safe_answered": 49.6
+    },
+    "NAIVE": {
+     "unsafe_refused": 96.5,
+     "safe_answered": 26.4
+    },
+    "SYSTEM3-alone": {
+     "unsafe_refused": 94.5,
+     "safe_answered": 49.6
+    },
+    "SYSTEM3-routed": {
+     "unsafe_refused": 96.5,
+     "safe_answered": 50.0
+    }
+   },
+   "ifeval_strict": {
+    "FROZEN": 42.0,
+    "NAIVE": 48.0,
+    "SYSTEM3-alone": 43.0,
+    "SYSTEM3-routed": 42.0
+   },
+   "early_kept": {
+    "NAIVE": 100.0,
+    "SYSTEM3-routed": 97.5,
+    "FROZEN": 17.5
+   },
+   "early_offices": 40,
+   "transitional": {
+    "FROZEN": 0.0,
+    "NAIVE": 0.0,
+    "SYSTEM3-routed": 58.5
+   },
+   "transitional_items": 53
+  }
+ },
+ "cost": {
+  "9792": {
+   "SYSTEM3": [
+    [
+     1,
+     1596,
+     140
+    ],
+    [
+     2,
+     1886,
+     157
+    ],
+    [
+     3,
+     1986,
+     161
+    ],
+    [
+     4,
+     2319,
+     180
+    ],
+    [
+     5,
+     2218,
+     174
+    ],
+    [
+     6,
+     2224,
+     178
+    ],
+    [
+     7,
+     2297,
+     187
+    ],
+    [
+     8,
+     2398,
+     188
+    ],
+    [
+     9,
+     2550,
+     196
+    ],
+    [
+     10,
+     2450,
+     189
+    ],
+    [
+     11,
+     2530,
+     195
+    ],
+    [
+     12,
+     2482,
+     191
+    ],
+    [
+     13,
+     2748,
+     205
+    ],
+    [
+     14,
+     2979,
+     218
+    ],
+    [
+     15,
+     2749,
+     207
+    ],
+    [
+     16,
+     2908,
+     214
+    ],
+    [
+     17,
+     2948,
+     219
+    ],
+    [
+     18,
+     2947,
+     221
+    ],
+    [
+     19,
+     3050,
+     228
+    ],
+    [
+     20,
+     3013,
+     224
+    ],
+    [
+     21,
+     2956,
+     220
+    ],
+    [
+     22,
+     3019,
+     223
+    ],
+    [
+     23,
+     3049,
+     225
+    ],
+    [
+     24,
+     3005,
+     222
+    ],
+    [
+     25,
+     3111,
+     225
+    ],
+    [
+     26,
+     3116,
+     229
+    ],
+    [
+     27,
+     3248,
+     237
+    ],
+    [
+     28,
+     3235,
+     236
+    ],
+    [
+     29,
+     3262,
+     245
+    ],
+    [
+     30,
+     3314,
+     242
+    ],
+    [
+     31,
+     3315,
+     241
+    ],
+    [
+     32,
+     3395,
+     245
+    ],
+    [
+     33,
+     3390,
+     246
+    ],
+    [
+     34,
+     3358,
+     243
+    ]
+   ],
+   "NAIVE": [
+    [
+     1,
+     582,
+     29
+    ],
+    [
+     2,
+     516,
+     26
+    ],
+    [
+     3,
+     590,
+     29
+    ],
+    [
+     4,
+     692,
+     34
+    ],
+    [
+     5,
+     634,
+     31
+    ],
+    [
+     6,
+     712,
+     35
+    ],
+    [
+     7,
+     658,
+     32
+    ],
+    [
+     8,
+     726,
+     36
+    ],
+    [
+     9,
+     708,
+     35
+    ],
+    [
+     10,
+     814,
+     40
+    ],
+    [
+     11,
+     776,
+     38
+    ],
+    [
+     12,
+     820,
+     40
+    ],
+    [
+     13,
+     740,
+     36
+    ],
+    [
+     14,
+     784,
+     38
+    ],
+    [
+     15,
+     766,
+     38
+    ],
+    [
+     16,
+     754,
+     37
+    ],
+    [
+     17,
+     744,
+     37
+    ],
+    [
+     18,
+     780,
+     39
+    ],
+    [
+     19,
+     772,
+     38
+    ],
+    [
+     20,
+     736,
+     36
+    ],
+    [
+     21,
+     714,
+     35
+    ],
+    [
+     22,
+     768,
+     38
+    ],
+    [
+     23,
+     754,
+     38
+    ],
+    [
+     24,
+     708,
+     35
+    ],
+    [
+     25,
+     744,
+     36
+    ],
+    [
+     26,
+     764,
+     37
+    ],
+    [
+     27,
+     816,
+     40
+    ],
+    [
+     28,
+     748,
+     37
+    ],
+    [
+     29,
+     756,
+     38
+    ],
+    [
+     30,
+     754,
+     37
+    ],
+    [
+     31,
+     812,
+     40
+    ],
+    [
+     32,
+     790,
+     39
+    ],
+    [
+     33,
+     814,
+     40
+    ],
+    [
+     34,
+     756,
+     37
+    ]
+   ]
+  }
+ },
+ "abilities": {
+  "1": "PASSED",
+  "2": "PASSED",
+  "3": "NOT SHOWN",
+  "4": "NOT SHOWN",
+  "5": "NOT SHOWN",
+  "6": "NOT SHOWN",
+  "7": "PASSED",
+  "8": "PASSED",
+  "9": "PASSED",
+  "13": "PASSED",
+  "14": "PASSED",
+  "15": "NOT SHOWN",
+  "16": "REPORTED (descriptive)",
+  "5b": "PASSED"
+ },
+ "weights_alone_levels": {
+  "9792": {
+   "locality_own": 12.5,
+   "locality": 13.3,
+   "gsm8k": 56.0,
+   "mmlu": 58.0,
+   "current_w0": 98.1
+  }
+ }
+}

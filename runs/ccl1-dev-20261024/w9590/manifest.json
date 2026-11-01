@@ -1,0 +1,22 @@
+{
+ "world": [
+  9590,
+  "dev"
+ ],
+ "phase": "dev",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 2,
+ "lr": 0.0002,
+ "anchors": 64,
+ "code_sha256": "863daa8f56f1347b6b7808a83fd503b2084376717dc2fd0896d5be66eea9b09f",
+ "prereg": null,
+ "kernel": "mohitaureus/pramana-ccl1-dev-20261024-w9590",
+ "dataset": "mohitaureus/pramana-ccl1-dev-20261024-w9590-data",
+ "rows": {
+  "NAIVE": 7894,
+  "LEARNER new": 1972,
+  "LEARNER rehearse": 1431
+ },
+ "started": "2026-10-24 17:52:25"
+}

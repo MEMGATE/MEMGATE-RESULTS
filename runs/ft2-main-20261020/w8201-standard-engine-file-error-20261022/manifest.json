@@ -1,0 +1,25 @@
+{
+ "argv": [
+  "--world",
+  "tm",
+  "--seed",
+  "8201",
+  "--phase",
+  "main",
+  "--out",
+  "runs/ft2-main-20261020/w8201-standard",
+  "--account",
+  "memgate-ft-std5",
+  "--base-account",
+  "memgate-ft-swc",
+  "--prereg",
+  "docs/FT2-PREREG-2026-10-20.md"
+ ],
+ "digest": "5d241114d776f96efa959487be388b1390d8c1253973c3b43ade6956a42b539b",
+ "git_head": "e7b47fadb470dc1497145a36896be3679033fac4",
+ "prereg": {
+  "path": "docs/FT2-PREREG-2026-10-20.md",
+  "sha256": "3143401a64b6e04abf128d58ef3d0fe734e54c906599d972e3f96c58ff0c63a5"
+ },
+ "started": "2026-10-22 13:57:02"
+}

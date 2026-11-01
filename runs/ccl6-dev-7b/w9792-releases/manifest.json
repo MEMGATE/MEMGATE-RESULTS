@@ -1,0 +1,29 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "weights": "float16",
+ "arms": [
+  "SYSTEM3",
+  "NAIVE"
+ ],
+ "sessions": 34,
+ "eval_after": [
+  12,
+  24,
+  34
+ ],
+ "system": 5,
+ "domain": "releases",
+ "code_sha256": "345261b06687ee4a7ce19ae0906dfcce7de34be2b85080c6cf5874807ef10995",
+ "prereg": null,
+ "payload_sha256": "567a135d1adb825cc008221e848001ef84b479690d54673ebb02e82d54a35a44",
+ "packed": "2026-10-27 20:42:45"
+}

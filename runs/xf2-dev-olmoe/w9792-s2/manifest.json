@@ -1,0 +1,27 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 20,
+ "wide": true,
+ "errors_at": 0,
+ "model": "allenai/OLMoE-1B-7B-0924-Instruct",
+ "revision": "7f1c97f440f06ce36705e4f2b843edb5925f4498",
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "weights": "float16",
+ "sessions": 2,
+ "system": 4,
+ "questions_from": "runs/aca-dev/w9792-s2b/dataset/payload.json",
+ "prereg": null,
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "86a35ec2809a137081d614c255255c6f1ea9368ad9e0ca20d22080fe81d0174e",
+ "payload_sha256": "45ae514103cf8c51bf4837dbbafc11d8fad334d23f284d82caffad1918b3abee",
+ "packed": "2026-10-27 21:02:03"
+}

@@ -1,0 +1,16 @@
+{
+ "job": "xf1-main-olmo-w9703",
+ "execution": "xf1-main-olmo-w9703-k7s44px",
+ "remote": "runs/xf1-main-olmo/w9703",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "cb4bf78072be7c7386c1b1da78958b5ff5335fcf0a1b4e11fd7edabba74c7c5d",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 10:55:46",
+ "machine": "Azure Container Apps serverless A100"
+}

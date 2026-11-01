@@ -1,0 +1,19 @@
+{
+  "phase": "dev",
+  "code_hash": "946cafdfce7f1175a34b88b8ea5e069d64744bedf7b4276cf21856adae113eb2",
+  "git_head": "6b64f1aafe7b6a221cf7648662fe0fc5632682f6",
+  "prereg": null,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 6,
+  "models": [
+    "gpt-6-astra",
+    "claude-opus-5-5"
+  ],
+  "claude_effort": "medium",
+  "worlds": 6,
+  "crashes": [],
+  "budget_calls": 2614,
+  "started": 1792227424.5110831,
+  "seconds": 1414.6863915920258
+}

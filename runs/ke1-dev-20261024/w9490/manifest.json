@@ -1,0 +1,20 @@
+{
+ "world": [
+  9490,
+  "dev"
+ ],
+ "phase": "dev",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "parallel": false,
+ "easyedit": "4c109870955a4522ac3d7cf10ad00f34de8e4f0d",
+ "editor": "GRACE",
+ "code_sha256": "c6d3a9cd72d3eeb6a4e0aa0b59f5ef5346be8bf2922b753e7fe907632c2f6e92",
+ "prereg": null,
+ "kernel": "mohitaureus/pramana-ke1-dev-20261024-w9490",
+ "dataset": "mohitaureus/pramana-ke1-dev-20261024-w9490-data",
+ "edits": {
+  "EDIT-NAIVE": 478,
+  "EDIT-LAYER": 312
+ },
+ "started": "2026-10-24 17:10:15"
+}

@@ -1,0 +1,29 @@
+{
+ "world": [
+  9702,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "arms": [
+  "SYSTEM2",
+  "NAIVE",
+  "REPLAY"
+ ],
+ "smoke": false,
+ "budget_h": 8.0,
+ "anchors_from": null,
+ "errors_at": 0,
+ "prereg": "docs/CCL4-PREREG-2026-10-26.md",
+ "model": "Qwen2.5-72B-Instruct",
+ "model_source": "qwen-lm/qwen2.5/transformers/72b-instruct/1",
+ "weights": "int8, group scales",
+ "machine": "Kaggle TPU v5e-8",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "c4a96300559d8150dc7cb8ef3f49b9ce127499637591d7a116d42ffed015f435",
+ "kernel": "mohitaureus/pramana-ccl4-main-72b-w9702",
+ "dataset": "mohitaureus/pramana-ccl4-main-72b-w9702-data",
+ "started": "2026-10-26 09:49:01"
+}

@@ -1,0 +1,33 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 20,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "editor": "MEMIT",
+ "arm": "MEMIT",
+ "sessions": 1,
+ "eval_after": [
+  1
+ ],
+ "edits": [
+  108
+ ],
+ "questions_from": "runs/aca-dev/w9792-s2b/dataset/payload.json",
+ "image": "memgatecclswc.azurecr.io/ccl-easyedit:1",
+ "mounts": [
+  {
+   "subPath": "stats/qwen2.5-1.5b-instruct-n2000",
+   "mountPath": "/stats"
+  }
+ ],
+ "prereg": null,
+ "code_sha256": "e103801ccf42729476a8d9e8760d75777f9c96c260e305c94f4d2a330bfac8d7",
+ "payload_sha256": "9eb8f378d79c12f89858e2056436f49f5a2a778df867022236d8c13b453e4998",
+ "packed": "2026-10-27 22:14:20"
+}

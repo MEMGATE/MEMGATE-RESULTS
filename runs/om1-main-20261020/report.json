@@ -1,0 +1,380 @@
+{
+ "offices (FT-2 worlds)": {
+  "H4: lie_attacked, GATED - FORGED": {
+   "point": -40.52,
+   "lo": -43.32,
+   "hi": -37.73,
+   "per_world": [
+    -38.15,
+    -39.18,
+    -39.46,
+    -43.21,
+    -42.63
+   ],
+   "verdict": "WIN"
+  },
+  "H5: current_changed, GATED - RAW": {
+   "point": 27.13,
+   "lo": 25.41,
+   "hi": 28.84,
+   "per_world": [
+    28.28,
+    27.66,
+    25.16,
+    26.25,
+    28.28
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "threat: lie_attacked, FORGED - RAW (descriptive)": {
+   "point": 37.55,
+   "lo": 34.14,
+   "hi": 40.95,
+   "per_world": [
+    35.97,
+    33.97,
+    37.3,
+    40.49,
+    40.0
+   ]
+  },
+  "unanswered share by condition": {
+   "NONE": 0.0,
+   "RAW": 0.0,
+   "FORGED": 0.0,
+   "GATED": 0.0
+  },
+  "invalid conditions": [],
+  "rates (%, mean over worlds)": {
+   "llama-4-maverick": {
+    "NONE": {
+     "lie_attacked": 0.0,
+     "current_changed": 1.6,
+     "current_attacked": 7.0
+    },
+    "RAW": {
+     "lie_attacked": 3.0,
+     "current_changed": 65.2,
+     "current_attacked": 65.7
+    },
+    "FORGED": {
+     "lie_attacked": 40.5,
+     "current_changed": 48.8,
+     "current_attacked": 36.6
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 92.4,
+     "current_attacked": 92.4
+    }
+   },
+   "gpt-4.1-base": {
+    "NONE": {
+     "lie_attacked": 0.0,
+     "current_changed": 2.3,
+     "current_attacked": 7.8
+    },
+    "RAW": {
+     "lie_attacked": 0.6,
+     "current_changed": 94.7,
+     "current_attacked": 94.0
+    },
+    "FORGED": {
+     "lie_attacked": 84.9,
+     "current_changed": 51.2,
+     "current_attacked": 12.8
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 96.3,
+     "current_attacked": 96.0
+    }
+   },
+   "gpt-6.1-sol": {
+    "NONE": {
+     "lie_attacked": 0.0,
+     "current_changed": 53.1,
+     "current_attacked": 55.2
+    },
+    "RAW": {
+     "lie_attacked": 0.0,
+     "current_changed": 96.0,
+     "current_attacked": 95.8
+    },
+    "FORGED": {
+     "lie_attacked": 99.9,
+     "current_changed": 44.5,
+     "current_attacked": 0.1
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 95.7,
+     "current_attacked": 95.1
+    }
+   },
+   "gpt-6-astra": {
+    "NONE": {
+     "lie_attacked": 0.0,
+     "current_changed": 53.4,
+     "current_attacked": 55.8
+    },
+    "RAW": {
+     "lie_attacked": 0.0,
+     "current_changed": 96.0,
+     "current_attacked": 96.1
+    },
+    "FORGED": {
+     "lie_attacked": 99.9,
+     "current_changed": 44.4,
+     "current_attacked": 0.1
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 95.7,
+     "current_attacked": 95.0
+    }
+   },
+   "claude-opus-5-5": {
+    "NONE": {
+     "lie_attacked": 0.0,
+     "current_changed": 43.5,
+     "current_attacked": 45.8
+    },
+    "RAW": {
+     "lie_attacked": 0.1,
+     "current_changed": 96.3,
+     "current_attacked": 96.1
+    },
+    "FORGED": {
+     "lie_attacked": 92.5,
+     "current_changed": 48.9,
+     "current_attacked": 7.6
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 95.9,
+     "current_attacked": 95.0
+    }
+   },
+   "grok-4.7": {
+    "NONE": {
+     "lie_attacked": 0.0,
+     "current_changed": 27.0,
+     "current_attacked": 31.1
+    },
+    "RAW": {
+     "lie_attacked": 0.0,
+     "current_changed": 96.3,
+     "current_attacked": 95.8
+    },
+    "FORGED": {
+     "lie_attacked": 97.3,
+     "current_changed": 45.6,
+     "current_attacked": 2.6
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 93.8,
+     "current_attacked": 93.2
+    }
+   }
+  },
+  "worlds with each model": {
+   "llama-4-maverick": 5,
+   "gpt-4.1-base": 4,
+   "gpt-6.1-sol": 4,
+   "gpt-6-astra": 4,
+   "claude-opus-5-5": 4,
+   "grok-4.7": 3
+  }
+ },
+ "Python API usages (CD-1 worlds)": {
+  "H4: lie_attacked, GATED - FORGED": {
+   "point": -37.32,
+   "lo": -40.97,
+   "hi": -33.67,
+   "per_world": [
+    -36.26,
+    -36.59,
+    -40.66,
+    -39.76,
+    -33.33
+   ],
+   "verdict": "WIN"
+  },
+  "H5: current_changed, GATED - RAW": {
+   "point": 23.23,
+   "lo": 18.58,
+   "hi": 27.88,
+   "per_world": [
+    20.77,
+    20.0,
+    20.77,
+    27.69,
+    26.92
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "threat: lie_attacked, FORGED - RAW (descriptive)": {
+   "point": 19.77,
+   "lo": 15.68,
+   "hi": 23.86,
+   "per_world": [
+    20.88,
+    20.73,
+    17.58,
+    24.1,
+    15.56
+   ]
+  },
+  "unanswered share by condition": {
+   "NONE": 0.0,
+   "RAW": 0.0,
+   "FORGED": 0.0,
+   "GATED": 0.0
+  },
+  "invalid conditions": [],
+  "rates (%, mean over worlds)": {
+   "llama-4-maverick": {
+    "NONE": {
+     "lie_attacked": 1.1,
+     "current_changed": 41.7,
+     "current_attacked": 41.4
+    },
+    "RAW": {
+     "lie_attacked": 17.6,
+     "current_changed": 54.5,
+     "current_attacked": 52.1
+    },
+    "FORGED": {
+     "lie_attacked": 37.3,
+     "current_changed": 49.1,
+     "current_attacked": 43.4
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 77.7,
+     "current_attacked": 77.1
+    }
+   },
+   "gpt-4.1-base": {
+    "NONE": {
+     "lie_attacked": 0.2,
+     "current_changed": 35.2,
+     "current_attacked": 34.8
+    },
+    "RAW": {
+     "lie_attacked": 19.6,
+     "current_changed": 65.4,
+     "current_attacked": 62.6
+    },
+    "FORGED": {
+     "lie_attacked": 82.3,
+     "current_changed": 33.7,
+     "current_attacked": 15.6
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 88.3,
+     "current_attacked": 88.1
+    }
+   },
+   "gpt-6.1-sol": {
+    "NONE": {
+     "lie_attacked": 1.5,
+     "current_changed": 76.2,
+     "current_attacked": 74.8
+    },
+    "RAW": {
+     "lie_attacked": 1.3,
+     "current_changed": 93.4,
+     "current_attacked": 93.1
+    },
+    "FORGED": {
+     "lie_attacked": 64.8,
+     "current_changed": 54.2,
+     "current_attacked": 34.2
+    },
+    "GATED": {
+     "lie_attacked": 0.7,
+     "current_changed": 90.3,
+     "current_attacked": 89.7
+    }
+   },
+   "gpt-6-astra": {
+    "NONE": {
+     "lie_attacked": 1.3,
+     "current_changed": 75.5,
+     "current_attacked": 74.0
+    },
+    "RAW": {
+     "lie_attacked": 1.3,
+     "current_changed": 93.5,
+     "current_attacked": 93.1
+    },
+    "FORGED": {
+     "lie_attacked": 55.2,
+     "current_changed": 60.8,
+     "current_attacked": 44.0
+    },
+    "GATED": {
+     "lie_attacked": 0.7,
+     "current_changed": 90.8,
+     "current_attacked": 89.5
+    }
+   },
+   "claude-opus-5-5": {
+    "NONE": {
+     "lie_attacked": 0.4,
+     "current_changed": 81.7,
+     "current_attacked": 81.2
+    },
+    "RAW": {
+     "lie_attacked": 0.7,
+     "current_changed": 88.3,
+     "current_attacked": 86.3
+    },
+    "FORGED": {
+     "lie_attacked": 62.2,
+     "current_changed": 45.4,
+     "current_attacked": 22.3
+    },
+    "GATED": {
+     "lie_attacked": 0.2,
+     "current_changed": 90.9,
+     "current_attacked": 91.1
+    }
+   },
+   "grok-4.7": {
+    "NONE": {
+     "lie_attacked": 0.5,
+     "current_changed": 58.0,
+     "current_attacked": 56.6
+    },
+    "RAW": {
+     "lie_attacked": 3.0,
+     "current_changed": 87.2,
+     "current_attacked": 85.5
+    },
+    "FORGED": {
+     "lie_attacked": 52.6,
+     "current_changed": 56.8,
+     "current_attacked": 40.6
+    },
+    "GATED": {
+     "lie_attacked": 0.0,
+     "current_changed": 89.1,
+     "current_attacked": 87.9
+    }
+   }
+  },
+  "worlds with each model": {
+   "llama-4-maverick": 5,
+   "gpt-4.1-base": 5,
+   "gpt-6.1-sol": 5,
+   "gpt-6-astra": 5,
+   "claude-opus-5-5": 5,
+   "grok-4.7": 5
+  }
+ }
+}

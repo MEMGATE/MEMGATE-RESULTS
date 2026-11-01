@@ -1,0 +1,270 @@
+{
+ "hypotheses": {
+  "H12c": {
+   "ability": 4,
+   "measure": "lie_gap",
+   "a": "SYSTEM2, errors learned then removed",
+   "b": "SYSTEM2 trained without the removed rows",
+   "estimate": -0.02,
+   "ci95": [
+    -0.394,
+    0.34
+   ],
+   "rule": "upper < +0.33",
+   "verdict": "not shown"
+  }
+ },
+ "descriptive": {
+  "errors - untouched (H12b's comparison)": [
+   0.273,
+   -0.229,
+   0.819
+  ],
+  "retrain - untouched": [
+   0.293,
+   -0.131,
+   0.763
+  ]
+ },
+ "untouched_answers_agree_max_abs": {
+  "9704": 0.0
+ },
+ "per_world": {
+  "9704": {
+   "items": 40,
+   "mean_gap": {
+    "errors run, SYSTEM2": 0.136,
+    "retrain run, SYSTEM2": 0.157,
+    "untouched": -0.136
+   },
+   "errors - retrain": -0.02,
+   "errors - untouched": 0.273,
+   "retrain - untouched": 0.293
+  }
+ },
+ "validity": {
+  "9704": {
+   "errors": {
+    "done": true,
+    "arms_finished": {
+     "SYSTEM2": true,
+     "NAIVE": true
+    },
+    "frozen_answered_all": true,
+    "removals": [
+     4
+    ],
+    "lie_scores": {
+     "FROZEN": 40,
+     "SYSTEM2": 40,
+     "NAIVE": 40
+    }
+   },
+   "retrain": {
+    "done": true,
+    "arms_finished": {
+     "SYSTEM2": true
+    },
+    "frozen_answered_all": true,
+    "removals": [],
+    "lie_scores": {
+     "FROZEN": 40,
+     "SYSTEM2": 40
+    }
+   }
+  }
+ },
+ "boot": {
+  "resamples": 10000,
+  "seed": 12345
+ },
+ "ccl4_on_errors_runs": {
+  "hypotheses": {
+   "H1": {
+    "ability": 2,
+    "measure": "poison",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": -8.7,
+    "ci95": [
+     -15.22,
+     -3.26
+    ],
+    "verdict": "WIN"
+   },
+   "H2": {
+    "ability": 1,
+    "measure": "current_w0",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 2.13,
+    "ci95": [
+     0.0,
+     6.38
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H11": {
+    "ability": 1,
+    "measure": "current_w0",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 100.0,
+    "ci95": [
+     100.0,
+     100.0
+    ],
+    "verdict": "WIN"
+   },
+   "H3": {
+    "ability": 3,
+    "measure": "kept",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H10": {
+    "ability": 3,
+    "measure": "locality",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H12": {
+    "ability": 4,
+    "measure": "lie_gap",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": -1.803,
+    "ci95": [
+     -2.286,
+     -1.324
+    ],
+    "verdict": "WIN"
+   },
+   "H12b": {
+    "ability": 4,
+    "measure": "lie_gap",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.273,
+    "ci95": [
+     -0.229,
+     0.819
+    ],
+    "verdict": "not shown"
+   },
+   "H5": {
+    "ability": 5,
+    "measure": "dated",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 4.72,
+    "ci95": [
+     0.94,
+     8.49
+    ],
+    "verdict": "not shown"
+   },
+   "H6": {
+    "ability": 6,
+    "measure": "skills",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 28.57,
+    "ci95": [
+     7.14,
+     50.0
+    ],
+    "verdict": "WIN"
+   },
+   "H7": {
+    "ability": 7,
+    "measure": "follow",
+    "a": "SYSTEM2",
+    "b": "NAIVE",
+    "estimate": 35.22,
+    "ci95": [
+     28.62,
+     41.51
+    ],
+    "verdict": "WIN"
+   },
+   "H13": {
+    "ability": 8,
+    "measure": "first_check_early_minus_late",
+    "a": "SYSTEM2",
+    "b": null,
+    "estimate": -3.78,
+    "ci95": [
+     -9.63,
+     2.31
+    ],
+    "verdict": "not shown"
+   },
+   "H8": {
+    "ability": 9,
+    "measure": "gsm8k",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "H9": {
+    "ability": 9,
+    "measure": "mmlu",
+    "a": "SYSTEM2",
+    "b": "FROZEN",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  },
+  "abilities": {
+   "1": "PASSED",
+   "2": "PASSED",
+   "3": "PASSED",
+   "4": "NOT SHOWN",
+   "5": "NOT SHOWN",
+   "6": "PASSED",
+   "7": "PASSED",
+   "8": "NOT SHOWN",
+   "9": "PASSED"
+  },
+  "validity": {
+   "9704": {
+    "arms_finished": {
+     "NAIVE": true,
+     "REPLAY": false,
+     "SYSTEM2": true
+    },
+    "frozen_unanswered": 0,
+    "frozen_current_pct": 0.0,
+    "removal_in_session_4": true,
+    "lie_arms": [
+     "FROZEN",
+     "NAIVE",
+     "SYSTEM2"
+    ]
+   }
+  }
+ },
+ "ability_4": "NOT SHOWN"
+}

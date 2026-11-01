@@ -1,0 +1,231 @@
+{
+ "per_world": {
+  "9702": {
+   "measures": {
+    "LEARNER+RAG": {
+     "poison": 0.0,
+     "current_w0": 97.8,
+     "locality": 98.1,
+     "kept": 100.0,
+     "dated": 74.1,
+     "follow": 88.1,
+     "skills": 42.9,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    },
+    "SYSTEM2": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 99.2,
+     "kept": 100.0,
+     "dated": 62.7,
+     "follow": 73.0,
+     "skills": 42.9,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    },
+    "RAG-GATE": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 98.1,
+     "kept": 100.0,
+     "dated": 77.4,
+     "follow": 90.6,
+     "skills": 7.1,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    },
+    "RAG-GATE-HERE": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 98.1,
+     "kept": 100.0,
+     "dated": 77.4,
+     "follow": 90.6,
+     "skills": 7.1,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    }
+   },
+   "retrieval_questions": 909,
+   "untouched_with_retrieval_same_as_bl2": 908,
+   "done": true,
+   "answered_at_12": 2452
+  },
+  "9703": {
+   "measures": {
+    "LEARNER+RAG": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 97.3,
+     "kept": 100.0,
+     "dated": 79.2,
+     "follow": 86.5,
+     "skills": 50.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    },
+    "SYSTEM2": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 99.2,
+     "kept": 100.0,
+     "dated": 55.7,
+     "follow": 78.9,
+     "skills": 50.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    },
+    "RAG-GATE": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 97.3,
+     "kept": 100.0,
+     "dated": 78.8,
+     "follow": 92.8,
+     "skills": 7.1,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    },
+    "RAG-GATE-HERE": {
+     "poison": 0.0,
+     "current_w0": 100.0,
+     "locality": 97.3,
+     "kept": 100.0,
+     "dated": 78.8,
+     "follow": 92.8,
+     "skills": 7.1,
+     "gsm8k": 92.7,
+     "mmlu": 72.5
+    }
+   },
+   "retrieval_questions": 917,
+   "untouched_with_retrieval_same_as_bl2": 917,
+   "done": true,
+   "answered_at_12": 2460
+  }
+ },
+ "comparisons": {
+  "B1": {
+   "against": "RAG-GATE",
+   "measure": "dated",
+   "estimate": -1.42,
+   "ci95": [
+    -4.25,
+    1.42
+   ],
+   "rule": "WIN (lower vs +1.0)",
+   "verdict": "not shown"
+  },
+  "B2": {
+   "against": "RAG-GATE",
+   "measure": "follow",
+   "estimate": -4.4,
+   "ci95": [
+    -6.13,
+    -2.83
+   ],
+   "rule": "WIN (lower vs +1.0)",
+   "verdict": "wrong side"
+  },
+  "B3": {
+   "against": "RAG-GATE",
+   "measure": "skills",
+   "estimate": 39.29,
+   "ci95": [
+    26.79,
+    51.79
+   ],
+   "rule": "WIN (lower vs +1.0)",
+   "verdict": "WIN"
+  },
+  "B4": {
+   "against": "RAG-GATE",
+   "measure": "poison",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "rule": "NON-INFERIOR (upper vs +1.0)",
+   "verdict": "NON-INFERIOR"
+  },
+  "B5": {
+   "against": "RAG-GATE",
+   "measure": "current_w0",
+   "estimate": -1.05,
+   "ci95": [
+    -3.16,
+    0.0
+   ],
+   "rule": "NON-INFERIOR (lower vs -5.0)",
+   "verdict": "NON-INFERIOR"
+  },
+  "B6": {
+   "against": "RAG-GATE",
+   "measure": "locality",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "rule": "NON-INFERIOR (lower vs -5.0)",
+   "verdict": "NON-INFERIOR"
+  },
+  "B7": {
+   "against": "RAG-GATE",
+   "measure": "kept",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "rule": "NON-INFERIOR (lower vs -5.0)",
+   "verdict": "NON-INFERIOR"
+  },
+  "B8a": {
+   "against": "RAG-GATE",
+   "measure": "gsm8k",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "rule": "NON-INFERIOR (lower vs -3.0)",
+   "verdict": "NON-INFERIOR"
+  },
+  "B8b": {
+   "against": "RAG-GATE",
+   "measure": "mmlu",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "rule": "NON-INFERIOR (lower vs -2.0)",
+   "verdict": "NON-INFERIOR"
+  },
+  "B9": {
+   "against": "SYSTEM2",
+   "measure": "dated",
+   "estimate": 17.45,
+   "ci95": [
+    12.5,
+    22.41
+   ],
+   "rule": "WIN (lower vs +1.0)",
+   "verdict": "WIN"
+  },
+  "B10": {
+   "against": "SYSTEM2",
+   "measure": "follow",
+   "estimate": 11.32,
+   "ci95": [
+    8.65,
+    14.15
+   ],
+   "rule": "WIN (lower vs +1.0)",
+   "verdict": "WIN"
+  }
+ }
+}

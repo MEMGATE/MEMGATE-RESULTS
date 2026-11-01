@@ -1,0 +1,16 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "phase": "dev",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 2,
+ "lr": 0.0002,
+ "code_sha256": "a566309ccf02a96b717f91701b979a6215d73f090d4fbb3849210cac48d879bb",
+ "prereg": null,
+ "kernel": "mohitaureus/pramana-ccl2-dev2-20261024-w9790",
+ "dataset": "mohitaureus/pramana-ccl2-dev2-20261024-w9790-data",
+ "started": "2026-10-24 20:50:17"
+}

@@ -1,0 +1,19 @@
+{
+ "model": "nvidia/Llama-3.1-Nemotron-Nano-8B-v1",
+ "revision": "54641c1611fcff44fa4865626462445e0a153fc7",
+ "kaggle_model": null,
+ "pip": "transformers==4.47.1 peft==0.13.2 accelerate==1.1.1",
+ "dtype": "float16",
+ "limit": 2,
+ "short": "nemotron-smoke",
+ "arms": [
+  "RETRIEVAL",
+  "LAYER2"
+ ],
+ "questions": 4,
+ "code_hash": "e3547edaa4ad8ca7159e57a3f2dff24dba480ead796d30a3cdac91a9ae22601a",
+ "lm1_code_hash": "f4bf4ea3bd42397e1333c33e4acd35481d40470e566b2c8624a3be8017869d5f",
+ "kernel": "mohitaureus/pramana-lm1-kaggle-nemotron-smoke-20261023",
+ "dataset": "mohitaureus/pramana-lm1-kaggle-nemotron-smoke-20261023-data",
+ "started": "2026-10-23 18:59:51"
+}

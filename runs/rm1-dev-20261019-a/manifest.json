@@ -1,0 +1,60 @@
+{
+  "phase": "dev",
+  "code_hash": "b88e43927af4bb9c1d94bb6943b843287be5774f3b5af06497bb727f49de15e3",
+  "prereg": null,
+  "model": "gpt-6.1-sol",
+  "served": [
+    "gpt-6.1-sol-2026-09-29"
+  ],
+  "worlds": [
+    0,
+    1
+  ],
+  "usage": {
+    "LATEST": {
+      "calls": 1200,
+      "input": 61077,
+      "output": 10115,
+      "reasoning": 0,
+      "errors": 0
+    },
+    "RAW": {
+      "calls": 1200,
+      "input": 428228,
+      "output": 17112,
+      "reasoning": 5867,
+      "errors": 0
+    },
+    "GATED": {
+      "calls": 1200,
+      "input": 50013,
+      "output": 10177,
+      "reasoning": 63,
+      "errors": 0
+    },
+    "NONE": {
+      "calls": 400,
+      "input": 9574,
+      "output": 107307,
+      "reasoning": 102278,
+      "errors": 0
+    }
+  },
+  "wall_seconds": 871.437643289566,
+  "queries": {
+    "0": 241,
+    "1": 256
+  },
+  "dismissed": {
+    "0": {
+      "S": 0,
+      "C2": 0,
+      "C1": 0
+    },
+    "1": {
+      "S": 0,
+      "C2": 0,
+      "C1": 0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "phase": "smoke",
+  "code_hash": "946cafdfce7f1175a34b88b8ea5e069d64744bedf7b4276cf21856adae113eb2",
+  "git_head": "d5aaf6fa19d46c9a6d653b19da9a418da73da45a",
+  "prereg": null,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 2,
+  "models": [
+    "gpt-6-astra",
+    "claude-opus-5-5"
+  ],
+  "claude_effort": "medium",
+  "worlds": 2,
+  "crashes": [],
+  "budget_calls": 112,
+  "started": 1792227183.426952,
+  "seconds": 196.7674400806427
+}

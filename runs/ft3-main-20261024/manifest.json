@@ -1,0 +1,107 @@
+{
+ "phase": "main",
+ "seeds": [
+  8600,
+  8601
+ ],
+ "code_sha256": "ab0b2b044815888c22f108d8f9feb959a0cd4bf761b8afe28588f3b58897e0c1",
+ "model": "Llama-3.3-70B-Instruct",
+ "version": "9",
+ "epochs": 6,
+ "lr_multiplier": 2.0,
+ "written": "2026-10-24 15:33:26",
+ "files": {
+  "8600:LAYER": {
+   "file": "train-8600-LAYER.jsonl",
+   "rows": 2680,
+   "sha256": "ca267de46325e773f8cfc5ffff52adbd29b8a9b4406ea29990ac8a8f8c0793ca",
+   "account": "memgate-ft-eus2"
+  },
+  "8600:NAIVE": {
+   "file": "train-8600-NAIVE.jsonl",
+   "rows": 2682,
+   "sha256": "59084ee6bb940bd510a31033288623ae47c468c905f31d55115c5f70baef13bc",
+   "account": "memgate-ft-eus2b"
+  },
+  "8600:TD": {
+   "file": "train-8600-TD.jsonl",
+   "rows": 2648,
+   "sha256": "14dcbee4b0565542011af6635139ccc178f19539bb7e37ac3b3337d8024989d1",
+   "account": "jayeshupp-8050-resource"
+  },
+  "8601:LAYER": {
+   "file": "train-8601-LAYER.jsonl",
+   "rows": 2682,
+   "sha256": "fd636de20ac18e51618b11a3b851ecffbdb27fa7572ff05285d440d6c050290b",
+   "account": "memgate-ft-swc2"
+  },
+  "8601:NAIVE": {
+   "file": "train-8601-NAIVE.jsonl",
+   "rows": 2682,
+   "sha256": "d1feccb4c0bd0b7c039934c2223b9e59a985f939d5fe13cf986d6a4c73a60cda",
+   "account": "memgate-ft-ncus3"
+  },
+  "8601:TD": {
+   "file": "train-8601-TD.jsonl",
+   "rows": 2660,
+   "sha256": "8ca6826cec63951c8635dd3009cb00920456d0e5bc07ab1e009247e7d346f8e8",
+   "account": "memgate-ft-swc4"
+  }
+ },
+ "memory": {
+  "8600:LAYER": {
+   "offices": 1340,
+   "attacker_values_pct_of_offices": 0.0,
+   "current_pct_of_changed": 96.87,
+   "stale_pct_of_changed": 3.05
+  },
+  "8600:NAIVE": {
+   "offices": 1341,
+   "attacker_values_pct_of_offices": 7.01,
+   "current_pct_of_changed": 60.49,
+   "stale_pct_of_changed": 32.55
+  },
+  "8600:TD": {
+   "offices": 1324,
+   "attacker_values_pct_of_offices": 0.0,
+   "current_pct_of_changed": 81.85,
+   "stale_pct_of_changed": 16.82
+  },
+  "8601:LAYER": {
+   "offices": 1341,
+   "attacker_values_pct_of_offices": 0.0,
+   "current_pct_of_changed": 97.5,
+   "stale_pct_of_changed": 2.5
+  },
+  "8601:NAIVE": {
+   "offices": 1341,
+   "attacker_values_pct_of_offices": 6.04,
+   "current_pct_of_changed": 61.5,
+   "stale_pct_of_changed": 32.55
+  },
+  "8601:TD": {
+   "offices": 1330,
+   "attacker_values_pct_of_offices": 0.0,
+   "current_pct_of_changed": 80.99,
+   "stale_pct_of_changed": 18.15
+  }
+ },
+ "worlds": {
+  "8600": {
+   "offices": 1341,
+   "changed": 1278,
+   "locality": 60,
+   "attacked": 865,
+   "budget": 303,
+   "questions": 3042
+  },
+  "8601": {
+   "offices": 1341,
+   "changed": 1278,
+   "locality": 60,
+   "attacked": 853,
+   "budget": 303,
+   "questions": 3042
+  }
+ }
+}

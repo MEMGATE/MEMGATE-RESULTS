@@ -1,0 +1,27 @@
+{
+ "argv": [
+  "--world",
+  "cd",
+  "--seed",
+  "9304",
+  "--phase",
+  "main",
+  "--out",
+  "runs/cd1-main-20261020/w9304",
+  "--account",
+  "memgate-ft-eus2b",
+  "--base-account",
+  "memgate-ft-ncus",
+  "--prereg",
+  "docs/CD1-PREREG-2026-10-20.md",
+  "--reuse",
+  "ftjob-dc8cb14ac8af4dccb4f5e5121c06aacb,ftjob-df289732385541188acff87de1b52c09,ftjob-cda8872cb58c4325b82dd52e5179b1c0,ftjob-ca94ce843d024800a82a42bd2e693880,ftjob-603e3c2a67be4291b0a7eb0f743cbf0b,ftjob-c363794dba7e4bbf8d96d099e31967da,ftjob-8d2094c1dbef4b4e84fc0a6d796aeb70,ftjob-33b89eea99c5427188fecba961f7478a"
+ ],
+ "digest": "5d241114d776f96efa959487be388b1390d8c1253973c3b43ade6956a42b539b",
+ "git_head": "c469eaf8ac53eaec98ec44432fb7956064618390",
+ "prereg": {
+  "path": "docs/CD1-PREREG-2026-10-20.md",
+  "sha256": "cd5946fa93be1ee53a69c647c57c769b23cf1c09e5ed1c71114a973f2797b295"
+ },
+ "started": "2026-10-21 20:52:33"
+}

@@ -1,0 +1,23 @@
+{
+ "half": "main",
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+ "epochs": 6,
+ "lr": 0.0002,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "batch": 8,
+ "ask_batch": 64,
+ "precision": "float16 weights, float16 autocast, float32 adapters, grad scaler",
+ "gpu": "Kaggle T4 x2",
+ "prereg": "docs/RP3-PREREG-2026-10-21.md",
+ "rp3_code_hash": "912d2998ce57f424fdd4e19b33cb1d9c8ec72473e714a4444d85f5597deb0f06",
+ "rows": {
+  "DIRECT": 600,
+  "FOLLOW": 1800,
+  "MORE": 1800
+ },
+ "questions": 2100,
+ "kernel": "mohitaureus/pramana-open-rp3-main-olmo7b",
+ "started": "2026-10-22 17:10:19"
+}

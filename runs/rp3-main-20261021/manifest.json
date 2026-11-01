@@ -1,0 +1,9 @@
+{
+ "half": "main",
+ "code_hash": "912d2998ce57f424fdd4e19b33cb1d9c8ec72473e714a4444d85f5597deb0f06",
+ "prereg": "docs/RP3-PREREG-2026-10-21.md",
+ "account": "memgate-ft-dev2",
+ "base_model": "gpt-4.1-2025-04-14",
+ "skip_frozen": false,
+ "started": "2026-10-22 06:01:40"
+}

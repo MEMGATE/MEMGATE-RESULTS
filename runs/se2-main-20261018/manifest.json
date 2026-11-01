@@ -1,0 +1,102 @@
+{
+  "phase": "main",
+  "code_hash": "b9c041e1dc67ba9ff89ff30e8cdf693b10daace19579c32bb0031c838c151067",
+  "git_head": "7cd8f9a168cdb3cdc6149fa5298a286275106cd2",
+  "prereg": {
+    "path": "docs/SE2-PREREG-2026-10-18.md",
+    "sha256": "571ac6d5d0908ef82a692578783df6c56ca3b314333a703967c9f96db86733f7"
+  },
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "gpu": "A10G",
+  "tasks": 32,
+  "failures": [],
+  "gpu_seconds": 17273.632905483246,
+  "estimated_dollars": 5.28,
+  "wall_seconds": 2110.3994250297546,
+  "queries": {
+    "2000": 34,
+    "2001": 37,
+    "2002": 35,
+    "2003": 29,
+    "2004": 30,
+    "2005": 40,
+    "2006": 40,
+    "2007": 35
+  },
+  "dismissed": {
+    "2000:GATED-SE1": {},
+    "2000:GATED-SE2": {
+      "S": 0,
+      "C2": 0,
+      "C1": 1
+    },
+    "2001:GATED-SE1": {},
+    "2001:GATED-SE2": {
+      "C1": 0,
+      "S": 0,
+      "C2": 0
+    },
+    "2002:GATED-SE1": {},
+    "2002:GATED-SE2": {
+      "C2": 0,
+      "S": 0,
+      "C1": 0
+    },
+    "2003:GATED-SE1": {},
+    "2003:GATED-SE2": {
+      "C1": 0,
+      "C2": 0,
+      "S": 1
+    },
+    "2004:GATED-SE1": {},
+    "2004:GATED-SE2": {
+      "S": 0,
+      "C2": 0,
+      "C1": 1
+    },
+    "2005:GATED-SE1": {},
+    "2005:GATED-SE2": {
+      "S": 0,
+      "C2": 0,
+      "C1": 0
+    },
+    "2006:GATED-SE1": {},
+    "2006:GATED-SE2": {
+      "C1": 0,
+      "C2": 0,
+      "S": 1
+    },
+    "2007:GATED-SE1": {},
+    "2007:GATED-SE2": {
+      "C1": 0,
+      "C2": 0,
+      "S": 1
+    }
+  },
+  "repeat": {
+    "seed": 2000,
+    "arm": "GATED-SE2",
+    "first": {
+      "truth": 0.985,
+      "truth_held_out": 0.985,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "update": 0.95,
+      "update_stale": 0.0,
+      "retention": 1.0
+    },
+    "second": {
+      "truth": 0.985,
+      "truth_held_out": 0.985,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "update": 0.95,
+      "update_stale": 0.0,
+      "retention": 1.0
+    },
+    "error": null
+  }
+}

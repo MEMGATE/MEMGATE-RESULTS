@@ -1,0 +1,8 @@
+{
+ "host": "20.45.53.130",
+ "run": "runs/ccl6-main-72b/w9708",
+ "hours": 60.0,
+ "started": "2026-10-28 18:43:51",
+ "machine": "memgate-a100-scus (Standard_NC24ads_A100_v4, South Central US)",
+ "runner_sha256": "8cfa9db9a73f9579c5a57df446c35f5f5a6b85d0f9ba298c266588d3233d7865"
+}

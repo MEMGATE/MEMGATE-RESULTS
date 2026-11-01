@@ -1,0 +1,16 @@
+{
+ "world": [
+  9700,
+  "main"
+ ],
+ "phase": "main",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 2,
+ "lr": 0.0002,
+ "code_sha256": "3b225349957479b12c145757fe741994c03798a8bb3f5fad4810cb8e27e8f6e7",
+ "prereg": "docs/CCL2-PREREG-2026-10-25.md",
+ "kernel": "mohitaureus/pramana-ccl2-main-20261025-w9700",
+ "dataset": "mohitaureus/pramana-ccl2-main-20261025-w9700-data",
+ "started": "2026-10-25 02:12:20"
+}

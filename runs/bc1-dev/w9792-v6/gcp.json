@@ -1,0 +1,18 @@
+{
+ "job_name": "projects/16399170796/locations/asia-southeast1/customJobs/7515735646040752128",
+ "display_name": "bc1-dev-w9792-v6",
+ "remote": "runs/bc1-dev/w9792-v6",
+ "region": "asia-southeast1",
+ "gpu": "a100",
+ "machine_type": "a2-highgpu-1g",
+ "accelerator": "NVIDIA_TESLA_A100",
+ "accelerator_count": 1,
+ "spot": true,
+ "hours": 20.0,
+ "image": "us-central1-docker.pkg.dev/sixth-edition-480013-n1/ccl/ccl-gpu:1",
+ "payload_sha256": "0241d2486465cc1909082dbe629acbb51b3e7ff7e4a528cbde5c965aff3b92fc",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "usd_per_hour": 1.1,
+ "started": "2026-10-31 16:37:07",
+ "machine": "Google Cloud Vertex AI A100 (Spot, asia-southeast1)"
+}

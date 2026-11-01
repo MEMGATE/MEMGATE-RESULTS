@@ -1,0 +1,12 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-4.1-base",
+  "llama-4-maverick",
+  "grok-4.7",
+  "gpt-6.1-sol"
+ ],
+ "code_hash": "de85cc28254c56e6ef7d3f08c86d71265d6e1c2d74b8965596e6af129ccc35df",
+ "prereg": "docs/SC3-PREREG-2026-10-22.md",
+ "started": "2026-10-22 12:02:20"
+}

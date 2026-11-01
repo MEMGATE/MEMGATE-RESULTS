@@ -1,0 +1,16 @@
+{
+ "job": "rw1-dev-1-5b-w9790-adapter",
+ "execution": "rw1-dev-1-5b-w9790-adapter-lhrzu7m",
+ "remote": "runs/rw1-dev-1.5b/w9790-adapter",
+ "gpu": "t4",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "0d43bd45e64d02a7b12bdc0b785ddaa8b26e46deaf90b4e40550b76a2bbecab7",
+ "kernel_sha256": "e97837e1d7e035bff0f099048a9374402b148f56b8a1611d8fc2b266ad1338f4",
+ "cpu": 8,
+ "memory": "56Gi",
+ "usd_per_hour": 1.64,
+ "started": "2026-10-28 17:05:38",
+ "machine": "Azure Container Apps serverless T4"
+}

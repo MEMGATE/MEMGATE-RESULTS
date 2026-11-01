@@ -1,0 +1,47 @@
+{
+ "world": [
+  9702,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "editor": "AlphaEdit",
+ "arm": "ALPHAEDIT",
+ "sessions": 12,
+ "eval_after": [
+  4,
+  8,
+  12
+ ],
+ "edits": [
+  104,
+  57,
+  14,
+  33,
+  24,
+  29,
+  37,
+  40,
+  34,
+  42,
+  34,
+  16
+ ],
+ "edit_format": "plain",
+ "questions_from": "runs/ccl4-main-7b-colab/w9702/dataset/payload.json",
+ "image": "memgatecclswc.azurecr.io/ccl-easyedit:1",
+ "mounts": [
+  {
+   "subPath": "stats/qwen2.5-7b-instruct-n20000",
+   "mountPath": "/stats"
+  }
+ ],
+ "prereg": "docs/BL1-PREREG-2026-10-27.md",
+ "code_sha256": "61347d0e8d2ddc8b62dc6df13061390452e02ff41627257f0c7be66c729cc3b3",
+ "payload_sha256": "2a0d27645780823f73deab84b8c5c0e9ad7cc5325441d138a84d04726a4a2d32",
+ "packed": "2026-10-27 23:53:45"
+}

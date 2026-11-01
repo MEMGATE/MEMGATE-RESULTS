@@ -1,0 +1,98 @@
+{
+ "code_hash": "6ae9b60840d7c55c70371155dbe77ff1fce8b437912cdf251cee6a1e7e03b906",
+ "worlds": [
+  9310,
+  9311,
+  9312,
+  9313,
+  9314,
+  9315,
+  9316,
+  9317,
+  9318,
+  9319,
+  9320,
+  9321,
+  9322,
+  9323,
+  9324,
+  9325,
+  9326,
+  9327,
+  9328,
+  9329
+ ],
+ "means": {
+  "NAIVE": {
+   "attacker": 52.23,
+   "coverage_mean": 66.69,
+   "coverage_end": 76.94,
+   "honest_dismissed": 0.0
+  },
+  "TD-0.5": {
+   "attacker": 33.14,
+   "coverage_mean": 55.6,
+   "coverage_end": 51.96,
+   "honest_dismissed": 0.0
+  },
+  "TD-0.98": {
+   "attacker": 8.38,
+   "coverage_mean": 49.79,
+   "coverage_end": 47.91,
+   "honest_dismissed": 0.0
+  },
+  "RF (k=3)": {
+   "attacker": 0.0,
+   "coverage_mean": 52.99,
+   "coverage_end": 67.65,
+   "honest_dismissed": 0.0
+  },
+  "ENV k=1": {
+   "attacker": 0.0,
+   "coverage_mean": 63.57,
+   "coverage_end": 72.8,
+   "honest_dismissed": 0.0
+  },
+  "ENV k=2": {
+   "attacker": 0.0,
+   "coverage_mean": 54.39,
+   "coverage_end": 66.6,
+   "honest_dismissed": 0.0
+  },
+  "ENV k=3": {
+   "attacker": 0.0,
+   "coverage_mean": 39.91,
+   "coverage_end": 51.72,
+   "honest_dismissed": 0.0
+  }
+ },
+ "hypotheses": {
+  "H1 (primary): attacker values ever held, ENV k=1 - TD-0.98": {
+   "worlds": 20,
+   "point_pp": -8.38,
+   "ci95_pp": [
+    -9.25,
+    -7.64
+   ],
+   "verdict": "WIN"
+  },
+  "H2: mean coverage, ENV k=1 - RF (k=3)": {
+   "worlds": 20,
+   "point_pp": 10.58,
+   "ci95_pp": [
+    10.37,
+    10.79
+   ],
+   "verdict": "WIN"
+  },
+  "H3: mean coverage, ENV k=1 - TD-0.5": {
+   "worlds": 20,
+   "point_pp": 7.97,
+   "ci95_pp": [
+    7.7,
+    8.25
+   ],
+   "verdict": "WIN"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "phase": "dev",
+  "code_hash": "e6b2880f3a2982b361585078d406f2dd8a93e384906d7218a184e3dae2ec46a8",
+  "git_head": "775ae429f8097d91d80641d545c2c8b7f18cf220",
+  "prereg": null,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 3,
+  "tasks": 75,
+  "failures": [],
+  "started": 1792233032.2938843,
+  "seconds": 17.8479483127594
+}

@@ -1,0 +1,60 @@
+{
+ "phase": "dev",
+ "seeds": [
+  8690
+ ],
+ "code_sha256": "38a5986b5f45b0efc8a3ef3663288dd1ef7c9712a33fd950d7a31634fa93dfa6",
+ "model": "Llama-3.3-70B-Instruct",
+ "version": "9",
+ "epochs": 6,
+ "lr_multiplier": 2.0,
+ "written": "2026-10-24 15:16:46",
+ "files": {
+  "8690:LAYER": {
+   "file": "train-8690-LAYER.jsonl",
+   "rows": 2682,
+   "sha256": "9fb513d7528650c337a8a2b5c29b2120c483fe1eb3e3f1340df74ba742b9ed05"
+  },
+  "8690:NAIVE": {
+   "file": "train-8690-NAIVE.jsonl",
+   "rows": 2682,
+   "sha256": "6962c6511cf81546dd75ac2e374308d7f3efd6fc2d048922e2269b03657c1f23"
+  },
+  "8690:TD": {
+   "file": "train-8690-TD.jsonl",
+   "rows": 2656,
+   "sha256": "4078659d406e494854af633d5e3b7a2934dc74953bf3ce8f659ee51817a8c02d"
+  }
+ },
+ "memory": {
+  "8690:LAYER": {
+   "offices": 1341,
+   "attacker_values_pct_of_offices": 0.0,
+   "current_pct_of_changed": 97.03,
+   "stale_pct_of_changed": 2.97
+  },
+  "8690:NAIVE": {
+   "offices": 1341,
+   "attacker_values_pct_of_offices": 5.74,
+   "current_pct_of_changed": 62.36,
+   "stale_pct_of_changed": 32.16
+  },
+  "8690:TD": {
+   "offices": 1328,
+   "attacker_values_pct_of_offices": 0.0,
+   "current_pct_of_changed": 83.41,
+   "stale_pct_of_changed": 15.57
+  }
+ },
+ "worlds": {
+  "8690": {
+   "offices": 1341,
+   "changed": 1278,
+   "locality": 60,
+   "attacked": 863,
+   "budget": 303,
+   "questions": 3042,
+   "account": "memgate-ft-eus2"
+  }
+ }
+}

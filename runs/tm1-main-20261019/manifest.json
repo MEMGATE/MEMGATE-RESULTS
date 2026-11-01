@@ -1,0 +1,43 @@
+{
+  "phase": "main",
+  "code_hash": "bf245e4bf7d708f9144030be4154fb5c8b45ee855f3ce9d351f3e6d18ab09223",
+  "git_head": "518d7c8e9001675fabb2863dd43c2833e10c951e",
+  "prereg": {
+    "path": "docs/TM1-PREREG-2026-10-19.md",
+    "sha256": "711c305c886dd3b9bef4370b3c4ad8516fd2dcb8e3ccbd90948449e6f9e7752c"
+  },
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "gpu": "L40S",
+  "tasks": 6,
+  "failures": [],
+  "gpu_seconds": 11865.223994493484,
+  "estimated_gpu_dollars": 6.43,
+  "wall_seconds": 3240.855474472046,
+  "dismissed": {
+    "8000:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "8001:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ]
+  },
+  "replay": {
+    "8000": [
+      1473,
+      20421
+    ],
+    "8001": [
+      1459,
+      20477
+    ]
+  }
+}

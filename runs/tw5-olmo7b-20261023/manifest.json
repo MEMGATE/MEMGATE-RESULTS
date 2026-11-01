@@ -1,0 +1,23 @@
+{
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+ "epochs": 6,
+ "lr": 0.0002,
+ "doses": [
+  25,
+  50,
+  100,
+  150
+ ],
+ "code_hash": "4257ce37f08ceb11df476e84933e54b29c088d2e873822476474136435ea96bb",
+ "rows": {
+  "P25": 1550,
+  "P50": 1600,
+  "P100": 1700,
+  "P150": 1800
+ },
+ "questions": 300,
+ "kernel": "mohitaureus/pramana-tw5-olmo7b-20261023",
+ "dataset": "mohitaureus/pramana-tw5-olmo7b-20261023-data",
+ "started": "2026-10-23 09:53:33"
+}

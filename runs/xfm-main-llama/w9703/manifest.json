@@ -1,0 +1,38 @@
+{
+ "world": [
+  9703,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "family": "llama",
+ "lab": "Meta",
+ "model": "/models/llama31-8b-instruct",
+ "revision": "azureml-meta/Meta-Llama-3.1-8B-Instruct/6",
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "weights": "float16",
+ "sessions": 12,
+ "system": 4,
+ "kernel_changes": 0,
+ "source": "Azure ML model registry azureml-meta, Meta-Llama-3.1-8B-Instruct, version 6",
+ "mounts": [
+  {
+   "subPath": "models/llama31-8b-instruct-azureml-v6",
+   "mountPath": "/models/llama31-8b-instruct"
+  }
+ ],
+ "questions_from": "runs/ccl4-main-7b-colab/w9703/dataset/payload.json",
+ "prereg": "docs/XFM-PREREG-2026-10-28.md",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "c2083382b207790ae8b028c156745c12295b206036bbbdf1b4acd490706ccf6b",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "payload_sha256": "5309b440b84db6d6f4b32d864a21c0367c01e17f489b81ffe38796c041a87476",
+ "packed": "2026-10-28 17:02:29"
+}

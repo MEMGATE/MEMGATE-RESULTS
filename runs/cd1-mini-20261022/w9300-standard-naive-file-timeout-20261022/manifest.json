@@ -1,0 +1,25 @@
+{
+ "argv": [
+  "--world",
+  "cd",
+  "--seed",
+  "9300",
+  "--phase",
+  "main",
+  "--out",
+  "runs/cd1-mini-20261022/w9300-standard",
+  "--account",
+  "memgate-ft-std9",
+  "--base-account",
+  "memgate-ft-std9",
+  "--prereg",
+  "docs/CD1-PREREG-2026-10-20.md"
+ ],
+ "digest": "5d241114d776f96efa959487be388b1390d8c1253973c3b43ade6956a42b539b",
+ "git_head": "9242da51169ccd7be79a6a87a77a8f30fbc46d58",
+ "prereg": {
+  "path": "docs/CD1-PREREG-2026-10-20.md",
+  "sha256": "cd5946fa93be1ee53a69c647c57c769b23cf1c09e5ed1c71114a973f2797b295"
+ },
+ "started": "2026-10-22 15:45:49"
+}

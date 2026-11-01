@@ -1,0 +1,32 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "SYSTEM2"
+ ],
+ "variant": "no registry (RF-1 gate)",
+ "sessions": 12,
+ "system": 4,
+ "questions_from": null,
+ "prereg": null,
+ "gate": {
+  "attacked_offices": 98,
+  "attacker_values_ever_held": 0,
+  "changed_clean": 53,
+  "current_at_end": 45,
+  "lookups_from_memory": 84
+ },
+ "rows_learner": null,
+ "code_sha256": "8cf12bd4b3216a5156d8222de0af1b1b3270ae786f0ac314d903ce6d5aa34123",
+ "kernel_code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "payload_sha256": "bfe7c355e74dee7f715abe4bef40815a084b877262e26fff154ff06689164674",
+ "packed": "2026-10-27 20:08:22"
+}

@@ -1,0 +1,25 @@
+{
+ "kind": "TX-1 reading job",
+ "world": [
+  9792,
+  "dev"
+ ],
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "prereg": null,
+ "sentences": 15344,
+ "by_kind": {
+  "report": 12459,
+  "denial": 428,
+  "no person": 427,
+  "plan": 421,
+  "question": 412,
+  "rumour": 403,
+  "split": 794
+ },
+ "items": 30688,
+ "code_sha256": "ec411cd2e7ab43b369c1957cbc72eefc14edfb54eb5435495b044f631bd50820",
+ "kernel_sha256": "ee9a5ff96a4854f5bbf1066ccf3307c960bcd963825b8498b5ddd345da65e1c1",
+ "payload_sha256": "2bb6f32b21ce65a0202b686b3bf1cc163764ef56b2e00ef814df635bb1433d1c",
+ "packed": "2026-10-28 23:04:03"
+}

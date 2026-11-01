@@ -1,0 +1,292 @@
+{
+  "phase": "main",
+  "code_hash": "895667a4af0bf6b0c52006b7104ba3b7c931e52cf094be823a84ff44ee6006c3",
+  "git_head": "54ab15bd7a64b501cd7f9db0e703eb6b31eaaa3a",
+  "prereg": {
+    "path": "docs/SE3-PREREG-2026-10-18.md",
+    "sha256": "ed999a680aa23aff38ce3bf400174631cde7fd36b05217a62b309cedd6d64d23"
+  },
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "gpu": "L40S",
+  "tasks": 32,
+  "failures": [],
+  "gpu_seconds": 10258.05542397499,
+  "estimated_dollars": 5.56,
+  "wall_seconds": 1243.7575149536133,
+  "queries": {
+    "3000": 314,
+    "3001": 290,
+    "3002": 301,
+    "3003": 310,
+    "3004": 275,
+    "3005": 311,
+    "3006": 299,
+    "3007": 307
+  },
+  "dismissed": {
+    "3000:MAJORITY": {},
+    "3000:GATED": {
+      "C2": 0,
+      "S": 0,
+      "C1": 0
+    },
+    "3001:MAJORITY": {},
+    "3001:GATED": {
+      "S": 0,
+      "C1": 0,
+      "C2": 0
+    },
+    "3002:MAJORITY": {},
+    "3002:GATED": {
+      "C2": 0,
+      "C1": 0,
+      "S": 0
+    },
+    "3003:MAJORITY": {},
+    "3003:GATED": {
+      "C1": 0,
+      "S": 0,
+      "C2": 0
+    },
+    "3004:MAJORITY": {},
+    "3004:GATED": {
+      "C1": 0,
+      "C2": 0,
+      "S": 0
+    },
+    "3005:MAJORITY": {},
+    "3005:GATED": {
+      "C2": 0,
+      "S": 0,
+      "C1": 0
+    },
+    "3006:MAJORITY": {
+      "A": 2
+    },
+    "3006:GATED": {
+      "C2": 0,
+      "C1": 0,
+      "S": 0
+    },
+    "3007:MAJORITY": {},
+    "3007:GATED": {
+      "C2": 0,
+      "C1": 0,
+      "S": 0
+    }
+  },
+  "rollbacks": {
+    "3000:MAJORITY": [
+      0,
+      0
+    ],
+    "3000:GATED": [
+      0,
+      0
+    ],
+    "3001:MAJORITY": [
+      0,
+      0
+    ],
+    "3001:GATED": [
+      0,
+      0
+    ],
+    "3002:MAJORITY": [
+      0,
+      0
+    ],
+    "3002:GATED": [
+      0,
+      0
+    ],
+    "3003:MAJORITY": [
+      0,
+      0
+    ],
+    "3003:GATED": [
+      0,
+      0
+    ],
+    "3004:MAJORITY": [
+      0,
+      0
+    ],
+    "3004:GATED": [
+      0,
+      0
+    ],
+    "3005:MAJORITY": [
+      0,
+      0
+    ],
+    "3005:GATED": [
+      0,
+      0
+    ],
+    "3006:MAJORITY": [
+      0,
+      0
+    ],
+    "3006:GATED": [
+      0,
+      0
+    ],
+    "3007:MAJORITY": [
+      0,
+      0
+    ],
+    "3007:GATED": [
+      0,
+      0
+    ]
+  },
+  "routing": {
+    "3000:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3000:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3001:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3001:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3002:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3002:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3003:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 1
+    },
+    "3003:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 1
+    },
+    "3004:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3004:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3005:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3005:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3006:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3006:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 0,
+      "constitution_routed": 0
+    },
+    "3007:MAJORITY": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 1,
+      "constitution_routed": 0
+    },
+    "3007:GATED": {
+      "learned": 166,
+      "facts_routed": 332,
+      "facts_asked": 332,
+      "locality_routed": 1,
+      "constitution_routed": 0
+    }
+  },
+  "repeat": {
+    "seed": 3000,
+    "arm": "GATED",
+    "first": {
+      "current": 0.9625,
+      "current_held_out": 0.9625,
+      "stale": 0.0375,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "poison_changed": 0.0,
+      "poison_static": 0.0,
+      "static_kept": 1.0,
+      "locality": 1.0,
+      "retention": 1.0,
+      "constitution": 0.9928571428571429
+    },
+    "second": {
+      "current": 0.9625,
+      "current_held_out": 0.9625,
+      "stale": 0.0375,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "poison_changed": 0.0,
+      "poison_static": 0.0,
+      "static_kept": 1.0,
+      "locality": 1.0,
+      "retention": 1.0,
+      "constitution": 0.9928571428571429
+    },
+    "error": null
+  }
+}

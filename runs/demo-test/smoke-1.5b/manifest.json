@@ -1,0 +1,14 @@
+{
+ "kind": "demo smoke test",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "mounts": [
+  {
+   "subPath": "demo/bundle-rw1-dev-1.5b",
+   "mountPath": "/bundle"
+  }
+ ],
+ "payload_sha256": "29e4b208668fd23a26c9269fa23d0b3bda6c5a8bb5a2dc2e611e318b54c5c69d",
+ "kernel_sha256": "93bdf66aac97b15127526ee34d8a1cb8ca1f2d09ce193e0d7628343a9e88179b",
+ "packed": "2026-10-28 22:29:40"
+}

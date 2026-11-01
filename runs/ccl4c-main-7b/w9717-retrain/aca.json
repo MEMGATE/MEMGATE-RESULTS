@@ -1,0 +1,16 @@
+{
+ "job": "ccl4c-main-7b-w9717-retrain",
+ "execution": "ccl4c-main-7b-w9717-retrain-0kady50",
+ "remote": "runs/ccl4c-main-7b/w9717-retrain",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "dd2e76c1b5d78d9132e130dbac9b20c14b5bc56c181ab3b5044d6a107363fd67",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 06:41:37",
+ "machine": "Azure Container Apps serverless A100"
+}

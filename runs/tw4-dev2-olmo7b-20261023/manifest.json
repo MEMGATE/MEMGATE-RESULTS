@@ -1,0 +1,26 @@
+{
+ "half": "dev",
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+ "epochs": 2,
+ "lr": 0.0002,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "batch": 8,
+ "micro_batch": 2,
+ "ask_batch": 16,
+ "max_new_tokens": 48,
+ "neighbours": 4,
+ "precision": "float16 weights, float16 autocast, float32 adapters, grad scaler",
+ "gpu": "Kaggle T4 x2",
+ "prereg": null,
+ "code_hash": "58818a8ed7b56325a17912faf29cdde80ee5611f92dc14c1e3efd7cf0886ced2",
+ "rows": {
+  "READER1": 1008,
+  "READERMIX": 1008
+ },
+ "questions": 250,
+ "kernel": "mohitaureus/pramana-tw4-dev2-olmo7b-20261023",
+ "dataset": "mohitaureus/pramana-tw4-dev2-olmo7b-20261023-data",
+ "started": "2026-10-23 07:30:19"
+}

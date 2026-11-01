@@ -1,0 +1,24 @@
+{
+ "questions": 1319,
+ "accuracy": {
+  "FROZEN": 60.65,
+  "READER": 35.78
+ },
+ "READER - FROZEN": {
+  "point_pp": -24.87,
+  "ci95_pp": [
+   -27.82,
+   -21.83
+  ]
+ },
+ "H1": "NOT SHOWN",
+ "margin_pp": -2.0,
+ "no_number": {
+  "FROZEN": 0,
+  "READER": 0
+ },
+ "no_answer_line": {
+  "FROZEN": 137,
+  "READER": 20
+ }
+}

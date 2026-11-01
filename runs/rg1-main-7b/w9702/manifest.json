@@ -1,0 +1,32 @@
+{
+ "world": [
+  9702,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "SYSTEM2"
+ ],
+ "variant": "no registry (RF-1 gate)",
+ "sessions": 12,
+ "system": 4,
+ "questions_from": "runs/ccl4-main-7b-colab/w9702/dataset/payload.json",
+ "prereg": "docs/RG1-PREREG-2026-10-27.md",
+ "gate": {
+  "attacked_offices": 92,
+  "attacker_values_ever_held": 0,
+  "changed_clean": 45,
+  "current_at_end": 40,
+  "lookups_from_memory": 71
+ },
+ "rows_learner": null,
+ "code_sha256": "5d808248e9192bd4603eb1bb8ca54c8e00809320d5e503366fa02755ccc486a1",
+ "kernel_code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "payload_sha256": "907235aa1f4a53251fe7709134fc77e66fc8e8330de23e86fdc73c6a60e49ae4",
+ "packed": "2026-10-27 20:16:32"
+}

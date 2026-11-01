@@ -1,0 +1,26 @@
+{
+ "world": [
+  9791,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 8,
+ "wide": true,
+ "arms": [
+  "SYSTEM+GATE+ADAPT",
+  "NAIVE"
+ ],
+ "smoke": false,
+ "budget_h": 8.0,
+ "anchors_from": null,
+ "model": "Qwen2.5-72B-Instruct",
+ "model_source": "qwen-lm/qwen2.5/transformers/72b-instruct/1",
+ "weights": "int8, group scales",
+ "machine": "Kaggle TPU v5e-8",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "b863102eb87b32c7b0c9dcab7b341be359f390aa98c4edfdca264b2cf47c73b9",
+ "kernel": "jayeshupp/pramana-clxt3-20261025-w9791",
+ "dataset": "jayeshupp/pramana-clxt3-20261025-w9791-data",
+ "started": "2026-10-25 16:19:46"
+}

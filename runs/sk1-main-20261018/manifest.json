@@ -1,0 +1,16 @@
+{
+  "phase": "main",
+  "code_hash": "727220c66b23af8762caa6294fad83887fe00e21f139974b5fa790f3a847c931",
+  "git_head": "4ccfdafe95a92026598bf22a34e478601d6ab195",
+  "prereg": {
+    "path": "docs/SK1-PREREG-2026-10-18.md",
+    "sha256": "30cd74039f182226ea0dc9d46294924894724c206ad4bd4564ec6728156f13e1"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 3,
+  "tasks": 360,
+  "failures": [],
+  "started": 1792305806.7581928,
+  "seconds": 11.707659244537354
+}

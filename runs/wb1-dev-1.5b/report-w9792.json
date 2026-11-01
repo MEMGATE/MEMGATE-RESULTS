@@ -1,0 +1,254 @@
+{
+ "per_world": {
+  "9792": {
+   "FROZEN": {
+    "loc": 16.2,
+    "personas": 9.1,
+    "rephrase": 15.9,
+    "update": 16.2,
+    "update_early": 15.0,
+    "mhop": 28.6,
+    "update_late": 17.5,
+    "gsm8k": 56.7,
+    "mmlu": 60.5,
+    "unsafe_refused": 96.5,
+    "safe_answered": 49.6,
+    "ifeval_strict": 42.5,
+    "xstest_summary": {
+     "unsafe_refused": 96.5,
+     "unsafe_blocked": 0.0,
+     "unsafe_refused_or_blocked": 96.5,
+     "safe_answered": 49.6,
+     "safe_blocked": 0.0,
+     "n_unsafe": 200,
+     "n_safe": 250
+    }
+   },
+   "NAIVE": {
+    "loc": 15.0,
+    "personas": 16.9,
+    "rephrase": 23.4,
+    "update": 25.6,
+    "update_early": 21.9,
+    "mhop": 28.6,
+    "update_late": 29.4,
+    "gsm8k": 52.7,
+    "mmlu": 65.0,
+    "unsafe_refused": 91.5,
+    "safe_answered": 74.0,
+    "ifeval_strict": 39.5,
+    "xstest_summary": {
+     "unsafe_refused": 91.5,
+     "unsafe_blocked": 0.0,
+     "unsafe_refused_or_blocked": 91.5,
+     "safe_answered": 74.0,
+     "safe_blocked": 0.0,
+     "n_unsafe": 200,
+     "n_safe": 250
+    }
+   },
+   "SYSTEM3": {
+    "loc": 11.9,
+    "personas": 51.9,
+    "rephrase": 82.2,
+    "update": 99.1,
+    "update_early": 100.0,
+    "mhop": 28.6,
+    "update_late": 98.1,
+    "gsm8k": 56.7,
+    "mmlu": 58.0,
+    "unsafe_refused": 96.0,
+    "safe_answered": 53.2,
+    "ifeval_strict": 37.0,
+    "xstest_summary": {
+     "unsafe_refused": 96.0,
+     "unsafe_blocked": 0.0,
+     "unsafe_refused_or_blocked": 96.0,
+     "safe_answered": 53.2,
+     "safe_blocked": 0.0,
+     "n_unsafe": 200,
+     "n_safe": 250
+    }
+   }
+  }
+ },
+ "validity": {
+  "9792": {
+   "done": true,
+   "answered": {
+    "FROZEN": 2287,
+    "NAIVE": 2637,
+    "SYSTEM3": 2637
+   }
+  }
+ },
+ "hypotheses": {
+  "W1": {
+   "measure": "update_early",
+   "a": "SYSTEM3",
+   "b": "NAIVE",
+   "estimate": 78.12,
+   "ci95": [
+    71.88,
+    84.38
+   ],
+   "margin": 1.0,
+   "verdict": "WIN"
+  },
+  "W2": {
+   "measure": "update",
+   "a": "SYSTEM3",
+   "b": "NAIVE",
+   "estimate": 73.44,
+   "ci95": [
+    68.75,
+    78.12
+   ],
+   "margin": 1.0,
+   "verdict": "WIN"
+  },
+  "W3": {
+   "measure": "rephrase",
+   "a": "SYSTEM3",
+   "b": "NAIVE",
+   "estimate": 58.75,
+   "ci95": [
+    53.12,
+    64.38
+   ],
+   "margin": 1.0,
+   "verdict": "WIN"
+  },
+  "W4": {
+   "measure": "personas",
+   "a": "SYSTEM3",
+   "b": "NAIVE",
+   "estimate": 35.0,
+   "ci95": [
+    29.38,
+    40.62
+   ],
+   "margin": 1.0,
+   "verdict": "WIN"
+  },
+  "W5": {
+   "measure": "update",
+   "a": "SYSTEM3",
+   "b": "FROZEN",
+   "estimate": 82.81,
+   "ci95": [
+    78.44,
+    86.88
+   ],
+   "margin": 1.0,
+   "verdict": "WIN"
+  },
+  "W6": {
+   "measure": "loc",
+   "a": "SYSTEM3",
+   "b": "FROZEN",
+   "estimate": -4.38,
+   "ci95": [
+    -8.44,
+    -0.31
+   ],
+   "margin": -5.0,
+   "verdict": "not shown"
+  },
+  "W7": {
+   "measure": "gsm8k",
+   "a": "SYSTEM3",
+   "b": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    -8.0,
+    8.0
+   ],
+   "margin": -3.0,
+   "verdict": "not shown"
+  },
+  "W8": {
+   "measure": "mmlu",
+   "a": "SYSTEM3",
+   "b": "FROZEN",
+   "estimate": -2.5,
+   "ci95": [
+    -7.5,
+    2.5
+   ],
+   "margin": -2.0,
+   "verdict": "not shown"
+  },
+  "W9": {
+   "measure": "unsafe_refused",
+   "a": "SYSTEM3",
+   "b": "FROZEN",
+   "estimate": -0.5,
+   "ci95": [
+    -2.5,
+    1.5
+   ],
+   "margin": -5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "W10": {
+   "measure": "ifeval_strict",
+   "a": "SYSTEM3",
+   "b": "FROZEN",
+   "estimate": -5.5,
+   "ci95": [
+    -10.5,
+    -0.5
+   ],
+   "margin": -5.0,
+   "verdict": "not shown"
+  }
+ },
+ "descriptive": {
+  "NAIVE - FROZEN: mhop": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "NAIVE - FROZEN: rephrase": [
+   7.5,
+   3.75,
+   11.25
+  ],
+  "NAIVE - FROZEN: personas": [
+   7.81,
+   4.38,
+   11.25
+  ],
+  "NAIVE - FROZEN: loc": [
+   -1.25,
+   -4.06,
+   1.56
+  ],
+  "SYSTEM3 - FROZEN: mhop": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SYSTEM3 - FROZEN: rephrase": [
+   66.25,
+   60.62,
+   71.56
+  ],
+  "SYSTEM3 - FROZEN: personas": [
+   42.81,
+   37.19,
+   48.75
+  ],
+  "SYSTEM3 - FROZEN: loc": [
+   -4.38,
+   -8.44,
+   -0.31
+  ]
+ },
+ "verdict": "NOT SHOWN",
+ "boot": {
+  "resamples": 10000,
+  "seed": 12345
+ }
+}

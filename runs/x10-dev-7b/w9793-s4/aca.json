@@ -1,0 +1,16 @@
+{
+ "job": "x10-dev-7b-w9793-s4",
+ "execution": "x10-dev-7b-w9793-s4-ei6bknc",
+ "remote": "runs/x10-dev-7b/w9793-s4",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "c0eede5f6194484972becd0026af85988d1dcee26a459080e0813d4a3df3c1bf",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 17:00:29",
+ "machine": "Azure Container Apps serverless A100"
+}

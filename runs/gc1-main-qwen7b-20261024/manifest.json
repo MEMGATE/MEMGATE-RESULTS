@@ -1,0 +1,19 @@
+{
+ "half": "main",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 2,
+ "lr": 0.0002,
+ "batch": 8,
+ "micro_batch": 4,
+ "max_new_tokens": 4,
+ "gpu": "Kaggle T4 x2",
+ "prereg": "docs/GC1-PREREG-2026-10-24.md",
+ "code_hash": "831aee528ab51d62984e52b8b72ca0455d85e0559754487f5b975eaed7c2c930",
+ "tw2_code_hash": "de454a7e6a6bbae13c2f958125348fe7a8432a33e2c36bb0c1a58e375ae0ff4d",
+ "rows": 1008,
+ "questions": 1140,
+ "kernel": "mohitaureus/pramana-gc1-main-qwen7b-20261024",
+ "dataset": "mohitaureus/pramana-gc1-main-qwen7b-20261024-data",
+ "started": "2026-10-24 10:17:02"
+}

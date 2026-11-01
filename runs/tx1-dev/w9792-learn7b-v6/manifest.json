@@ -1,0 +1,97 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "weights": "float16",
+ "arms": [
+  "SYSTEM3"
+ ],
+ "learner": "SYSTEM4 (named SYSTEM3 in the payload), learning from text",
+ "sessions": 34,
+ "eval_after": [
+  12,
+  24,
+  34
+ ],
+ "system": 5,
+ "domain": "offices",
+ "anchors_version": "v6",
+ "reads": "runs/tx1-dev/w9792-read7b-r2",
+ "reads_payload_sha256": "052c8b0d138742521bb4567792399ad1f6c4cbf4b252dde12730e09e9c9c4785",
+ "reading": {
+  "report": {
+   "right": 11503,
+   "lost (asserted)": 313,
+   "lost (complete)": 523,
+   "lost (fitting)": 120
+  },
+  "denial": {
+   "taught nothing": 411,
+   "claim passed": 17
+  },
+  "no person": {
+   "taught nothing": 427
+  },
+  "plan": {
+   "taught nothing": 421
+  },
+  "question": {
+   "taught nothing": 412
+  },
+  "rumour": {
+   "taught nothing": 403
+  },
+  "split": {
+   "taught nothing": 794
+  }
+ },
+ "claims_per_session": [
+  260,
+  231,
+  271,
+  320,
+  276,
+  323,
+  298,
+  317,
+  305,
+  364,
+  358,
+  372,
+  346,
+  366,
+  367,
+  355,
+  348,
+  364,
+  344,
+  342,
+  331,
+  352,
+  353,
+  334,
+  345,
+  360,
+  374,
+  356,
+  359,
+  354,
+  376,
+  372,
+  376,
+  351
+ ],
+ "learned_offices_at_end": 205,
+ "code_sha256": "60f745e16da405739033b869368078a97fe07b7624c900fd5033d8d41a7209d3",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "prereg": null,
+ "payload_sha256": "8bf828fa573155b1b2fa00f011077fe10ce56480d0cc04be5f3b0ae027a109a7",
+ "packed": "2026-10-31 22:55:30"
+}

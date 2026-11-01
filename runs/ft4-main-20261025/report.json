@@ -1,0 +1,198 @@
+{
+ "phase": "main",
+ "per_world": {
+  "9600": {
+   "FROZEN": {
+    "current_w0": 0.0,
+    "current_w2": 0.0,
+    "poison": 0.0,
+    "locality": 90.0,
+    "follow_A": 33.33,
+    "follow_B": 39.26,
+    "gsm8k": 94.0,
+    "mmlu": 80.5
+   },
+   "NAIVE": {
+    "current_w0": 81.4,
+    "current_w2": 81.4,
+    "poison": 4.35,
+    "locality": 45.0,
+    "follow_A": 22.73,
+    "follow_B": 28.15,
+    "gsm8k": 100.0,
+    "mmlu": 82.5
+   },
+   "LEARNER": {
+    "current_w0": 97.67,
+    "current_w2": 97.67,
+    "poison": 0.0,
+    "locality": 40.0,
+    "follow_A": 87.88,
+    "follow_B": 54.81,
+    "gsm8k": 99.33,
+    "mmlu": 79.0
+   },
+   "LEARNER+RULES": {
+    "current_w0": 95.35,
+    "current_w2": 95.35,
+    "poison": 0.0,
+    "locality": 45.0,
+    "follow_A": 93.18,
+    "follow_B": 45.93,
+    "gsm8k": 99.33,
+    "mmlu": 84.5
+   }
+  },
+  "9601": {
+   "FROZEN": {
+    "current_w0": 0.0,
+    "current_w2": 0.0,
+    "poison": 0.0,
+    "locality": 86.67,
+    "follow_A": 33.33,
+    "follow_B": 35.56,
+    "gsm8k": 96.0,
+    "mmlu": 81.5
+   },
+   "NAIVE": {
+    "current_w0": 71.74,
+    "current_w2": 71.74,
+    "poison": 4.35,
+    "locality": 35.0,
+    "follow_A": 20.74,
+    "follow_B": 28.89,
+    "gsm8k": 98.0,
+    "mmlu": 81.5
+   },
+   "LEARNER": {
+    "current_w0": 97.83,
+    "current_w2": 97.83,
+    "poison": 0.0,
+    "locality": 48.33,
+    "follow_A": 95.56,
+    "follow_B": 48.15,
+    "gsm8k": 98.67,
+    "mmlu": 84.0
+   },
+   "LEARNER+RULES": {
+    "current_w0": 91.3,
+    "current_w2": 91.3,
+    "poison": 0.0,
+    "locality": 35.0,
+    "follow_A": 92.59,
+    "follow_B": 51.85,
+    "gsm8k": 97.33,
+    "mmlu": 82.0
+   }
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "measure": "follow_B",
+   "a": "LEARNER+RULES",
+   "b": "LEARNER",
+   "pp": -2.59,
+   "ci95": [
+    -7.78,
+    2.59
+   ]
+  },
+  "H2": {
+   "measure": "gsm8k",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": 4.0,
+   "ci95": [
+    1.33,
+    6.67
+   ]
+  },
+  "H3": {
+   "measure": "mmlu",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": 0.5,
+   "ci95": [
+    -2.0,
+    3.0
+   ]
+  },
+  "H4": {
+   "measure": "poison",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -4.35,
+   "ci95": [
+    -7.61,
+    -1.63
+   ]
+  },
+  "H5": {
+   "measure": "follow_A",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 70.04,
+   "ci95": [
+    64.42,
+    75.66
+   ]
+  },
+  "current": {
+   "measure": "current_w0",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 21.35,
+   "ci95": [
+    13.48,
+    30.34
+   ]
+  },
+  "naive_gsm8k": {
+   "measure": "gsm8k",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": 4.0,
+   "ci95": [
+    1.33,
+    6.67
+   ]
+  },
+  "naive_mmlu": {
+   "measure": "mmlu",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": 1.0,
+   "ci95": [
+    -2.0,
+    4.0
+   ]
+  },
+  "rules_gsm8k": {
+   "measure": "gsm8k",
+   "a": "LEARNER+RULES",
+   "b": "FROZEN",
+   "pp": 3.33,
+   "ci95": [
+    0.67,
+    6.0
+   ]
+  },
+  "follow_B_vs_naive": {
+   "measure": "follow_B",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 22.96,
+   "ci95": [
+    16.3,
+    29.63
+   ]
+  }
+ },
+ "verdicts": {
+  "H1": "not shown",
+  "H2": "NON-INFERIOR",
+  "H3": "not shown",
+  "H4": "WIN",
+  "H5": "WIN"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "phase": "smoke",
+ "model": "Qwen2.5-72B-Instruct",
+ "model_source": "qwen-lm/qwen2.5/transformers/72b-instruct/1",
+ "weights": "int8, group scales",
+ "machine": "Kaggle TPU v3-8",
+ "epochs": 2,
+ "lr": 0.0002,
+ "code_sha256": "8645ff924a99015d968e4ac0dec32ccb5977657a3d20a88c5ac9a6f9e2f3fed2",
+ "prereg": null,
+ "kernel": "mohitaureus/pramana-ccl2-tpu-smoke-20261024-w9790",
+ "dataset": "mohitaureus/pramana-ccl2-tpu-smoke-20261024-w9790-data",
+ "started": "2026-10-24 21:28:20"
+}

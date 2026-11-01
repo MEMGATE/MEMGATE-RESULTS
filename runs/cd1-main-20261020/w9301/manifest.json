@@ -1,0 +1,25 @@
+{
+ "argv": [
+  "--world",
+  "cd",
+  "--seed",
+  "9301",
+  "--phase",
+  "main",
+  "--out",
+  "runs/cd1-main-20261020/w9301",
+  "--account",
+  "jayeshupp-8050-resource",
+  "--base-account",
+  "memgate-ft-ncus",
+  "--prereg",
+  "docs/CD1-PREREG-2026-10-20.md"
+ ],
+ "digest": "5d241114d776f96efa959487be388b1390d8c1253973c3b43ade6956a42b539b",
+ "git_head": "da1521bd2d06bd294e92df7996aa9cfb7d0b0ec1",
+ "prereg": {
+  "path": "docs/CD1-PREREG-2026-10-20.md",
+  "sha256": "cd5946fa93be1ee53a69c647c57c769b23cf1c09e5ed1c71114a973f2797b295"
+ },
+ "started": "2026-10-20 10:49:46"
+}

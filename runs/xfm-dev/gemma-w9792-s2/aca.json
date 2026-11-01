@@ -1,0 +1,21 @@
+{
+ "job": "xfm-dev-gemma-w9792-s2",
+ "execution": "xfm-dev-gemma-w9792-s2-9nv6oz6",
+ "remote": "runs/xfm-dev/gemma-w9792-s2",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [
+  {
+   "subPath": "models/gemma2-9b-it-kaggle-v1",
+   "mountPath": "/models/gemma2-9b-it"
+  }
+ ],
+ "payload_sha256": "62890ba04f9abdc64d189bed822a13f9d7e8e8a1aa4ae9df191b8b135cb310d3",
+ "kernel_sha256": "5c8dd26229431b7cb0fdc1d4be320fb78aea4f18eae30c9aafb6cf79a2e856d4",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 16:42:02",
+ "machine": "Azure Container Apps serverless A100"
+}

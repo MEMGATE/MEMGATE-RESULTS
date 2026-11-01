@@ -1,0 +1,22 @@
+{
+  "phase": "main",
+  "code_hash": "fcfdeaa3e25e90de438a23a42b72a1da4516c47e32fa8f426b8474c0671c47cf",
+  "git_head": "304b6c5c305eaf5271390cf5b0c13fe2346a4291",
+  "git_head_at_end": "a117d31a38168732f9b67dd268e1873a39cd742a",
+  "prereg": {
+    "path": "docs/ML5-PREREG-2026-10-17.md",
+    "sha256": "f2b4762a72f4ac92b36f66e48e7de5c27c9f4efe9235aee79f908483c1b0e91a"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 10,
+  "models": [
+    "gpt-6-astra",
+    "gpt-6.1-sol"
+  ],
+  "worlds": 20,
+  "crashes": [],
+  "budget_calls": 11737,
+  "started": 1792257539.26571,
+  "seconds": 3518.921701192856
+}

@@ -1,0 +1,87 @@
+{
+ "code_hash": "e7d8961711f44d01e55873176469bba788d325c201c5d2597544a4faa094f9f1",
+ "worlds": [
+  8720,
+  8721,
+  8722,
+  8723,
+  8724,
+  8725,
+  8726,
+  8727,
+  8728,
+  8729,
+  8730,
+  8731,
+  8732,
+  8733,
+  8734,
+  8735,
+  8736,
+  8737,
+  8738,
+  8739
+ ],
+ "means": {
+  "ATTACKED": {
+   "k=2": {
+    "attacker_ever_pct": 5.29,
+    "coverage_mean_pct": 53.98,
+    "coverage_end_pct": 85.45
+   },
+   "k=3": {
+    "attacker_ever_pct": 0.0,
+    "coverage_mean_pct": 49.46,
+    "coverage_end_pct": 83.02
+   },
+   "ADAPTIVE-SAFE": {
+    "attacker_ever_pct": 0.0,
+    "coverage_mean_pct": 49.46,
+    "coverage_end_pct": 83.02
+   }
+  },
+  "CLEAN": {
+   "k=2": {
+    "attacker_ever_pct": 0.0,
+    "coverage_mean_pct": 42.75,
+    "coverage_end_pct": 69.98
+   },
+   "k=3": {
+    "attacker_ever_pct": 0.0,
+    "coverage_mean_pct": 31.18,
+    "coverage_end_pct": 55.83
+   },
+   "ADAPTIVE-SAFE": {
+    "attacker_ever_pct": 0.0,
+    "coverage_mean_pct": 37.04,
+    "coverage_end_pct": 64.96
+   }
+  }
+ },
+ "hypotheses": {
+  "H1 (primary): attacked, attacker values ever held, ADAPTIVE-SAFE - k=2": {
+   "point_pp": -5.29,
+   "ci95_pp": [
+    -5.53,
+    -5.06
+   ],
+   "verdict": "WIN"
+  },
+  "H2: clean, mean coverage, ADAPTIVE-SAFE - k=3": {
+   "point_pp": 5.85,
+   "ci95_pp": [
+    5.36,
+    6.35
+   ],
+   "verdict": "WIN"
+  },
+  "H3: attacked, attacker values ever held, ADAPTIVE-SAFE - k=3 (non-inferior)": {
+   "point_pp": 0.0,
+   "ci95_pp": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  }
+ }
+}

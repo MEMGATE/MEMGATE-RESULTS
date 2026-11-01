@@ -1,0 +1,508 @@
+{
+ "worlds": [
+  8400,
+  8401,
+  8402,
+  8403,
+  8404,
+  8405,
+  8406,
+  8407,
+  8408,
+  8409,
+  8410,
+  8411,
+  8412,
+  8413,
+  8414,
+  8415,
+  8416,
+  8417,
+  8418,
+  8419
+ ],
+ "curves": {
+  "0.0/GATE": {
+   "poison_ever": 0.55,
+   "fabricated_ever": 0.55,
+   "coverage_mean": 77.49,
+   "coverage_end": 88.31
+  },
+  "0.0/GATE-v2": {
+   "poison_ever": 0.53,
+   "fabricated_ever": 0.53,
+   "coverage_mean": 82.12,
+   "coverage_end": 97.01
+  },
+  "0.0/MAJORITY-1": {
+   "poison_ever": 8.24,
+   "fabricated_ever": 8.24,
+   "coverage_mean": 78.09,
+   "coverage_end": 81.77
+  },
+  "0.0/MAJORITY-2": {
+   "poison_ever": 6.72,
+   "fabricated_ever": 6.72,
+   "coverage_mean": 71.47,
+   "coverage_end": 81.24
+  },
+  "0.0/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 67.02,
+   "coverage_end": 81.0
+  },
+  "0.0/NAIVE": {
+   "poison_ever": 47.76,
+   "fabricated_ever": 47.76,
+   "coverage_mean": 61.89,
+   "coverage_end": 61.38
+  },
+  "0.0/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 66.21,
+   "coverage_end": 81.68
+  },
+  "0.0/TD-0.5": {
+   "poison_ever": 3.05,
+   "fabricated_ever": 3.05,
+   "coverage_mean": 78.51,
+   "coverage_end": 81.85
+  },
+  "0.0/TD-0.8": {
+   "poison_ever": 2.43,
+   "fabricated_ever": 2.43,
+   "coverage_mean": 78.23,
+   "coverage_end": 81.86
+  },
+  "0.0/TD-0.9": {
+   "poison_ever": 2.09,
+   "fabricated_ever": 2.09,
+   "coverage_mean": 76.31,
+   "coverage_end": 81.93
+  },
+  "0.0/TD-0.95": {
+   "poison_ever": 1.29,
+   "fabricated_ever": 1.29,
+   "coverage_mean": 74.94,
+   "coverage_end": 82.13
+  },
+  "0.0/TD-0.98": {
+   "poison_ever": 0.8,
+   "fabricated_ever": 0.8,
+   "coverage_mean": 74.17,
+   "coverage_end": 82.18
+  },
+  "0.0/TD-0.99": {
+   "poison_ever": 0.53,
+   "fabricated_ever": 0.53,
+   "coverage_mean": 73.26,
+   "coverage_end": 82.08
+  },
+  "0.0/TD-0.995": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 71.24,
+   "coverage_end": 81.91
+  },
+  "0.0/TD-0.999": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 69.94,
+   "coverage_end": 82.0
+  },
+  "0.01/GATE": {
+   "poison_ever": 0.59,
+   "fabricated_ever": 2.86,
+   "coverage_mean": 70.28,
+   "coverage_end": 73.08
+  },
+  "0.01/GATE-v2": {
+   "poison_ever": 0.54,
+   "fabricated_ever": 2.91,
+   "coverage_mean": 81.54,
+   "coverage_end": 96.56
+  },
+  "0.01/MAJORITY-1": {
+   "poison_ever": 8.32,
+   "fabricated_ever": 10.67,
+   "coverage_mean": 77.62,
+   "coverage_end": 81.13
+  },
+  "0.01/MAJORITY-2": {
+   "poison_ever": 6.78,
+   "fabricated_ever": 9.06,
+   "coverage_mean": 70.97,
+   "coverage_end": 80.53
+  },
+  "0.01/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.29,
+   "coverage_mean": 66.52,
+   "coverage_end": 80.3
+  },
+  "0.01/NAIVE": {
+   "poison_ever": 47.76,
+   "fabricated_ever": 47.98,
+   "coverage_mean": 61.86,
+   "coverage_end": 61.35
+  },
+  "0.01/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.32,
+   "coverage_mean": 65.72,
+   "coverage_end": 80.97
+  },
+  "0.01/TD-0.5": {
+   "poison_ever": 3.11,
+   "fabricated_ever": 5.44,
+   "coverage_mean": 78.04,
+   "coverage_end": 81.21
+  },
+  "0.01/TD-0.8": {
+   "poison_ever": 2.49,
+   "fabricated_ever": 4.81,
+   "coverage_mean": 77.75,
+   "coverage_end": 81.22
+  },
+  "0.01/TD-0.9": {
+   "poison_ever": 2.07,
+   "fabricated_ever": 4.37,
+   "coverage_mean": 75.53,
+   "coverage_end": 81.29
+  },
+  "0.01/TD-0.95": {
+   "poison_ever": 1.29,
+   "fabricated_ever": 3.6,
+   "coverage_mean": 74.4,
+   "coverage_end": 81.42
+  },
+  "0.01/TD-0.98": {
+   "poison_ever": 0.85,
+   "fabricated_ever": 3.16,
+   "coverage_mean": 73.3,
+   "coverage_end": 81.43
+  },
+  "0.01/TD-0.99": {
+   "poison_ever": 0.32,
+   "fabricated_ever": 2.63,
+   "coverage_mean": 71.76,
+   "coverage_end": 81.22
+  },
+  "0.01/TD-0.995": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.29,
+   "coverage_mean": 70.72,
+   "coverage_end": 81.22
+  },
+  "0.01/TD-0.999": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.32,
+   "coverage_mean": 69.11,
+   "coverage_end": 81.34
+  },
+  "0.05/GATE": {
+   "poison_ever": 0.62,
+   "fabricated_ever": 12.09,
+   "coverage_mean": 67.24,
+   "coverage_end": 69.95
+  },
+  "0.05/GATE-v2": {
+   "poison_ever": 0.58,
+   "fabricated_ever": 12.78,
+   "coverage_mean": 79.42,
+   "coverage_end": 94.57
+  },
+  "0.05/MAJORITY-1": {
+   "poison_ever": 8.58,
+   "fabricated_ever": 20.02,
+   "coverage_mean": 75.88,
+   "coverage_end": 79.01
+  },
+  "0.05/MAJORITY-2": {
+   "poison_ever": 7.01,
+   "fabricated_ever": 18.59,
+   "coverage_mean": 69.11,
+   "coverage_end": 78.37
+  },
+  "0.05/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 11.55,
+   "coverage_mean": 64.54,
+   "coverage_end": 78.06
+  },
+  "0.05/NAIVE": {
+   "poison_ever": 47.76,
+   "fabricated_ever": 48.82,
+   "coverage_mean": 61.77,
+   "coverage_end": 61.24
+  },
+  "0.05/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 11.51,
+   "coverage_mean": 63.74,
+   "coverage_end": 78.75
+  },
+  "0.05/TD-0.5": {
+   "poison_ever": 3.17,
+   "fabricated_ever": 14.6,
+   "coverage_mean": 76.27,
+   "coverage_end": 79.07
+  },
+  "0.05/TD-0.8": {
+   "poison_ever": 2.55,
+   "fabricated_ever": 13.99,
+   "coverage_mean": 75.95,
+   "coverage_end": 79.07
+  },
+  "0.05/TD-0.9": {
+   "poison_ever": 1.99,
+   "fabricated_ever": 13.45,
+   "coverage_mean": 73.21,
+   "coverage_end": 79.15
+  },
+  "0.05/TD-0.95": {
+   "poison_ever": 1.26,
+   "fabricated_ever": 12.73,
+   "coverage_mean": 72.25,
+   "coverage_end": 79.14
+  },
+  "0.05/TD-0.98": {
+   "poison_ever": 0.8,
+   "fabricated_ever": 12.38,
+   "coverage_mean": 70.04,
+   "coverage_end": 79.02
+  },
+  "0.05/TD-0.99": {
+   "poison_ever": 0.05,
+   "fabricated_ever": 11.54,
+   "coverage_mean": 69.11,
+   "coverage_end": 79.01
+  },
+  "0.05/TD-0.995": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 11.49,
+   "coverage_mean": 68.54,
+   "coverage_end": 79.09
+  },
+  "0.05/TD-0.999": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 11.6,
+   "coverage_mean": 66.5,
+   "coverage_end": 79.18
+  },
+  "0.1/GATE": {
+   "poison_ever": 0.62,
+   "fabricated_ever": 22.76,
+   "coverage_mean": 64.42,
+   "coverage_end": 66.55
+  },
+  "0.1/GATE-v2": {
+   "poison_ever": 0.61,
+   "fabricated_ever": 24.19,
+   "coverage_mean": 76.82,
+   "coverage_end": 91.79
+  },
+  "0.1/MAJORITY-1": {
+   "poison_ever": 8.91,
+   "fabricated_ever": 31.34,
+   "coverage_mean": 73.66,
+   "coverage_end": 76.35
+  },
+  "0.1/MAJORITY-2": {
+   "poison_ever": 7.28,
+   "fabricated_ever": 29.57,
+   "coverage_mean": 66.82,
+   "coverage_end": 75.76
+  },
+  "0.1/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 22.29,
+   "coverage_mean": 62.13,
+   "coverage_end": 75.37
+  },
+  "0.1/NAIVE": {
+   "poison_ever": 47.76,
+   "fabricated_ever": 49.74,
+   "coverage_mean": 61.65,
+   "coverage_end": 61.07
+  },
+  "0.1/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 22.43,
+   "coverage_mean": 61.26,
+   "coverage_end": 76.08
+  },
+  "0.1/TD-0.5": {
+   "poison_ever": 3.21,
+   "fabricated_ever": 25.64,
+   "coverage_mean": 73.99,
+   "coverage_end": 76.28
+  },
+  "0.1/TD-0.8": {
+   "poison_ever": 2.57,
+   "fabricated_ever": 24.93,
+   "coverage_mean": 73.49,
+   "coverage_end": 76.22
+  },
+  "0.1/TD-0.9": {
+   "poison_ever": 1.95,
+   "fabricated_ever": 24.24,
+   "coverage_mean": 70.51,
+   "coverage_end": 76.27
+  },
+  "0.1/TD-0.95": {
+   "poison_ever": 1.35,
+   "fabricated_ever": 23.67,
+   "coverage_mean": 68.55,
+   "coverage_end": 76.17
+  },
+  "0.1/TD-0.98": {
+   "poison_ever": 0.66,
+   "fabricated_ever": 22.97,
+   "coverage_mean": 67.24,
+   "coverage_end": 76.31
+  },
+  "0.1/TD-0.99": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 22.24,
+   "coverage_mean": 66.34,
+   "coverage_end": 76.38
+  },
+  "0.1/TD-0.995": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 22.18,
+   "coverage_mean": 65.04,
+   "coverage_end": 76.55
+  },
+  "0.1/TD-0.999": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 22.17,
+   "coverage_mean": 63.28,
+   "coverage_end": 76.4
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "a": "GATE-v2",
+   "b": "TD-0.98",
+   "eps": 0.0,
+   "measure": "coverage_mean",
+   "pp_mean": 7.95,
+   "ci95": [
+    7.76,
+    8.14
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H1-poison": {
+   "a": "GATE-v2",
+   "b": "TD-0.98",
+   "eps": 0.0,
+   "measure": "poison_ever",
+   "pp_mean": -0.26,
+   "ci95": [
+    -0.49,
+    -0.04
+   ],
+   "worlds_above_0": 7,
+   "worlds_below_0": 13
+  },
+  "H2": {
+   "a": "GATE-v2",
+   "b": "TD-0.5",
+   "eps": 0.0,
+   "measure": "coverage_mean",
+   "pp_mean": 3.61,
+   "ci95": [
+    3.34,
+    3.88
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H2-poison": {
+   "a": "GATE-v2",
+   "b": "TD-0.5",
+   "eps": 0.0,
+   "measure": "poison_ever",
+   "pp_mean": -2.52,
+   "ci95": [
+    -2.8,
+    -2.24
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "H3": {
+   "a": "GATE-v2",
+   "b": "TD-0.98",
+   "eps": 0.05,
+   "measure": "coverage_mean",
+   "pp_mean": 9.38,
+   "ci95": [
+    9.14,
+    9.61
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H3-poison": {
+   "a": "GATE-v2",
+   "b": "TD-0.98",
+   "eps": 0.05,
+   "measure": "poison_ever",
+   "pp_mean": -0.22,
+   "ci95": [
+    -0.42,
+    -0.02
+   ],
+   "worlds_above_0": 7,
+   "worlds_below_0": 13
+  },
+  "v1-vs-TD0.98": {
+   "a": "GATE",
+   "b": "TD-0.98",
+   "eps": 0.0,
+   "measure": "coverage_mean",
+   "pp_mean": 3.32,
+   "ci95": [
+    3.18,
+    3.46
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "v1-vs-TD0.98-noisy": {
+   "a": "GATE",
+   "b": "TD-0.98",
+   "eps": 0.05,
+   "measure": "coverage_mean",
+   "pp_mean": -2.8,
+   "ci95": [
+    -3.04,
+    -2.56
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "H4": {
+   "a": "GATE-v2 at 5%",
+   "b": "GATE-v2 at 0%",
+   "measure": "coverage_mean",
+   "pp_mean": -2.7,
+   "ci95": [
+    -2.88,
+    -2.52
+   ]
+  }
+ },
+ "verdicts": {
+  "H1": "WIN",
+  "H2": "WIN",
+  "H3": "WIN",
+  "H4": "NON-INFERIOR"
+ }
+}

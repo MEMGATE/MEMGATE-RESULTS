@@ -1,0 +1,643 @@
+{
+ "sessions": 34,
+ "per_world": {
+  "9792": {
+   "budget-alone": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 35.4,
+    "follow_A": 90.4,
+    "follow_B": 91.3,
+    "dated": 71.4,
+    "skills": 67.9,
+    "gsm8k": 84.0,
+    "mmlu": 65.5,
+    "follow": 90.9,
+    "locality_own": 30.0,
+    "kept": 100.0
+   },
+   "budget-routed": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 99.2,
+    "follow_A": 90.4,
+    "follow_B": 91.3,
+    "dated": 71.4,
+    "skills": 67.9,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 90.9,
+    "locality_own": 98.8,
+    "kept": 100.0
+   },
+   "full-alone": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 29.3,
+    "follow_A": 95.5,
+    "follow_B": 96.9,
+    "dated": 72.6,
+    "skills": 28.6,
+    "gsm8k": 82.0,
+    "mmlu": 62.0,
+    "follow": 96.3,
+    "locality_own": 25.0,
+    "kept": 100.0
+   },
+   "full-routed": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 99.2,
+    "follow_A": 95.5,
+    "follow_B": 96.9,
+    "dated": 72.6,
+    "skills": 28.6,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 96.3,
+    "locality_own": 98.8,
+    "kept": 100.0
+   }
+  }
+ },
+ "validity": {
+  "9792": {
+   "budget": {
+    "done": true,
+    "answered_last": 2323,
+    "removals": [
+     4
+    ]
+   },
+   "full": {
+    "done": true,
+    "answered_last": 2323,
+    "removals": [
+     4
+    ]
+   },
+   "untouched_answers_identical": [
+    1620,
+    1620
+   ]
+  }
+ },
+ "cost": {
+  "9792": {
+   "budget": [
+    [
+     1,
+     2081,
+     319
+    ],
+    [
+     2,
+     2121,
+     326
+    ],
+    [
+     3,
+     2050,
+     318
+    ],
+    [
+     4,
+     2141,
+     328
+    ],
+    [
+     5,
+     2259,
+     340
+    ],
+    [
+     6,
+     2331,
+     343
+    ],
+    [
+     7,
+     2335,
+     347
+    ],
+    [
+     8,
+     2435,
+     357
+    ],
+    [
+     9,
+     2537,
+     368
+    ],
+    [
+     10,
+     2389,
+     357
+    ],
+    [
+     11,
+     2387,
+     360
+    ],
+    [
+     12,
+     2301,
+     350
+    ],
+    [
+     13,
+     2462,
+     366
+    ],
+    [
+     14,
+     2525,
+     373
+    ],
+    [
+     15,
+     2367,
+     354
+    ],
+    [
+     16,
+     2473,
+     368
+    ],
+    [
+     17,
+     2470,
+     366
+    ],
+    [
+     18,
+     2448,
+     366
+    ],
+    [
+     19,
+     2376,
+     355
+    ],
+    [
+     20,
+     2277,
+     346
+    ],
+    [
+     21,
+     2278,
+     335
+    ],
+    [
+     22,
+     2251,
+     334
+    ],
+    [
+     23,
+     2253,
+     347
+    ],
+    [
+     24,
+     2272,
+     351
+    ],
+    [
+     25,
+     2284,
+     350
+    ],
+    [
+     26,
+     2274,
+     351
+    ],
+    [
+     27,
+     2303,
+     353
+    ],
+    [
+     28,
+     2324,
+     355
+    ],
+    [
+     29,
+     2288,
+     351
+    ],
+    [
+     30,
+     2294,
+     354
+    ],
+    [
+     31,
+     2297,
+     348
+    ],
+    [
+     32,
+     2282,
+     348
+    ],
+    [
+     33,
+     2287,
+     355
+    ],
+    [
+     34,
+     2290,
+     353
+    ]
+   ],
+   "full": [
+    [
+     1,
+     2081,
+     330
+    ],
+    [
+     2,
+     2121,
+     331
+    ],
+    [
+     3,
+     2050,
+     321
+    ],
+    [
+     4,
+     2137,
+     335
+    ],
+    [
+     5,
+     2217,
+     346
+    ],
+    [
+     6,
+     2325,
+     361
+    ],
+    [
+     7,
+     2462,
+     371
+    ],
+    [
+     8,
+     2583,
+     380
+    ],
+    [
+     9,
+     2702,
+     386
+    ],
+    [
+     10,
+     2651,
+     380
+    ],
+    [
+     11,
+     2695,
+     388
+    ],
+    [
+     12,
+     2689,
+     393
+    ],
+    [
+     13,
+     2842,
+     410
+    ],
+    [
+     14,
+     2965,
+     414
+    ],
+    [
+     15,
+     2948,
+     421
+    ],
+    [
+     16,
+     3014,
+     423
+    ],
+    [
+     17,
+     3081,
+     431
+    ],
+    [
+     18,
+     3110,
+     437
+    ],
+    [
+     19,
+     3189,
+     445
+    ],
+    [
+     20,
+     3214,
+     443
+    ],
+    [
+     21,
+     3197,
+     447
+    ],
+    [
+     22,
+     3224,
+     451
+    ],
+    [
+     23,
+     3258,
+     455
+    ],
+    [
+     24,
+     3254,
+     459
+    ],
+    [
+     25,
+     3289,
+     447
+    ],
+    [
+     26,
+     3330,
+     448
+    ],
+    [
+     27,
+     3428,
+     471
+    ],
+    [
+     28,
+     3439,
+     459
+    ],
+    [
+     29,
+     3454,
+     482
+    ],
+    [
+     30,
+     3524,
+     493
+    ],
+    [
+     31,
+     3517,
+     482
+    ],
+    [
+     32,
+     3611,
+     502
+    ],
+    [
+     33,
+     3614,
+     501
+    ],
+    [
+     34,
+     3598,
+     481
+    ]
+   ],
+   "budget_late_over_early": 1.011,
+   "budget_seconds_last_ten": 351.8,
+   "full_late_over_early": 1.492,
+   "full_seconds_last_ten": 476.6
+  }
+ },
+ "hypotheses": {
+  "B1": {
+   "measure": "current_w0",
+   "view": "routed",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "B2": {
+   "measure": "kept",
+   "view": "routed",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "B3": {
+   "measure": "early_kept",
+   "view": "routed",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "B4": {
+   "measure": "dated",
+   "view": "routed",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": -1.28,
+   "ci95": [
+    -6.41,
+    4.27
+   ],
+   "margin": -2.0,
+   "verdict": "not shown"
+  },
+  "B5": {
+   "measure": "follow",
+   "view": "routed",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": -5.41,
+   "ci95": [
+    -8.26,
+    -2.56
+   ],
+   "margin": -2.0,
+   "verdict": "wrong side"
+  },
+  "B6": {
+   "measure": "poison",
+   "view": "routed",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": 1.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "B7": {
+   "measure": "gsm8k",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 2.0,
+   "ci95": [
+    -5.33,
+    9.33
+   ],
+   "margin": -3.0,
+   "verdict": "not shown"
+  },
+  "B8": {
+   "measure": "mmlu",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 3.5,
+   "ci95": [
+    -3.0,
+    10.0
+   ],
+   "margin": -2.0,
+   "verdict": "not shown"
+  },
+  "B9": {
+   "measure": "locality_own",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 5.0,
+   "ci95": [
+    -6.25,
+    16.25
+   ],
+   "margin": -5.0,
+   "verdict": "not shown"
+  },
+  "current_w0-alone": {
+   "measure": "current_w0",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR",
+   "secondary": true
+  },
+  "kept-alone": {
+   "measure": "kept",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR",
+   "secondary": true
+  },
+  "early_kept-alone": {
+   "measure": "early_kept",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR",
+   "secondary": true
+  },
+  "dated-alone": {
+   "measure": "dated",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": -1.28,
+   "ci95": [
+    -6.41,
+    4.27
+   ],
+   "margin": -2.0,
+   "verdict": "not shown",
+   "secondary": true
+  },
+  "follow-alone": {
+   "measure": "follow",
+   "view": "alone",
+   "a": "bounded learner",
+   "b": "full learner",
+   "estimate": -5.41,
+   "ci95": [
+    -8.26,
+    -2.56
+   ],
+   "margin": -2.0,
+   "verdict": "wrong side",
+   "secondary": true
+  }
+ },
+ "verdict": "FAILED",
+ "boot": {
+  "resamples": 10000,
+  "seed": 12345
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "world": [
+  9708,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-72B-Instruct",
+ "revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+ "weights": "4-bit NF4",
+ "arms": [
+  "SYSTEM3",
+  "NAIVE"
+ ],
+ "sessions": 34,
+ "eval_after": [
+  12,
+  24,
+  34
+ ],
+ "system": 5,
+ "domain": "offices",
+ "code_sha256": "ad6417fcfa43fb4a28fb83314a7df2221a6b8519bb4d70dc4fd36ef78c410c96",
+ "prereg": "docs/CCL6-PREREG-2026-10-28.md",
+ "payload_sha256": "3f3dbaaa064b6533b1a9605f74c922de6cc0555ce87216ba4f8ec238f2bd99dc",
+ "packed": "2026-10-28 17:06:11"
+}

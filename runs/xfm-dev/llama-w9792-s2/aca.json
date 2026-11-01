@@ -1,0 +1,21 @@
+{
+ "job": "xfm-dev-llama-w9792-s2",
+ "execution": "xfm-dev-llama-w9792-s2-bi2kaxq",
+ "remote": "runs/xfm-dev/llama-w9792-s2",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [
+  {
+   "subPath": "models/llama31-8b-instruct-azureml-v6",
+   "mountPath": "/models/llama31-8b-instruct"
+  }
+ ],
+ "payload_sha256": "06b6df7857d9bffe83a5cfa93fa31e0b37d0b61a600446f69f1c84c51d78370a",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 16:30:34",
+ "machine": "Azure Container Apps serverless A100"
+}

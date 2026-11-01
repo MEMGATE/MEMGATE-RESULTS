@@ -1,0 +1,15 @@
+{
+ "phase": "dev",
+ "seeds": [
+  0,
+  1
+ ],
+ "arms": [
+  "ROLLBACK",
+  "UNPOISONED",
+  "LEDGER",
+  "FROZEN"
+ ],
+ "code_hash": "1267755896a32d5872e668f5917bd1096b9d99e5194e402fbb27037776488319",
+ "prereg": null
+}

@@ -1,0 +1,23 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 6,
+ "lr": 0.0002,
+ "doses": [
+  25,
+  50,
+  100,
+  150
+ ],
+ "code_hash": "4257ce37f08ceb11df476e84933e54b29c088d2e873822476474136435ea96bb",
+ "rows": {
+  "P25": 1550,
+  "P50": 1600,
+  "P100": 1700,
+  "P150": 1800
+ },
+ "questions": 300,
+ "kernel": "mohitaureus/pramana-tw5-qwen7b-20261023",
+ "dataset": "mohitaureus/pramana-tw5-qwen7b-20261023-data",
+ "started": "2026-10-23 10:46:01"
+}

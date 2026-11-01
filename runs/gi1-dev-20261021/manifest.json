@@ -1,0 +1,11 @@
+{
+ "half": "dev",
+ "models": [
+  "gpt-4.1-base",
+  "gpt-6.1-sol",
+  "gpt-6-astra"
+ ],
+ "code_hash": "b270df9cc03b4389b7eb90c20156b5c566a3a78f58156ea397954e9394aaf5a8",
+ "prereg": null,
+ "started": "2026-10-21 19:32:58"
+}

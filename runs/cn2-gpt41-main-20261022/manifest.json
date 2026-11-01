@@ -1,0 +1,13 @@
+{
+ "phase": "main",
+ "model": "gpt-4.1-2025-04-14",
+ "tier": "Standard",
+ "epochs": 4,
+ "lr_multiplier": 2.0,
+ "deployment": "DeveloperTier, capacity 20",
+ "volume": 10,
+ "rehearse": true,
+ "cn2_code_hash": "7ba116f4e0e22d4f9709b2802ffc9291fb030912eadf5bc7f11ea816a827664c",
+ "prereg": "docs/CN2-PREREG-2026-10-22.md",
+ "started": "2026-10-22 19:57:58"
+}

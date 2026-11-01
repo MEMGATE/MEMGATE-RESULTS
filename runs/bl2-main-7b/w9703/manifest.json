@@ -1,0 +1,36 @@
+{
+ "world": [
+  9703,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "RAG-STREAM",
+  "RAG-GATE"
+ ],
+ "evals": [
+  12
+ ],
+ "sizes": {
+  "RAG-STREAM@12": {
+   "facts": 166,
+   "questions": 1543,
+   "with_facts": 912
+  },
+  "RAG-GATE@12": {
+   "facts": 166,
+   "questions": 1543,
+   "with_facts": 917
+  }
+ },
+ "questions_from": "runs/ccl4-main-7b-colab/w9703/dataset/payload.json",
+ "prereg": "docs/BL2-PREREG-2026-10-27.md",
+ "code_sha256": "6859a256eec262f2ab37ffe32bc18326419460c20a56a222d5743195666aa083",
+ "payload_sha256": "6cc1564e4322266e034d721f5087596099ad5cc971cef64bbb9875429f424a36",
+ "packed": "2026-10-27 20:35:22"
+}

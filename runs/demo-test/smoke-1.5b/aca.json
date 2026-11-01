@@ -1,0 +1,21 @@
+{
+ "job": "demo-test-smoke-1-5b",
+ "execution": "demo-test-smoke-1-5b-ytbiyip",
+ "remote": "runs/demo-test/smoke-1.5b",
+ "gpu": "t4",
+ "hours": 2.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [
+  {
+   "subPath": "demo/bundle-rw1-dev-1.5b",
+   "mountPath": "/bundle"
+  }
+ ],
+ "payload_sha256": "29e4b208668fd23a26c9269fa23d0b3bda6c5a8bb5a2dc2e611e318b54c5c69d",
+ "kernel_sha256": "93bdf66aac97b15127526ee34d8a1cb8ca1f2d09ce193e0d7628343a9e88179b",
+ "cpu": 8,
+ "memory": "56Gi",
+ "usd_per_hour": 1.64,
+ "started": "2026-10-28 22:58:45",
+ "machine": "Azure Container Apps serverless T4"
+}

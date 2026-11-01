@@ -1,0 +1,425 @@
+{
+ "worlds": [
+  [
+   9790,
+   "dev"
+  ]
+ ],
+ "per_world": {
+  "9790": {
+   "FROZEN@4": {
+    "current_w0": 35.09,
+    "current_w2": 33.33,
+    "poison": 0.0,
+    "stale": 35.0,
+    "locality": 100.0,
+    "follow_A": 49.21,
+    "follow_B": 45.83,
+    "dated": 17.78,
+    "skills": 0.0,
+    "gsm8k": 94.0,
+    "mmlu": 72.5
+   },
+   "FROZEN@8": {
+    "current_w0": 8.77,
+    "current_w2": 7.02,
+    "poison": 0.0,
+    "early_kept": 0.0,
+    "stale": 51.16,
+    "locality": 100.0,
+    "follow_A": 43.9,
+    "follow_B": 47.44,
+    "dated": 19.89,
+    "skills": 4.76,
+    "gsm8k": 94.0,
+    "mmlu": 72.5
+   },
+   "FROZEN@12": {
+    "current_w0": 0.0,
+    "current_w2": 0.0,
+    "poison": 0.0,
+    "early_kept": 0.0,
+    "stale": 47.37,
+    "locality": 100.0,
+    "follow_A": 39.74,
+    "follow_B": 46.15,
+    "dated": 17.95,
+    "skills": 3.57,
+    "gsm8k": 94.0,
+    "mmlu": 72.5
+   },
+   "NAIVE@4": {
+    "current_w0": 96.49,
+    "current_w2": 96.49,
+    "poison": 17.35,
+    "stale": 10.0,
+    "locality": 41.67,
+    "follow_A": 47.62,
+    "follow_B": 51.39,
+    "dated": 36.67,
+    "skills": 14.29,
+    "gsm8k": 92.67,
+    "mmlu": 74.0
+   },
+   "NAIVE@8": {
+    "current_w0": 96.49,
+    "current_w2": 94.74,
+    "poison": 20.41,
+    "early_kept": 100.0,
+    "stale": 2.33,
+    "locality": 36.67,
+    "follow_A": 41.46,
+    "follow_B": 45.51,
+    "dated": 40.86,
+    "skills": 47.62,
+    "gsm8k": 88.0,
+    "mmlu": 74.0
+   },
+   "NAIVE@12": {
+    "current_w0": 98.25,
+    "current_w2": 98.25,
+    "poison": 8.16,
+    "early_kept": 100.0,
+    "stale": 1.75,
+    "locality": 35.0,
+    "follow_A": 37.82,
+    "follow_B": 43.59,
+    "dated": 48.72,
+    "skills": 10.71,
+    "gsm8k": 93.33,
+    "mmlu": 68.5
+   },
+   "LEARNER@4": {
+    "current_w0": 96.49,
+    "current_w2": 94.74,
+    "poison": 1.02,
+    "stale": 10.0,
+    "locality": 51.67,
+    "follow_A": 68.25,
+    "follow_B": 51.39,
+    "dated": 40.0,
+    "skills": 28.57,
+    "gsm8k": 92.0,
+    "mmlu": 71.0
+   },
+   "LEARNER@8": {
+    "current_w0": 96.49,
+    "current_w2": 96.49,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 4.65,
+    "locality": 25.0,
+    "follow_A": 51.22,
+    "follow_B": 42.31,
+    "dated": 46.77,
+    "skills": 61.9,
+    "gsm8k": 92.67,
+    "mmlu": 72.0
+   },
+   "LEARNER@12": {
+    "current_w0": 98.25,
+    "current_w2": 98.25,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.75,
+    "locality": 28.33,
+    "follow_A": 20.51,
+    "follow_B": 18.97,
+    "dated": 50.0,
+    "skills": 46.43,
+    "gsm8k": 92.0,
+    "mmlu": 73.0
+   },
+   "LEARNER-routed@4": {
+    "current_w0": 96.49,
+    "current_w2": 94.74,
+    "poison": 0.0,
+    "stale": 10.0,
+    "locality": 100.0,
+    "follow_A": 68.25,
+    "follow_B": 45.83,
+    "dated": 42.22,
+    "skills": 28.57,
+    "gsm8k": 94.0,
+    "mmlu": 72.5
+   },
+   "LEARNER-routed@8": {
+    "current_w0": 96.49,
+    "current_w2": 96.49,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 4.65,
+    "locality": 100.0,
+    "follow_A": 51.22,
+    "follow_B": 42.31,
+    "dated": 47.85,
+    "skills": 61.9,
+    "gsm8k": 94.0,
+    "mmlu": 72.5
+   },
+   "LEARNER-routed@12": {
+    "current_w0": 98.25,
+    "current_w2": 98.25,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.75,
+    "locality": 100.0,
+    "follow_A": 20.51,
+    "follow_B": 18.97,
+    "dated": 50.0,
+    "skills": 46.43,
+    "gsm8k": 94.0,
+    "mmlu": 72.5
+   }
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "measure": "poison",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -8.16,
+   "ci95": [
+    -14.29,
+    -3.06
+   ]
+  },
+  "H2": {
+   "measure": "current_w0",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "H3": {
+   "measure": "early_kept",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "H4": {
+   "measure": "stale",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "H5": {
+   "measure": "dated",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 1.28,
+   "ci95": [
+    -1.28,
+    3.85
+   ]
+  },
+  "H6": {
+   "measure": "skills",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 35.71,
+   "ci95": [
+    14.29,
+    57.14
+   ]
+  },
+  "H7": {
+   "measure": "follow_B",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -24.62,
+   "ci95": [
+    -32.82,
+    -16.41
+   ]
+  },
+  "H8": {
+   "measure": "gsm8k",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": -2.0,
+   "ci95": [
+    -6.0,
+    2.0
+   ]
+  },
+  "H9": {
+   "measure": "mmlu",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": 0.5,
+   "ci95": [
+    -3.5,
+    4.5
+   ]
+  },
+  "H10": {
+   "measure": "locality",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": -71.67,
+   "ci95": [
+    -83.33,
+    -60.0
+   ]
+  },
+  "follow_A": {
+   "measure": "follow_A",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -17.31,
+   "ci95": [
+    -26.92,
+    -7.69
+   ]
+  },
+  "current_w2": {
+   "measure": "current_w2",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "naive_gsm8k": {
+   "measure": "gsm8k",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": -0.67,
+   "ci95": [
+    -4.0,
+    2.67
+   ]
+  },
+  "naive_locality": {
+   "measure": "locality",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": -65.0,
+   "ci95": [
+    -76.67,
+    -53.33
+   ]
+  },
+  "routed_locality": {
+   "measure": "locality",
+   "a": "LEARNER-routed",
+   "b": "FROZEN",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "routed_poison": {
+   "measure": "poison",
+   "a": "LEARNER-routed",
+   "b": "NAIVE",
+   "pp": -8.16,
+   "ci95": [
+    -14.29,
+    -3.06
+   ]
+  },
+  "routed_current_w0": {
+   "measure": "current_w0",
+   "a": "LEARNER-routed",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "acquisition": {
+  "9790": [
+   {
+    "session": 2,
+    "recent": 83,
+    "right_pct": 98.8
+   },
+   {
+    "session": 3,
+    "recent": 43,
+    "right_pct": 95.3
+   },
+   {
+    "session": 4,
+    "recent": 13,
+    "right_pct": 100.0
+   },
+   {
+    "session": 5,
+    "recent": 19,
+    "right_pct": 89.5
+   },
+   {
+    "session": 6,
+    "recent": 21,
+    "right_pct": 95.2
+   },
+   {
+    "session": 7,
+    "recent": 26,
+    "right_pct": 100.0
+   },
+   {
+    "session": 8,
+    "recent": 25,
+    "right_pct": 100.0
+   },
+   {
+    "session": 9,
+    "recent": 27,
+    "right_pct": 92.6
+   },
+   {
+    "session": 10,
+    "recent": 16,
+    "right_pct": 93.8
+   },
+   {
+    "session": 11,
+    "recent": 20,
+    "right_pct": 100.0
+   },
+   {
+    "session": 12,
+    "recent": 25,
+    "right_pct": 96.0
+   }
+  ]
+ },
+ "verdicts": {
+  "H1": "WIN",
+  "H2": "NON-INFERIOR",
+  "H3": "NON-INFERIOR",
+  "H4": "not shown",
+  "H5": "not shown",
+  "H6": "WIN",
+  "H7": "not shown",
+  "H8": "not shown",
+  "H9": "not shown",
+  "H10": "not shown"
+ },
+ "validity": {
+  "frozen_current_pct": {
+   "9790": 0.0
+  },
+  "invalid": false
+ }
+}

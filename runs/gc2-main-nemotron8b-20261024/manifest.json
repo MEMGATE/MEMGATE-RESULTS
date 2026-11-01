@@ -1,0 +1,20 @@
+{
+ "half": "main",
+ "model": "nvidia/Llama-3.1-Nemotron-Nano-8B-v1",
+ "revision": "54641c1611fcff44fa4865626462445e0a153fc7",
+ "epochs": 2,
+ "lr": 0.0002,
+ "batch": 8,
+ "micro_batch": 4,
+ "ask_batch": 16,
+ "max_new_tokens": 512,
+ "gpu": "Kaggle T4 x2",
+ "prereg": "docs/GC2-PREREG-2026-10-24.md",
+ "code_hash": "46da32ece15b98e24c0c2915f5c78f675cf64226ec8cc7d3a4c84d90e3dc4b82",
+ "tw2_code_hash": "de454a7e6a6bbae13c2f958125348fe7a8432a33e2c36bb0c1a58e375ae0ff4d",
+ "rows": 1008,
+ "questions": 1319,
+ "kernel": "mohitaureus/pramana-gc2-main-nemotron8b-20261024",
+ "dataset": "mohitaureus/pramana-gc2-main-nemotron8b-20261024-data",
+ "started": "2026-10-24 14:56:08"
+}

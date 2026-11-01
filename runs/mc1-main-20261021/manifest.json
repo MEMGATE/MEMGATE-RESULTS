@@ -1,0 +1,12 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-6.1-sol",
+  "claude-opus-5-5",
+  "gpt-4.1-base",
+  "llama-4-maverick"
+ ],
+ "code_hash": "d689d14555456dc1c68a3b33d4f2d862468ea02a8e0ca6af31c125f721a24317",
+ "prereg": "docs/MC1-PREREG-2026-10-21.md",
+ "started": "2026-10-21 18:38:07"
+}

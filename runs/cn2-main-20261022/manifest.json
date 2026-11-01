@@ -1,0 +1,55 @@
+{
+ "phase": "main",
+ "worlds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "policies": [
+  "NEWEST",
+  "RANDOM",
+  "FR2"
+ ],
+ "volume": 10,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "rehearse": true,
+ "epochs": 4,
+ "lr": 0.0002,
+ "batch": 16,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "targets": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj"
+ ],
+ "gpu": "L40S",
+ "code_hash": "7ba116f4e0e22d4f9709b2802ffc9291fb030912eadf5bc7f11ea816a827664c",
+ "prereg": {
+  "path": "docs/CN2-PREREG-2026-10-22.md",
+  "sha256": "9455f59c8fc7f7770b4184b085a416608915407b94742df9057a7ab965321613"
+ },
+ "started": "2026-10-22 12:48:46"
+}

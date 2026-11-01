@@ -1,0 +1,29 @@
+{
+  "phase": "dev",
+  "code_hash": "bf245e4bf7d708f9144030be4154fb5c8b45ee855f3ce9d351f3e6d18ab09223",
+  "git_head": "f3b3f525d3cdce07f435dcf009c03a24d6043ee2",
+  "prereg": null,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "gpu": "L40S",
+  "tasks": 3,
+  "failures": [],
+  "gpu_seconds": 6030.747242689133,
+  "estimated_gpu_dollars": 3.27,
+  "wall_seconds": 3115.4862880706787,
+  "dismissed": {
+    "0:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ]
+  },
+  "replay": {
+    "0": [
+      1488,
+      20511
+    ]
+  }
+}

@@ -1,0 +1,2390 @@
+{
+  "phase": "dev",
+  "code_hash": "cae00c5ff075cf481932ee9c50efd311c44db9f9d7615f394f08bd163262ae96",
+  "git_head": "4ee8936bf0999756d8cf9fdb4a437af88712e251",
+  "prereg": null,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 3,
+  "tasks": 5560,
+  "failures": [
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        1,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        2,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        3,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        4,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        5,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        6,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        7,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        8,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        9,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        1,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        2,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        3,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        4,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        5,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        6,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        7,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        8,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        9,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        1,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        2,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        3,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        4,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        5,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        6,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        7,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        8,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        9,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "EXT-DT"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "R-ORD"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "EXT-NB"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "airlines",
+        0,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('airlines')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "EXT-DT"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "EXT-NB"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "R-ORD"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "elec2",
+        0,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('elec2')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "EXT-DT"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "EXT-1NN"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "EXT-NB"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "R-ORD"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "R-ORD+PRATYAHARA"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "R-ORD+AKHYATI"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "MIX-SR6"
+      ],
+      "error": "KeyError('gasdrift')"
+    },
+    {
+      "job": [
+        "exposed-stream",
+        "gasdrift",
+        0,
+        "MIX-BEST"
+      ],
+      "error": "KeyError('gasdrift')"
+    }
+  ],
+  "started": 1792241202.475881,
+  "seconds": 724.4527268409729
+}

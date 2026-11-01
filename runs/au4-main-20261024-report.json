@@ -1,0 +1,415 @@
+{
+ "worlds": [
+  8460,
+  8461,
+  8462,
+  8463,
+  8464,
+  8465,
+  8466,
+  8467,
+  8468,
+  8469,
+  8470,
+  8471,
+  8472,
+  8473,
+  8474,
+  8475,
+  8476,
+  8477,
+  8478,
+  8479
+ ],
+ "curves": {
+  "0.0/GATE-v2": {
+   "poison_ever": 0.58,
+   "fabricated_ever": 0.58,
+   "coverage_mean": 81.99,
+   "coverage_end": 97.25
+  },
+  "0.0/GATE-v3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 79.51,
+   "coverage_end": 97.23
+  },
+  "0.0/MAJORITY-1": {
+   "poison_ever": 8.35,
+   "fabricated_ever": 8.35,
+   "coverage_mean": 78.0,
+   "coverage_end": 82.33
+  },
+  "0.0/MAJORITY-2": {
+   "poison_ever": 6.66,
+   "fabricated_ever": 6.66,
+   "coverage_mean": 71.61,
+   "coverage_end": 81.7
+  },
+  "0.0/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 67.17,
+   "coverage_end": 81.44
+  },
+  "0.0/NAIVE": {
+   "poison_ever": 47.91,
+   "fabricated_ever": 47.91,
+   "coverage_mean": 61.9,
+   "coverage_end": 62.09
+  },
+  "0.0/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 0.0,
+   "coverage_mean": 66.24,
+   "coverage_end": 81.98
+  },
+  "0.0/TD-0.5": {
+   "poison_ever": 3.09,
+   "fabricated_ever": 3.09,
+   "coverage_mean": 78.44,
+   "coverage_end": 82.43
+  },
+  "0.0/TD-0.98": {
+   "poison_ever": 0.72,
+   "fabricated_ever": 0.72,
+   "coverage_mean": 74.13,
+   "coverage_end": 82.62
+  },
+  "0.01/GATE-v2": {
+   "poison_ever": 0.59,
+   "fabricated_ever": 2.89,
+   "coverage_mean": 81.5,
+   "coverage_end": 96.85
+  },
+  "0.01/GATE-v3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.32,
+   "coverage_mean": 79.05,
+   "coverage_end": 96.82
+  },
+  "0.01/MAJORITY-1": {
+   "poison_ever": 8.39,
+   "fabricated_ever": 10.53,
+   "coverage_mean": 77.58,
+   "coverage_end": 81.87
+  },
+  "0.01/MAJORITY-2": {
+   "poison_ever": 6.72,
+   "fabricated_ever": 8.88,
+   "coverage_mean": 71.18,
+   "coverage_end": 81.22
+  },
+  "0.01/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.18,
+   "coverage_mean": 66.69,
+   "coverage_end": 80.97
+  },
+  "0.01/NAIVE": {
+   "poison_ever": 47.91,
+   "fabricated_ever": 48.12,
+   "coverage_mean": 61.87,
+   "coverage_end": 62.08
+  },
+  "0.01/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 2.19,
+   "coverage_mean": 65.78,
+   "coverage_end": 81.52
+  },
+  "0.01/TD-0.5": {
+   "poison_ever": 3.15,
+   "fabricated_ever": 5.3,
+   "coverage_mean": 78.01,
+   "coverage_end": 81.97
+  },
+  "0.01/TD-0.98": {
+   "poison_ever": 0.71,
+   "fabricated_ever": 2.91,
+   "coverage_mean": 73.54,
+   "coverage_end": 82.13
+  },
+  "0.05/GATE-v2": {
+   "poison_ever": 0.63,
+   "fabricated_ever": 12.32,
+   "coverage_mean": 79.4,
+   "coverage_end": 94.87
+  },
+  "0.05/GATE-v3": {
+   "poison_ever": 0.01,
+   "fabricated_ever": 11.7,
+   "coverage_mean": 77.07,
+   "coverage_end": 94.8
+  },
+  "0.05/MAJORITY-1": {
+   "poison_ever": 8.69,
+   "fabricated_ever": 19.97,
+   "coverage_mean": 75.8,
+   "coverage_end": 79.66
+  },
+  "0.05/MAJORITY-2": {
+   "poison_ever": 6.96,
+   "fabricated_ever": 18.24,
+   "coverage_mean": 69.34,
+   "coverage_end": 78.98
+  },
+  "0.05/MAJORITY-3": {
+   "poison_ever": 0.01,
+   "fabricated_ever": 11.19,
+   "coverage_mean": 64.83,
+   "coverage_end": 78.72
+  },
+  "0.05/NAIVE": {
+   "poison_ever": 47.91,
+   "fabricated_ever": 48.9,
+   "coverage_mean": 61.79,
+   "coverage_end": 61.97
+  },
+  "0.05/REGISTRY-ONLY": {
+   "poison_ever": 0.01,
+   "fabricated_ever": 11.28,
+   "coverage_mean": 63.89,
+   "coverage_end": 79.29
+  },
+  "0.05/TD-0.5": {
+   "poison_ever": 3.09,
+   "fabricated_ever": 14.34,
+   "coverage_mean": 76.22,
+   "coverage_end": 79.75
+  },
+  "0.05/TD-0.98": {
+   "poison_ever": 0.7,
+   "fabricated_ever": 12.01,
+   "coverage_mean": 70.17,
+   "coverage_end": 79.71
+  },
+  "0.1/GATE-v2": {
+   "poison_ever": 0.67,
+   "fabricated_ever": 24.02,
+   "coverage_mean": 76.5,
+   "coverage_end": 91.99
+  },
+  "0.1/GATE-v3": {
+   "poison_ever": 0.01,
+   "fabricated_ever": 23.24,
+   "coverage_mean": 74.41,
+   "coverage_end": 91.87
+  },
+  "0.1/MAJORITY-1": {
+   "poison_ever": 8.97,
+   "fabricated_ever": 31.07,
+   "coverage_mean": 73.65,
+   "coverage_end": 77.09
+  },
+  "0.1/MAJORITY-2": {
+   "poison_ever": 7.19,
+   "fabricated_ever": 29.27,
+   "coverage_mean": 67.02,
+   "coverage_end": 76.19
+  },
+  "0.1/MAJORITY-3": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 21.94,
+   "coverage_mean": 62.44,
+   "coverage_end": 75.93
+  },
+  "0.1/NAIVE": {
+   "poison_ever": 47.91,
+   "fabricated_ever": 49.86,
+   "coverage_mean": 61.66,
+   "coverage_end": 61.81
+  },
+  "0.1/REGISTRY-ONLY": {
+   "poison_ever": 0.0,
+   "fabricated_ever": 21.95,
+   "coverage_mean": 61.49,
+   "coverage_end": 76.5
+  },
+  "0.1/TD-0.5": {
+   "poison_ever": 3.01,
+   "fabricated_ever": 25.06,
+   "coverage_mean": 74.03,
+   "coverage_end": 77.09
+  },
+  "0.1/TD-0.98": {
+   "poison_ever": 0.49,
+   "fabricated_ever": 22.67,
+   "coverage_mean": 67.39,
+   "coverage_end": 76.82
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "a": "GATE-v3",
+   "b": "TD-0.98",
+   "eps": 0.05,
+   "measure": "coverage_mean",
+   "pp_mean": 6.9,
+   "ci95": [
+    6.66,
+    7.14
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H1-poison": {
+   "a": "GATE-v3",
+   "b": "TD-0.98",
+   "eps": 0.05,
+   "measure": "poison_ever",
+   "pp_mean": -0.69,
+   "ci95": [
+    -0.78,
+    -0.6
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "H2": {
+   "a": "GATE-v3",
+   "b": "GATE-v2",
+   "eps": 0.05,
+   "measure": "coverage_mean",
+   "pp_mean": -2.33,
+   "ci95": [
+    -2.49,
+    -2.17
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "v3-vs-v2-poison-5": {
+   "a": "GATE-v3",
+   "b": "GATE-v2",
+   "eps": 0.05,
+   "measure": "poison_ever",
+   "pp_mean": -0.63,
+   "ci95": [
+    -0.72,
+    -0.53
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "v3-vs-v2-fabricated-5": {
+   "a": "GATE-v3",
+   "b": "GATE-v2",
+   "eps": 0.05,
+   "measure": "fabricated_ever",
+   "pp_mean": -0.62,
+   "ci95": [
+    -0.91,
+    -0.33
+   ],
+   "worlds_above_0": 3,
+   "worlds_below_0": 17
+  },
+  "v3-vs-TD0.98-fabricated-5": {
+   "a": "GATE-v3",
+   "b": "TD-0.98",
+   "eps": 0.05,
+   "measure": "fabricated_ever",
+   "pp_mean": -0.31,
+   "ci95": [
+    -0.7,
+    0.08
+   ],
+   "worlds_above_0": 4,
+   "worlds_below_0": 15
+  },
+  "v3-vs-TD0.98-10": {
+   "a": "GATE-v3",
+   "b": "TD-0.98",
+   "eps": 0.1,
+   "measure": "coverage_mean",
+   "pp_mean": 7.02,
+   "ci95": [
+    6.8,
+    7.25
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "v3-vs-v2-10": {
+   "a": "GATE-v3",
+   "b": "GATE-v2",
+   "eps": 0.1,
+   "measure": "coverage_mean",
+   "pp_mean": -2.09,
+   "ci95": [
+    -2.25,
+    -1.92
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "v3-vs-TD0.98-0": {
+   "a": "GATE-v3",
+   "b": "TD-0.98",
+   "eps": 0.0,
+   "measure": "coverage_mean",
+   "pp_mean": 5.38,
+   "ci95": [
+    5.16,
+    5.61
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H4": {
+   "a": "GATE-v3 at 5%",
+   "b": "GATE-v3 at 0%",
+   "measure": "coverage_mean",
+   "pp_mean": -2.44,
+   "ci95": [
+    -2.55,
+    -2.33
+   ]
+  }
+ },
+ "honest_dismissed": {
+  "0.0/GATE-v2": 0,
+  "0.0/GATE-v3": 0,
+  "0.0/MAJORITY-1": 0,
+  "0.0/MAJORITY-2": 0,
+  "0.0/MAJORITY-3": 0,
+  "0.0/NAIVE": 0,
+  "0.0/REGISTRY-ONLY": 0,
+  "0.0/TD-0.5": 0,
+  "0.0/TD-0.98": 0,
+  "0.01/GATE-v2": 0,
+  "0.01/GATE-v3": 0,
+  "0.01/MAJORITY-1": 0,
+  "0.01/MAJORITY-2": 0,
+  "0.01/MAJORITY-3": 0,
+  "0.01/NAIVE": 0,
+  "0.01/REGISTRY-ONLY": 0,
+  "0.01/TD-0.5": 0,
+  "0.01/TD-0.98": 0,
+  "0.05/GATE-v2": 0,
+  "0.05/GATE-v3": 0,
+  "0.05/MAJORITY-1": 0,
+  "0.05/MAJORITY-2": 0,
+  "0.05/MAJORITY-3": 0,
+  "0.05/NAIVE": 0,
+  "0.05/REGISTRY-ONLY": 0,
+  "0.05/TD-0.5": 0,
+  "0.05/TD-0.98": 0,
+  "0.1/GATE-v2": 0,
+  "0.1/GATE-v3": 0,
+  "0.1/MAJORITY-1": 0,
+  "0.1/MAJORITY-2": 0,
+  "0.1/MAJORITY-3": 0,
+  "0.1/NAIVE": 0,
+  "0.1/REGISTRY-ONLY": 0,
+  "0.1/TD-0.5": 0,
+  "0.1/TD-0.98": 0
+ },
+ "verdicts": {
+  "H1": "WIN",
+  "H2": "not shown",
+  "H3": "HELD",
+  "H4": "NON-INFERIOR"
+ }
+}

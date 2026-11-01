@@ -1,0 +1,16 @@
+{
+ "job": "ccl4c72-dev-72b-w9792-errors-s4",
+ "execution": "ccl4c72-dev-72b-w9792-errors-s4-5bxoufj",
+ "remote": "runs/ccl4c72-dev-72b/w9792-errors-s4",
+ "gpu": "a100",
+ "hours": 6.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "6c1eb8780226cf36a22f3ee306fceff38df85c7af119c12ed019db7f61db7994",
+ "kernel_sha256": "fbc850700f8749aa208197628b502ebb441b349162438e3988692f346411430b",
+ "cpu": 24.0,
+ "memory": "220Gi",
+ "usd_per_hour": 6.93,
+ "started": "2026-10-28 12:21:21",
+ "machine": "Azure Container Apps serverless A100"
+}

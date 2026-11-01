@@ -1,0 +1,19 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "share": 0.35,
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "arms": [
+  "NAIVE",
+  "LEARNER",
+  "LEARNER+RECITE"
+ ],
+ "recite": 400,
+ "code_sha256": "c6fa6669a9b9ab1b8dad4caf1161887f19e586777833e94b611724fc98685fd7",
+ "kernel": "mohitaureus/pramana-clx1-20261025-w9790",
+ "dataset": "mohitaureus/pramana-clx1-20261025-w9790-data",
+ "started": "2026-10-25 10:18:51"
+}

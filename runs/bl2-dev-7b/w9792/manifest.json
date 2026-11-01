@@ -1,0 +1,36 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 20,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "RAG-STREAM",
+  "RAG-GATE"
+ ],
+ "evals": [
+  12
+ ],
+ "sizes": {
+  "RAG-STREAM@12": {
+   "facts": 177,
+   "questions": 1600,
+   "with_facts": 972
+  },
+  "RAG-GATE@12": {
+   "facts": 177,
+   "questions": 1600,
+   "with_facts": 975
+  }
+ },
+ "questions_from": "runs/aca-dev/w9792-s2b/dataset/payload.json",
+ "prereg": null,
+ "code_sha256": "3e9f444cfc5c167544fa16baefeb2edd7b0d57d2065012b22e57a0033a4cc7a9",
+ "payload_sha256": "f025d9470ff6f4d2f7590457d692702d8548b9048abef3f8818b47082a78acf8",
+ "packed": "2026-10-27 20:10:37"
+}

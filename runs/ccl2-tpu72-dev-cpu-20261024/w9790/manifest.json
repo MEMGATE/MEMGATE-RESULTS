@@ -1,0 +1,20 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "phase": "dev",
+ "part": "all",
+ "anchors_from": null,
+ "model": "Qwen2.5-72B-Instruct",
+ "model_source": "qwen-lm/qwen2.5/transformers/72b-instruct/1",
+ "weights": "int8, group scales",
+ "machine": "Kaggle TPU v5e-8",
+ "epochs": 2,
+ "lr": 0.0002,
+ "code_sha256": "5c191c8a1d58935cc31a68d73bfba3271ca753fb70c4e4df625bede56a756009",
+ "prereg": null,
+ "kernel": "mohitaureus/pramana-ccl2-tpu72-dev-20261024-w9790",
+ "dataset": "mohitaureus/pramana-ccl2-tpu72-dev-20261024-w9790-data",
+ "started": "2026-10-24 22:40:44"
+}

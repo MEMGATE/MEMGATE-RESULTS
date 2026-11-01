@@ -1,0 +1,25 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 20,
+ "wide": true,
+ "errors_at": 0,
+ "model": "gpt-4.1",
+ "arms": [
+  "NAIVE",
+  "SYSTEM3"
+ ],
+ "sessions": 2,
+ "eval_after": [
+  4,
+  8,
+  12
+ ],
+ "route": "Azure continuous fine-tuning",
+ "code_sha256": "327a958b74b63362c566e1a56586217400f26d5ecfc8c0e3fa300ab476f79661",
+ "payload_sha256": "dd944a4c48fef722ed817641ceac31d3ec5fb158358d7c3df3a5f5343c718a47",
+ "packed": "2026-10-27 11:43:12"
+}

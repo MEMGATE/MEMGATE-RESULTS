@@ -1,0 +1,12 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-4.1-base",
+  "gpt-6.1-sol",
+  "llama-4-maverick",
+  "gpt-6-astra"
+ ],
+ "code_hash": "8b3d65ef1abcd67e35539417441c75f24f7e6a6bbc7a9aca54d2602ed4bbfd39",
+ "prereg": "docs/MLM-PREREG-2026-10-21.md",
+ "started": "2026-10-21 17:33:30"
+}

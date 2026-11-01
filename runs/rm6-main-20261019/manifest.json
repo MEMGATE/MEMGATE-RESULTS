@@ -1,0 +1,50 @@
+{
+  "phase": "main",
+  "code_hash": "33fa1fb63e8890b01f6e88337ea069d409d9ccd1e7cf58399904a574bf04397f",
+  "prereg": {
+    "path": "docs/RM6-PREREG-2026-10-19.md",
+    "sha256": "172c97177adc4d85e26148d25ed90f8b2fd58f330105dba351ceedaed5662ad1"
+  },
+  "model": "gpt-4.1-nano",
+  "served": [
+    "gpt-4.1-nano-2025-04-14"
+  ],
+  "worlds": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007
+  ],
+  "usage": {
+    "LATEST": {
+      "calls": 4800,
+      "input": 248670,
+      "output": 26191,
+      "errors": 0
+    },
+    "RAW": {
+      "calls": 4800,
+      "input": 1850441,
+      "output": 26147,
+      "errors": 0
+    },
+    "GATED": {
+      "calls": 4800,
+      "input": 204492,
+      "output": 26211,
+      "errors": 0
+    },
+    "NONE": {
+      "calls": 1600,
+      "input": 39810,
+      "output": 13323,
+      "errors": 0
+    }
+  },
+  "wall_seconds": 5649.428220748901,
+  "compared_with": "runs\\rm1-main-20261019\\worlds.jsonl"
+}

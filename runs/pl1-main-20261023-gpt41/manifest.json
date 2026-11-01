@@ -1,0 +1,9 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-4.1-base"
+ ],
+ "code_hash": "6a35989647af1c23210636321bccb702dd0cff527f4f910aac9fc81465a12451",
+ "prereg": "docs/PL1-PREREG-2026-10-23.md",
+ "started": "2026-10-23 15:39:46"
+}

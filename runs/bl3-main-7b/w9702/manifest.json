@@ -1,0 +1,28 @@
+{
+ "world": [
+  9702,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "SYSTEM2"
+ ],
+ "sessions": 12,
+ "system": 4,
+ "retrieval_questions": 909,
+ "questions_from": "runs/ccl4-main-7b-colab/w9702/dataset/payload.json",
+ "rag_from": "runs/bl2-main-7b/w9702/dataset/payload.json",
+ "prereg": "docs/BL3-PREREG-2026-10-28.md",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "4ddd891ccbaa2db695e1e0ee4296719aa1fd9fb89947218270381896e1f54864",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "payload_sha256": "1a607fc8d1262675abed1ff183fa30446096bdc24240af2b151c25ca6a003524",
+ "packed": "2026-10-28 12:35:26"
+}

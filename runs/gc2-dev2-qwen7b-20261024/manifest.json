@@ -1,0 +1,20 @@
+{
+ "half": "dev",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 2,
+ "lr": 0.0002,
+ "batch": 8,
+ "micro_batch": 4,
+ "ask_batch": 16,
+ "max_new_tokens": 512,
+ "gpu": "Kaggle T4 x2",
+ "prereg": null,
+ "code_hash": "46da32ece15b98e24c0c2915f5c78f675cf64226ec8cc7d3a4c84d90e3dc4b82",
+ "tw2_code_hash": "de454a7e6a6bbae13c2f958125348fe7a8432a33e2c36bb0c1a58e375ae0ff4d",
+ "rows": 1008,
+ "questions": 100,
+ "kernel": "mohitaureus/pramana-gc2-dev2-qwen7b-20261024",
+ "dataset": "mohitaureus/pramana-gc2-dev2-qwen7b-20261024-data",
+ "started": "2026-10-24 12:15:12"
+}

@@ -1,0 +1,422 @@
+{
+ "per_world": {
+  "9702": {
+   "NAIVE-LR2e-05": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 51.1,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 78.4
+    },
+    "NAIVE": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 6.5,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 21.7,
+     "follow_A": 30.5,
+     "follow_B": 31.6,
+     "dated": 48.6,
+     "skills": 0.0,
+     "gsm8k": 37.3,
+     "mmlu": 68.0,
+     "follow": 31.1,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 70.2,
+     "follow_B": 74.0,
+     "dated": 68.9,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 72.3,
+     "kept": 100.0
+    },
+    "NAIVE-LR2e-05": {
+     "current_w0": 97.8,
+     "current_w2": 95.6,
+     "poison": 3.3,
+     "early_kept": 100.0,
+     "stale": 2.2,
+     "locality": 13.7,
+     "follow_A": 36.9,
+     "follow_B": 37.9,
+     "dated": 35.8,
+     "skills": 0.0,
+     "gsm8k": 92.0,
+     "mmlu": 71.5,
+     "follow": 37.4,
+     "kept": 100.0
+    }
+   },
+   "NAIVE-LR5e-06": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 51.1,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 78.4
+    },
+    "NAIVE": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 6.5,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 21.7,
+     "follow_A": 30.5,
+     "follow_B": 31.6,
+     "dated": 48.6,
+     "skills": 0.0,
+     "gsm8k": 37.3,
+     "mmlu": 68.0,
+     "follow": 31.1,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 70.2,
+     "follow_B": 74.0,
+     "dated": 68.9,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 72.3,
+     "kept": 100.0
+    },
+    "NAIVE-LR5e-06": {
+     "current_w0": 71.1,
+     "current_w2": 46.7,
+     "poison": 1.1,
+     "early_kept": 87.5,
+     "stale": 4.4,
+     "locality": 17.1,
+     "follow_A": 39.7,
+     "follow_B": 40.7,
+     "dated": 6.6,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 74.5,
+     "follow": 40.3,
+     "kept": 94.6
+    }
+   }
+  },
+  "9703": {
+   "NAIVE-LR2e-05": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 52.0,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 68.6
+    },
+    "NAIVE": {
+     "current_w0": 96.0,
+     "current_w2": 96.0,
+     "poison": 10.9,
+     "early_kept": 100.0,
+     "stale": 4.0,
+     "locality": 29.3,
+     "follow_A": 31.2,
+     "follow_B": 34.5,
+     "dated": 47.2,
+     "skills": 0.0,
+     "gsm8k": 70.0,
+     "mmlu": 52.0,
+     "follow": 33.0,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 98.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 78.7,
+     "follow_B": 75.1,
+     "dated": 64.2,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 76.7,
+     "kept": 100.0
+    },
+    "NAIVE-LR2e-05": {
+     "current_w0": 96.0,
+     "current_w2": 92.0,
+     "poison": 10.9,
+     "early_kept": 100.0,
+     "stale": 4.0,
+     "locality": 12.5,
+     "follow_A": 35.5,
+     "follow_B": 39.5,
+     "dated": 31.1,
+     "skills": 0.0,
+     "gsm8k": 93.3,
+     "mmlu": 72.5,
+     "follow": 37.7,
+     "kept": 100.0
+    }
+   },
+   "NAIVE-LR5e-06": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 52.0,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 68.6
+    },
+    "NAIVE": {
+     "current_w0": 96.0,
+     "current_w2": 96.0,
+     "poison": 10.9,
+     "early_kept": 100.0,
+     "stale": 4.0,
+     "locality": 29.3,
+     "follow_A": 31.2,
+     "follow_B": 34.5,
+     "dated": 47.2,
+     "skills": 0.0,
+     "gsm8k": 70.0,
+     "mmlu": 52.0,
+     "follow": 33.0,
+     "kept": 100.0
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 98.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 78.7,
+     "follow_B": 75.1,
+     "dated": 64.2,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 76.7,
+     "kept": 100.0
+    },
+    "NAIVE-LR5e-06": {
+     "current_w0": 70.0,
+     "current_w2": 40.0,
+     "poison": 2.2,
+     "early_kept": 90.9,
+     "stale": 2.0,
+     "locality": 21.3,
+     "follow_A": 34.0,
+     "follow_B": 36.2,
+     "dated": 12.3,
+     "skills": 0.0,
+     "gsm8k": 93.3,
+     "mmlu": 74.0,
+     "follow": 35.2,
+     "kept": 97.1
+    }
+   }
+  }
+ },
+ "comparisons": {
+  "NAIVE-LR2e-05": {
+   "N1": {
+    "measure": "poison",
+    "estimate": -7.07,
+    "ci95": [
+     -10.87,
+     -3.8
+    ],
+    "verdict": "WIN"
+   },
+   "N2": {
+    "measure": "current_w0",
+    "estimate": 3.16,
+    "ci95": [
+     0.0,
+     7.37
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N3": {
+    "measure": "locality",
+    "estimate": 86.12,
+    "ci95": [
+     83.27,
+     88.97
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N4": {
+    "measure": "kept",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N5": {
+    "measure": "dated",
+    "estimate": 33.02,
+    "ci95": [
+     27.59,
+     38.44
+    ],
+    "verdict": "WIN"
+   },
+   "N6": {
+    "measure": "follow",
+    "estimate": 36.95,
+    "ci95": [
+     32.39,
+     41.51
+    ],
+    "verdict": "WIN"
+   },
+   "N7a": {
+    "measure": "gsm8k",
+    "estimate": 1.33,
+    "ci95": [
+     -1.67,
+     4.33
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N7b": {
+    "measure": "mmlu",
+    "estimate": 0.5,
+    "ci95": [
+     -2.0,
+     3.0
+    ],
+    "verdict": "not shown"
+   }
+  },
+  "NAIVE-LR5e-06": {
+   "N1": {
+    "measure": "poison",
+    "estimate": -1.63,
+    "ci95": [
+     -3.8,
+     0.0
+    ],
+    "verdict": "not shown"
+   },
+   "N2": {
+    "measure": "current_w0",
+    "estimate": 29.47,
+    "ci95": [
+     21.05,
+     38.95
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N3": {
+    "measure": "locality",
+    "estimate": 80.04,
+    "ci95": [
+     76.62,
+     83.46
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N4": {
+    "measure": "kept",
+    "estimate": 4.17,
+    "ci95": [
+     0.0,
+     9.72
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N5": {
+    "measure": "dated",
+    "estimate": 57.08,
+    "ci95": [
+     51.89,
+     62.03
+    ],
+    "verdict": "WIN"
+   },
+   "N6": {
+    "measure": "follow",
+    "estimate": 36.79,
+    "ci95": [
+     32.23,
+     41.35
+    ],
+    "verdict": "WIN"
+   },
+   "N7a": {
+    "measure": "gsm8k",
+    "estimate": 0.33,
+    "ci95": [
+     -2.0,
+     2.67
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "N7b": {
+    "measure": "mmlu",
+    "estimate": -1.75,
+    "ci95": [
+     -4.0,
+     0.25
+    ],
+    "verdict": "not shown"
+   }
+  }
+ }
+}

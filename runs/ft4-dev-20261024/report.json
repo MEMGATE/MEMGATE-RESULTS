@@ -1,0 +1,156 @@
+{
+ "phase": "dev",
+ "per_world": {
+  "9690": {
+   "FROZEN": {
+    "current_w0": 0.0,
+    "current_w2": 0.0,
+    "poison": 0.0,
+    "locality": 98.33,
+    "follow_A": 34.67,
+    "follow_B": 41.33,
+    "gsm8k": 92.0,
+    "mmlu": 82.0
+   },
+   "NAIVE": {
+    "current_w0": 75.93,
+    "current_w2": 75.93,
+    "poison": 6.12,
+    "locality": 60.0,
+    "follow_A": 18.67,
+    "follow_B": 26.67,
+    "gsm8k": 95.33,
+    "mmlu": 81.0
+   },
+   "LEARNER": {
+    "current_w0": 100.0,
+    "current_w2": 100.0,
+    "poison": 0.0,
+    "locality": 76.67,
+    "follow_A": 92.0,
+    "follow_B": 38.67,
+    "gsm8k": 98.0,
+    "mmlu": 81.5
+   },
+   "LEARNER+RULES": {
+    "current_w0": 94.44,
+    "current_w2": 94.44,
+    "poison": 0.0,
+    "locality": 73.33,
+    "follow_A": 93.33,
+    "follow_B": 42.67,
+    "gsm8k": 99.33,
+    "mmlu": 83.5
+   }
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "measure": "follow_B",
+   "a": "LEARNER+RULES",
+   "b": "LEARNER",
+   "pp": 4.0,
+   "ci95": [
+    -1.33,
+    9.33
+   ]
+  },
+  "H2": {
+   "measure": "gsm8k",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": 6.0,
+   "ci95": [
+    2.0,
+    10.67
+   ]
+  },
+  "H3": {
+   "measure": "mmlu",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": -0.5,
+   "ci95": [
+    -4.0,
+    3.5
+   ]
+  },
+  "H4": {
+   "measure": "poison",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -6.12,
+   "ci95": [
+    -11.22,
+    -2.04
+   ]
+  },
+  "H5": {
+   "measure": "follow_A",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 73.33,
+   "ci95": [
+    65.33,
+    80.67
+   ]
+  },
+  "current": {
+   "measure": "current_w0",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 24.07,
+   "ci95": [
+    12.96,
+    35.19
+   ]
+  },
+  "naive_gsm8k": {
+   "measure": "gsm8k",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": 3.33,
+   "ci95": [
+    -2.0,
+    8.67
+   ]
+  },
+  "naive_mmlu": {
+   "measure": "mmlu",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": -1.0,
+   "ci95": [
+    -5.5,
+    3.5
+   ]
+  },
+  "rules_gsm8k": {
+   "measure": "gsm8k",
+   "a": "LEARNER+RULES",
+   "b": "FROZEN",
+   "pp": 7.33,
+   "ci95": [
+    3.33,
+    12.0
+   ]
+  },
+  "follow_B_vs_naive": {
+   "measure": "follow_B",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 12.0,
+   "ci95": [
+    3.33,
+    20.67
+   ]
+  }
+ },
+ "verdicts": {
+  "H1": "not shown",
+  "H2": "NON-INFERIOR",
+  "H3": "not shown",
+  "H4": "WIN",
+  "H5": "WIN"
+ }
+}

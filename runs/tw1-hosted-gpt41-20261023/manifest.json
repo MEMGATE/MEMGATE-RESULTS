@@ -1,0 +1,15 @@
+{
+ "half": "main",
+ "base_model": "gpt-4.1-2025-04-14",
+ "accounts": {
+  "CURRENT": "memgate-ft-stdswc10",
+  "DATED": "memgate-ft-stdswc10",
+  "PRACTICE": "memgate-ft-stdswc12"
+ },
+ "tier": "Standard",
+ "epochs": 6,
+ "lr_multiplier": 2.0,
+ "code_hash": "e07e035df1f2d77029dd03899087dac90276b35fb135925743be7f92f6de352f",
+ "prereg": "docs/TW1-PREREG-2026-10-22.md",
+ "started": "2026-10-24 17:04:05"
+}

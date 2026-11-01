@@ -1,0 +1,15 @@
+{
+ "job": "aca-dev-w9792-s2",
+ "execution": "aca-dev-w9792-s2-05zpppg",
+ "remote": "runs/aca-dev/w9792-s2",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "payload_sha256": "2bb17d587ce04895f0e68f5c53575169efabaf09e6faec6bd9d64dd52a54bedd",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-27 18:57:56",
+ "machine": "Azure Container Apps serverless A100"
+}

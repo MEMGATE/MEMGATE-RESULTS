@@ -1,0 +1,436 @@
+{
+ "worlds": [
+  [
+   9790,
+   "dev"
+  ]
+ ],
+ "per_world": {
+  "9790": {
+   "FROZEN@4": {
+    "current_w0": 77.19,
+    "current_w2": 71.93,
+    "poison": 0.0,
+    "stale": 50.0,
+    "locality": 91.67,
+    "follow_A": 66.67,
+    "follow_B": 81.94,
+    "dated": 53.33,
+    "skills": 0.0,
+    "gsm8k": 98.0,
+    "mmlu": 83.5
+   },
+   "FROZEN@8": {
+    "current_w0": 38.6,
+    "current_w2": 33.33,
+    "poison": 0.0,
+    "early_kept": 57.14,
+    "stale": 74.42,
+    "locality": 91.67,
+    "follow_A": 55.28,
+    "follow_B": 67.31,
+    "dated": 39.78,
+    "skills": 19.05,
+    "gsm8k": 98.0,
+    "mmlu": 83.5
+   },
+   "FROZEN@12": {
+    "current_w0": 7.02,
+    "current_w2": 5.26,
+    "poison": 0.0,
+    "early_kept": 57.14,
+    "stale": 87.72,
+    "locality": 91.67,
+    "follow_A": 55.13,
+    "follow_B": 58.46,
+    "dated": 33.76,
+    "skills": 28.57,
+    "gsm8k": 98.0,
+    "mmlu": 83.5
+   },
+   "NAIVE@4": {
+    "current_w0": 87.72,
+    "current_w2": 87.72,
+    "poison": 8.16,
+    "stale": 25.0,
+    "locality": 86.67,
+    "follow_A": 44.44,
+    "follow_B": 61.11,
+    "dated": 43.33,
+    "skills": 0.0,
+    "gsm8k": 97.33,
+    "mmlu": 84.0
+   },
+   "NAIVE@8": {
+    "current_w0": 94.74,
+    "current_w2": 94.74,
+    "poison": 14.29,
+    "early_kept": 100.0,
+    "stale": 4.65,
+    "locality": 70.0,
+    "follow_A": 6.5,
+    "follow_B": 16.03,
+    "dated": 39.25,
+    "skills": 23.81,
+    "gsm8k": 48.0,
+    "mmlu": 75.5
+   },
+   "NAIVE@12": {
+    "current_w0": 85.96,
+    "current_w2": 84.21,
+    "poison": 3.06,
+    "early_kept": 100.0,
+    "stale": 3.51,
+    "locality": 30.0,
+    "follow_A": 0.0,
+    "follow_B": 1.03,
+    "dated": 27.35,
+    "skills": 0.0,
+    "gsm8k": 8.0,
+    "mmlu": 34.0
+   },
+   "LEARNER@4": {
+    "current_w0": 92.98,
+    "current_w2": 92.98,
+    "poison": 0.0,
+    "stale": 20.0,
+    "locality": 86.67,
+    "follow_A": 90.48,
+    "follow_B": 88.89,
+    "dated": 74.44,
+    "skills": 71.43,
+    "gsm8k": 98.0,
+    "mmlu": 83.0
+   },
+   "LEARNER@8": {
+    "current_w0": 91.23,
+    "current_w2": 85.96,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 11.63,
+    "locality": 75.0,
+    "follow_A": 91.06,
+    "follow_B": 66.67,
+    "dated": 63.98,
+    "skills": 4.76,
+    "gsm8k": 99.33,
+    "mmlu": 82.0
+   },
+   "LEARNER@12": {
+    "current_w0": 84.21,
+    "current_w2": 84.21,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 14.04,
+    "locality": 66.67,
+    "follow_A": 91.67,
+    "follow_B": 65.13,
+    "dated": 60.68,
+    "skills": 67.86,
+    "gsm8k": 99.33,
+    "mmlu": 81.0
+   },
+   "LEARNER-routed@4": {
+    "current_w0": 92.98,
+    "current_w2": 92.98,
+    "poison": 0.0,
+    "stale": 20.0,
+    "locality": 91.67,
+    "follow_A": 87.3,
+    "follow_B": 87.5,
+    "dated": 73.33,
+    "skills": 71.43,
+    "gsm8k": 98.0,
+    "mmlu": 83.5
+   },
+   "LEARNER-routed@8": {
+    "current_w0": 91.23,
+    "current_w2": 85.96,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 11.63,
+    "locality": 91.67,
+    "follow_A": 91.06,
+    "follow_B": 67.95,
+    "dated": 64.52,
+    "skills": 4.76,
+    "gsm8k": 98.0,
+    "mmlu": 83.5
+   },
+   "LEARNER-routed@12": {
+    "current_w0": 84.21,
+    "current_w2": 84.21,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 14.04,
+    "locality": 91.67,
+    "follow_A": 91.67,
+    "follow_B": 65.13,
+    "dated": 60.68,
+    "skills": 67.86,
+    "gsm8k": 98.0,
+    "mmlu": 83.5
+   }
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "measure": "poison",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -3.06,
+   "ci95": [
+    -7.14,
+    0.0
+   ]
+  },
+  "H2": {
+   "measure": "current_w0",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": -1.75,
+   "ci95": [
+    -12.28,
+    10.53
+   ]
+  },
+  "H3": {
+   "measure": "early_kept",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "H4": {
+   "measure": "stale",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 10.53,
+   "ci95": [
+    1.75,
+    21.05
+   ]
+  },
+  "H5": {
+   "measure": "dated",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 33.33,
+   "ci95": [
+    26.5,
+    40.17
+   ]
+  },
+  "H6": {
+   "measure": "skills",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 67.86,
+   "ci95": [
+    50.0,
+    85.71
+   ]
+  },
+  "H7": {
+   "measure": "follow_B",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 64.1,
+   "ci95": [
+    57.44,
+    70.77
+   ]
+  },
+  "H8": {
+   "measure": "gsm8k",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": 1.33,
+   "ci95": [
+    0.0,
+    3.33
+   ]
+  },
+  "H9": {
+   "measure": "mmlu",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": -2.5,
+   "ci95": [
+    -6.5,
+    1.5
+   ]
+  },
+  "H10": {
+   "measure": "locality",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": -25.0,
+   "ci95": [
+    -40.0,
+    -10.0
+   ]
+  },
+  "H11": {
+   "measure": "current_w0",
+   "a": "LEARNER",
+   "b": "FROZEN",
+   "pp": 77.19,
+   "ci95": [
+    66.67,
+    87.72
+   ]
+  },
+  "follow_A": {
+   "measure": "follow_A",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 91.67,
+   "ci95": [
+    87.18,
+    95.51
+   ]
+  },
+  "current_w2": {
+   "measure": "current_w2",
+   "a": "LEARNER",
+   "b": "NAIVE",
+   "pp": 0.0,
+   "ci95": [
+    -10.53,
+    8.77
+   ]
+  },
+  "naive_gsm8k": {
+   "measure": "gsm8k",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": -90.0,
+   "ci95": [
+    -94.67,
+    -84.67
+   ]
+  },
+  "naive_locality": {
+   "measure": "locality",
+   "a": "NAIVE",
+   "b": "FROZEN",
+   "pp": -61.67,
+   "ci95": [
+    -75.0,
+    -46.67
+   ]
+  },
+  "routed_locality": {
+   "measure": "locality",
+   "a": "LEARNER-routed",
+   "b": "FROZEN",
+   "pp": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "routed_poison": {
+   "measure": "poison",
+   "a": "LEARNER-routed",
+   "b": "NAIVE",
+   "pp": -3.06,
+   "ci95": [
+    -7.14,
+    0.0
+   ]
+  },
+  "routed_current_w0": {
+   "measure": "current_w0",
+   "a": "LEARNER-routed",
+   "b": "NAIVE",
+   "pp": -1.75,
+   "ci95": [
+    -12.28,
+    10.53
+   ]
+  }
+ },
+ "acquisition": {
+  "9790": [
+   {
+    "session": 2,
+    "recent": 83,
+    "right_pct": 90.4
+   },
+   {
+    "session": 3,
+    "recent": 43,
+    "right_pct": 93.0
+   },
+   {
+    "session": 4,
+    "recent": 13,
+    "right_pct": 100.0
+   },
+   {
+    "session": 5,
+    "recent": 19,
+    "right_pct": 78.9
+   },
+   {
+    "session": 6,
+    "recent": 21,
+    "right_pct": 85.7
+   },
+   {
+    "session": 7,
+    "recent": 26,
+    "right_pct": 76.9
+   },
+   {
+    "session": 8,
+    "recent": 25,
+    "right_pct": 64.0
+   },
+   {
+    "session": 9,
+    "recent": 27,
+    "right_pct": 74.1
+   },
+   {
+    "session": 10,
+    "recent": 16,
+    "right_pct": 75.0
+   },
+   {
+    "session": 11,
+    "recent": 20,
+    "right_pct": 75.0
+   },
+   {
+    "session": 12,
+    "recent": 25,
+    "right_pct": 44.0
+   }
+  ]
+ },
+ "verdicts": {
+  "H1": "not shown",
+  "H2": "not shown",
+  "H3": "NON-INFERIOR",
+  "H4": "not shown",
+  "H5": "WIN",
+  "H6": "WIN",
+  "H7": "WIN",
+  "H8": "NON-INFERIOR",
+  "H9": "not shown",
+  "H10": "not shown",
+  "H11": "WIN"
+ },
+ "validity": {
+  "frozen_current_pct": {
+   "9790": 7.02
+  },
+  "invalid": false
+ }
+}

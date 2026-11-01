@@ -1,0 +1,16 @@
+{
+ "job": "ccl4c-main-7b-w9717-errors",
+ "execution": "ccl4c-main-7b-w9717-errors-ofu03vg",
+ "remote": "runs/ccl4c-main-7b/w9717-errors",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "5cf15bf71bb89a01183ed15e004b89219022550872b7d56419cecdabed28a3de",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 05:40:00",
+ "machine": "Azure Container Apps serverless A100"
+}

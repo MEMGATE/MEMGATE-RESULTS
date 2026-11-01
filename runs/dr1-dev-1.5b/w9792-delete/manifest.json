@@ -1,0 +1,184 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "weights": "float16",
+ "arms": [
+  "SYSTEM3"
+ ],
+ "learner": "SYSTEM4 (named SYSTEM3 in the payload)",
+ "variant": "delete",
+ "sessions": 34,
+ "eval_after": [
+  12,
+  24,
+  34
+ ],
+ "system": 5,
+ "domain": "offices",
+ "anchors_version": "v5",
+ "same_as": "runs/ccl7-dev-1.5b/w9792-v5/dataset/payload.json",
+ "request_session": 25,
+ "deleted": [
+  {
+   "office": [
+    "P169",
+    "Q157062"
+   ],
+   "person": "Fernando Fern\u00e1ndez"
+  },
+  {
+   "office": [
+    "P169",
+    "Q37158"
+   ],
+   "person": "Brian Niccol"
+  },
+  {
+   "office": [
+    "P169",
+    "Q467752"
+   ],
+   "person": "Dan Schulman"
+  },
+  {
+   "office": [
+    "P169",
+    "Q623036"
+   ],
+   "person": "Diene Keita"
+  },
+  {
+   "office": [
+    "P169",
+    "Q66"
+   ],
+   "person": "Kelly Ortberg"
+  },
+  {
+   "office": [
+    "P286",
+    "Q10329"
+   ],
+   "person": "Mat\u00edas Almeyda"
+  },
+  {
+   "office": [
+    "P286",
+    "Q1457"
+   ],
+   "person": "Angelo Gregucci"
+  },
+  {
+   "office": [
+    "P286",
+    "Q163480"
+   ],
+   "person": "Charles Lee"
+  },
+  {
+   "office": [
+    "P286",
+    "Q598834"
+   ],
+   "person": "Z\u00e9 Ricardo"
+  },
+  {
+   "office": [
+    "P286",
+    "Q757253"
+   ],
+   "person": "Robert Arzumanyan"
+  },
+  {
+   "office": [
+    "P286",
+    "Q80987"
+   ],
+   "person": "Luis Zubeld\u00eda"
+  },
+  {
+   "office": [
+    "P35",
+    "Q1041"
+   ],
+   "person": "Bassirou Diomaye Faye"
+  },
+  {
+   "office": [
+    "P35",
+    "Q33"
+   ],
+   "person": "Alexander Stubb"
+  },
+  {
+   "office": [
+    "P35",
+    "Q884"
+   ],
+   "person": "Lee Jae Myung"
+  },
+  {
+   "office": [
+    "P488",
+    "Q43093"
+   ],
+   "person": "Aitor Esteban"
+  },
+  {
+   "office": [
+    "P6",
+    "Q1371"
+   ],
+   "person": "Patrick Morrisey"
+  },
+  {
+   "office": [
+    "P6",
+    "Q142"
+   ],
+   "person": "S\u00e9bastien Lecornu"
+  },
+  {
+   "office": [
+    "P6",
+    "Q219"
+   ],
+   "person": "Rosen Zhelyazkov"
+  },
+  {
+   "office": [
+    "P6",
+    "Q794"
+   ],
+   "person": "Masoud Pezeshkian"
+  },
+  {
+   "office": [
+    "P6",
+    "Q902"
+   ],
+   "person": "Muhammad Yunus"
+  }
+ ],
+ "rollback_to_session": 4,
+ "sessions_replayed": 21,
+ "replay_rows_dropped": 232,
+ "left_out": {
+  "rows": 1530,
+  "checks": 406,
+  "probes": 8
+ },
+ "code_sha256": "359ba050f571a5b2d3c936da5396aa59bd5d00326c5d8d9ab3aab75acabcfbd2",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "prereg": null,
+ "payload_sha256": "941cdd425cf9593a0c036f116c554a2b2046b8ea4c68b0b5142c58720c56dd58",
+ "packed": "2026-10-28 22:33:46"
+}

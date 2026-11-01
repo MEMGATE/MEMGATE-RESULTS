@@ -1,0 +1,35 @@
+{
+ "phase": "dev",
+ "worlds": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "policies": [
+  "NEWEST",
+  "RANDOM",
+  "FR2"
+ ],
+ "volume": 10,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 4,
+ "lr": 0.0002,
+ "batch": 16,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "targets": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj"
+ ],
+ "gpu": "L40S",
+ "code_hash": "e585662b8007cb3fb2765fbd508d62461c41e3e52b165018835f1e035a6c52d9",
+ "prereg": null,
+ "started": "2026-10-22 12:35:55"
+}

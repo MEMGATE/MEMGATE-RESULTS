@@ -1,0 +1,38 @@
+{
+ "world": [
+  9702,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "family": "gemma",
+ "lab": "Google",
+ "model": "/models/gemma2-9b-it",
+ "revision": "kaggle/google/gemma-2/transformers/gemma-2-9b-it/1",
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "weights": "bfloat16",
+ "sessions": 12,
+ "system": 4,
+ "kernel_changes": 3,
+ "source": "Kaggle Models google/gemma-2, transformers, gemma-2-9b-it, version 1",
+ "mounts": [
+  {
+   "subPath": "models/gemma2-9b-it-kaggle-v1",
+   "mountPath": "/models/gemma2-9b-it"
+  }
+ ],
+ "questions_from": "runs/ccl4-main-7b-colab/w9702/dataset/payload.json",
+ "prereg": "docs/XFM-PREREG-2026-10-28.md",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "c2083382b207790ae8b028c156745c12295b206036bbbdf1b4acd490706ccf6b",
+ "kernel_sha256": "5c8dd26229431b7cb0fdc1d4be320fb78aea4f18eae30c9aafb6cf79a2e856d4",
+ "payload_sha256": "70df253286d6e3b32d18a68563777473ea796d7e74b6e2f1b0e0487a90ff9157",
+ "packed": "2026-10-28 17:02:30"
+}

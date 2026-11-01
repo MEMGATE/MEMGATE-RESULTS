@@ -1,0 +1,30 @@
+{
+ "world": [
+  9702,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "NAIVE",
+  "REPLAY",
+  "SYSTEM2"
+ ],
+ "weights": "float16",
+ "sessions": 12,
+ "errors_at": 0,
+ "prereg": "docs/CCL4-PREREG-2026-10-26.md",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "colab_pack_sha256": "d58c511d23b1f2b4aa824ffb3d745567d369bcd0a40d8aa37db8ffcf0e15aefa",
+ "machine": "Google Colab (the founder's account), single GPU",
+ "kernel": "colab:ccl4-main-7b-w9702",
+ "dataset": null,
+ "packed": "2026-10-26 10:06:34",
+ "colab_gpu": "A100",
+ "started": "2026-10-26 10:20:31"
+}

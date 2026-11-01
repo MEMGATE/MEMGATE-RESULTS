@@ -1,0 +1,28 @@
+{
+ "world": [
+  9704,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "smoke": false,
+ "budget_h": 8.0,
+ "anchors_from": null,
+ "errors_at": 0,
+ "prereg": "docs/CCL4R-PREREG-2026-10-27.md",
+ "model": "Qwen2.5-7B-Instruct",
+ "model_source": "qwen-lm/qwen2.5/transformers/7b-instruct/1",
+ "weights": "bfloat16",
+ "machine": "Kaggle TPU v5e-8",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "c4a96300559d8150dc7cb8ef3f49b9ce127499637591d7a116d42ffed015f435",
+ "kernel": "mohitaureus/pramana-ccl4r-7b-w9704",
+ "dataset": "mohitaureus/pramana-ccl4r-7b-w9704-data",
+ "started": "2026-10-27 11:59:19"
+}

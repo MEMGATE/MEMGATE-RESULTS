@@ -1,0 +1,29 @@
+{
+ "half": "dev",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "epochs": 6,
+ "lr": 0.0002,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "batch": 8,
+ "ask_batch": 64,
+ "max_new_tokens": {
+  "STEPS": 96,
+  "other": 48
+ },
+ "precision": "float16 weights, float16 autocast, float32 adapters, grad scaler",
+ "gpu": "Kaggle T4 x2",
+ "prereg": null,
+ "code_hash": "665660cd33394c3f8f734e87e1de7ed145d66be88f9eaa63a8e53f65c96671c7",
+ "rows": {
+  "CURRENT": 100,
+  "UNDATED": 250,
+  "DATED": 250,
+  "PRACTICE": 300
+ },
+ "questions": 450,
+ "kernel": "mohitaureus/pramana-tw1-dev-qwen7b-20261022",
+ "dataset": "mohitaureus/pramana-tw1-dev-qwen7b-20261022-data",
+ "started": "2026-10-22 22:43:23"
+}

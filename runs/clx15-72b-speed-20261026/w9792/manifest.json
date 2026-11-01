@@ -1,0 +1,29 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 20,
+ "wide": true,
+ "model": "Qwen/Qwen2.5-72B-Instruct",
+ "revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+ "arms": [
+  "NAIVE",
+  "SYSTEM2"
+ ],
+ "weights": "4-bit NF4",
+ "sessions": 2,
+ "errors_at": 0,
+ "prereg": null,
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "colab_pack_sha256": "15d1625c3aa1fafd3c04b2224d24b9e8ef7bb747e6c980d8d8221f21418c2b7f",
+ "machine": "Google Colab (the founder's account), single GPU",
+ "kernel": "colab:clx15-72b-speed-20261026-w9792",
+ "dataset": null,
+ "packed": "2026-10-26 10:38:00",
+ "colab_gpu": "G4",
+ "started": "2026-10-26 10:38:13"
+}

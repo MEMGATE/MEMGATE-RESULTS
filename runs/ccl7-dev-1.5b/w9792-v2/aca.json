@@ -1,0 +1,16 @@
+{
+ "job": "ccl7-dev-1-5b-w9792-v2",
+ "execution": "ccl7-dev-1-5b-w9792-v2-dmzwwsz",
+ "remote": "runs/ccl7-dev-1.5b/w9792-v2",
+ "gpu": "t4",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "c0a772cd8e534bd15a759b34ed7e53b2a39f33069fdf0d9b04e884350467ab6b",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "cpu": 8,
+ "memory": "56Gi",
+ "usd_per_hour": 1.64,
+ "started": "2026-10-28 19:01:39",
+ "machine": "Azure Container Apps serverless T4"
+}

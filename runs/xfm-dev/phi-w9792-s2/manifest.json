@@ -1,0 +1,31 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 20,
+ "wide": true,
+ "errors_at": 0,
+ "family": "phi",
+ "lab": "Microsoft",
+ "model": "microsoft/phi-4",
+ "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "weights": "float16",
+ "sessions": 2,
+ "system": 4,
+ "kernel_changes": 1,
+ "questions_from": null,
+ "prereg": null,
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "4b510c41155f4902fc37d8c3b44f1967adaaa3af68e74b1b7345aecb561c7510",
+ "kernel_sha256": "06fc4880c7f3021ef4d840ffe069592e24d740e3780d7782f6450ca217932a56",
+ "payload_sha256": "77fa33a464cf4742d641e9796af0d741ab54a2232f77dec2008b98f7ab3354c0",
+ "packed": "2026-10-28 12:38:40"
+}

@@ -1,0 +1,10 @@
+{
+ "items": 290,
+ "jobs": {
+  "DIRECT": "ftjob-656f68dfc9994e308c22154e1534beda",
+  "FOLLOW": "ftjob-4ca24882af52409996298a7c898bc535",
+  "MORE": "ftjob-bc12deb219174168a5a03d8a6169f295"
+ },
+ "account": "memgate-ft-dev2",
+ "started": "2026-10-22 19:04:29"
+}

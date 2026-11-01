@@ -1,0 +1,21 @@
+{
+ "job": "bl1-dev-1-5b-w9792-memit-r4",
+ "execution": "bl1-dev-1-5b-w9792-memit-r4-vc2sb6p",
+ "remote": "runs/bl1-dev-1.5b/w9792-memit-r4",
+ "gpu": "t4",
+ "hours": 6.0,
+ "image": "memgatecclswc.azurecr.io/ccl-easyedit:1",
+ "mounts": [
+  {
+   "subPath": "stats/qwen2.5-1.5b-instruct-n2000",
+   "mountPath": "/stats"
+  }
+ ],
+ "payload_sha256": "a53a672214481d6387f92a3676736e915bbfa0787840569ab500e3893e0bbb32",
+ "kernel_sha256": "2d6455cf436ab2045d62ad7629680dc438afec2ae91a85571cf3ccf4f1b8b62f",
+ "cpu": 8,
+ "memory": "56Gi",
+ "usd_per_hour": 1.64,
+ "started": "2026-10-27 22:08:00",
+ "machine": "Azure Container Apps serverless T4"
+}

@@ -1,0 +1,8 @@
+{
+ "half": "main",
+ "base_model": "Ministral-3B",
+ "asker_sha256": "1c1ac7428cd6fc8d2092c0d263a32f2093d5e9c011823fe83258915d9129c4c1",
+ "rp3_code_hash": "912d2998ce57f424fdd4e19b33cb1d9c8ec72473e714a4444d85f5597deb0f06",
+ "prereg": "docs/RP3-PREREG-2026-10-21.md",
+ "started": "2026-10-21 23:11:03"
+}

@@ -1,0 +1,71 @@
+{
+  "phase": "dev",
+  "code_hash": "b9c041e1dc67ba9ff89ff30e8cdf693b10daace19579c32bb0031c838c151067",
+  "git_head": "9aba907fd4e1e1cabf29d09e387192785214c7dd",
+  "prereg": null,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "gpu": "A10G",
+  "tasks": 16,
+  "failures": [],
+  "gpu_seconds": 8481.919102430344,
+  "estimated_dollars": 2.59,
+  "wall_seconds": 1320.5088937282562,
+  "queries": {
+    "0": 34,
+    "1": 38,
+    "2": 39,
+    "3": 37
+  },
+  "dismissed": {
+    "0:GATED-SE1": {},
+    "0:GATED-SE2": {
+      "S": 0,
+      "C2": 0,
+      "C1": 0
+    },
+    "1:GATED-SE1": {},
+    "1:GATED-SE2": {
+      "C2": 0,
+      "C1": 0,
+      "S": 1
+    },
+    "2:GATED-SE1": {},
+    "2:GATED-SE2": {
+      "C1": 0,
+      "S": 0,
+      "C2": 0
+    },
+    "3:GATED-SE1": {},
+    "3:GATED-SE2": {
+      "C1": 0,
+      "C2": 0,
+      "S": 0
+    }
+  },
+  "repeat": {
+    "seed": 0,
+    "arm": "GATED-SE2",
+    "first": {
+      "truth": 0.975,
+      "truth_held_out": 0.97,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "update": 0.9230769230769231,
+      "update_stale": 0.02564102564102564,
+      "retention": 0.98
+    },
+    "second": {
+      "truth": 0.975,
+      "truth_held_out": 0.97,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "update": 0.9230769230769231,
+      "update_stale": 0.02564102564102564,
+      "retention": 0.98
+    },
+    "error": null
+  }
+}

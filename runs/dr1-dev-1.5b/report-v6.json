@@ -1,0 +1,295 @@
+{
+ "per_world": {
+  "9792": {
+   "delete-alone": {
+    "current_w0": 84.9,
+    "current_w2": 83.0,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 15.1,
+    "locality": 14.4,
+    "follow_A": 88.5,
+    "follow_B": 88.2,
+    "dated": 58.5,
+    "skills": 14.3,
+    "gsm8k": 52.0,
+    "mmlu": 56.0,
+    "follow": 88.3,
+    "locality_own": 13.8,
+    "kept": 100.0,
+    "names_deleted": 0.0
+   },
+   "delete-routed": {
+    "current_w0": 84.9,
+    "current_w2": 83.0,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 15.1,
+    "locality": 29.7,
+    "follow_A": 88.5,
+    "follow_B": 88.2,
+    "dated": 58.5,
+    "skills": 14.3,
+    "gsm8k": 57.3,
+    "mmlu": 60.5,
+    "follow": 88.3,
+    "locality_own": 32.5,
+    "kept": 100.0,
+    "names_deleted": 0.0
+   },
+   "retrain-alone": {
+    "current_w0": 84.9,
+    "current_w2": 84.9,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 13.2,
+    "locality": 9.9,
+    "follow_A": 85.9,
+    "follow_B": 88.7,
+    "dated": 63.7,
+    "skills": 21.4,
+    "gsm8k": 42.0,
+    "mmlu": 51.0,
+    "follow": 87.5,
+    "locality_own": 7.5,
+    "kept": 100.0,
+    "names_deleted": 0.0
+   },
+   "retrain-routed": {
+    "current_w0": 84.9,
+    "current_w2": 84.9,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 13.2,
+    "locality": 29.7,
+    "follow_A": 85.9,
+    "follow_B": 88.7,
+    "dated": 63.7,
+    "skills": 21.4,
+    "gsm8k": 57.3,
+    "mmlu": 60.5,
+    "follow": 87.5,
+    "locality_own": 32.5,
+    "kept": 100.0,
+    "names_deleted": 0.0
+   }
+  }
+ },
+ "validity": {
+  "9792": {
+   "delete": {
+    "done": true,
+    "answered_last": 2323,
+    "removals": [
+     [
+      4,
+      1,
+      3,
+      138
+     ],
+     [
+      25,
+      4,
+      21,
+      232
+     ]
+    ],
+    "deleted_probes": 20
+   },
+   "retrain": {
+    "done": true,
+    "answered_last": 2323,
+    "removals": [
+     [
+      4,
+      1,
+      3,
+      138
+     ]
+    ],
+    "deleted_probes": 20
+   }
+  }
+ },
+ "deletion_cost": {
+  "9792": {
+   "sessions_replayed": 21,
+   "rollback_to_session": 4
+  }
+ },
+ "hypotheses": {
+  "D1": {
+   "measure": "deleted person's log-probability per token over strangers'",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.288,
+   "ci95": [
+    -0.241,
+    0.87
+   ],
+   "margin": 0.33,
+   "verdict": "not shown"
+  },
+  "D2": {
+   "measure": "names_deleted",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": 5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D3": {
+   "measure": "current_w0",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D4": {
+   "measure": "kept",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D5": {
+   "measure": "early_kept",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D6": {
+   "measure": "dated",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": -5.13,
+   "ci95": [
+    -10.26,
+    0.0
+   ],
+   "margin": -2.0,
+   "verdict": "not shown"
+  },
+  "D7": {
+   "measure": "follow",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.85,
+   "ci95": [
+    -2.28,
+    3.99
+   ],
+   "margin": -2.0,
+   "verdict": "not shown"
+  },
+  "D8": {
+   "measure": "poison",
+   "view": "routed",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": 1.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D9": {
+   "measure": "gsm8k",
+   "view": "alone",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 10.0,
+   "ci95": [
+    1.33,
+    18.67
+   ],
+   "margin": -3.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D10": {
+   "measure": "mmlu",
+   "view": "alone",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 5.0,
+   "ci95": [
+    -1.0,
+    11.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D11": {
+   "measure": "locality_own",
+   "view": "alone",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 6.25,
+   "ci95": [
+    1.25,
+    12.5
+   ],
+   "margin": -5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "D2-alone": {
+   "measure": "names_deleted",
+   "view": "alone",
+   "a": "delete",
+   "b": "retrain",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": 5.0,
+   "verdict": "NON-INFERIOR",
+   "secondary": true
+  }
+ },
+ "descriptive": {
+  "delete - untouched: deleted-person gap": [
+   -0.083,
+   -0.849,
+   0.66
+  ],
+  "retrain - untouched: deleted-person gap": [
+   -0.371,
+   -0.974,
+   0.267
+  ]
+ },
+ "verdict": "NOT SHOWN",
+ "boot": {
+  "resamples": 10000,
+  "seed": 12345
+ }
+}

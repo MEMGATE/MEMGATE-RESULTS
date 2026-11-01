@@ -1,0 +1,45 @@
+{
+ "phase": "main",
+ "worlds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "policies": [
+  "NEWEST",
+  "RANDOM",
+  "FR2"
+ ],
+ "volume": 10,
+ "rehearse": true,
+ "model": "allenai/OLMo-2-1124-7B-Instruct",
+ "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+ "system": "Answer with the person's full name only.",
+ "lr": 0.0002,
+ "epochs": 4,
+ "batch": 16,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "targets": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj"
+ ],
+ "precision": "float16 weights, float16 autocast, float32 adapters, grad scaler",
+ "gpu": "Kaggle T4 x2",
+ "cn2_code_hash": "7ba116f4e0e22d4f9709b2802ffc9291fb030912eadf5bc7f11ea816a827664c",
+ "prereg": "docs/CN2-PREREG-2026-10-22.md",
+ "kernel": "mohitaureus/pramana-cn2-olmo7b-main-20261022",
+ "started": "2026-10-22 18:24:00"
+}

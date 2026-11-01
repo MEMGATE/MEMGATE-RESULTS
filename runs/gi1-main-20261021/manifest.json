@@ -1,0 +1,11 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-4.1-base",
+  "gpt-6.1-sol",
+  "gpt-6-astra"
+ ],
+ "code_hash": "154f6ea719d5107e0ceab0bf15f8be05c02a3a3097acd02eec25656c1b45e615",
+ "prereg": "docs/GI1-PREREG-2026-10-21.md",
+ "started": "2026-10-21 19:40:36"
+}

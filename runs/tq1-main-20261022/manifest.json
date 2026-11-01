@@ -1,0 +1,14 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-6.1-sol",
+  "gpt-6-astra",
+  "grok-4.7",
+  "claude-opus-5-5",
+  "gpt-4.1-base",
+  "llama-4-maverick"
+ ],
+ "code_hash": "b0dc77f1bff24523a253af84c4c552248f28645cdec5f59e518b54d2eaa59100",
+ "prereg": "docs/TQ1-PREREG-2026-10-22.md",
+ "items": 300
+}

@@ -1,0 +1,10 @@
+{
+ "half": "main",
+ "models": [
+  "gpt-4.1-base",
+  "llama-4-maverick"
+ ],
+ "code_hash": "20539f977f896a7ae98c855eccb2138e148ac0aeddb49732d861815f98c78f0e",
+ "prereg": "docs/DR2-PREREG-2026-10-21.md",
+ "started": "2026-10-21 21:14:34"
+}

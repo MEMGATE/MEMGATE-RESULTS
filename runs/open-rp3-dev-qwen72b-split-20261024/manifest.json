@@ -1,0 +1,23 @@
+{
+ "half": "dev",
+ "model": "Qwen/Qwen2.5-72B-Instruct",
+ "revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+ "epochs": 6,
+ "lr": 0.0002,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "batch": 8,
+ "ask_batch": 64,
+ "four_bit": false,
+ "split": true,
+ "gpu": "H100:3",
+ "prereg": null,
+ "rp3_code_hash": "912d2998ce57f424fdd4e19b33cb1d9c8ec72473e714a4444d85f5597deb0f06",
+ "rows": {
+  "DIRECT": 100,
+  "FOLLOW": 300,
+  "MORE": 300
+ },
+ "questions": 350,
+ "started": "2026-10-24 12:49:46"
+}

@@ -1,0 +1,19 @@
+{
+  "phase": "smoke",
+  "code_hash": "846b1e53e1b119889ef666b79f4230ffd46f420b276bb45eca92c8996b84521b",
+  "git_head": "88f1de5087632f32d588188251d609c956f0203e",
+  "git_head_at_end": "88f1de5087632f32d588188251d609c956f0203e",
+  "prereg": null,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 1,
+  "models": [
+    "gpt-6-astra",
+    "gpt-6.1-sol"
+  ],
+  "worlds": 1,
+  "crashes": [],
+  "budget_calls": 125,
+  "started": 1792250826.9812772,
+  "seconds": 339.710729598999
+}

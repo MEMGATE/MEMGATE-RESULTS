@@ -1,0 +1,7 @@
+{
+ "host": "20.45.53.130",
+ "run": "runs/xfm-dev/phi-w9792-s2",
+ "hours": 6.0,
+ "started": "2026-10-28 15:35:13",
+ "machine": "memgate-a100-scus (Standard_NC24ads_A100_v4, South Central US)"
+}

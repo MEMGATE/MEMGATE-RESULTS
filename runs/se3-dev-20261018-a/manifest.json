@@ -1,0 +1,175 @@
+{
+  "phase": "dev",
+  "code_hash": "36ae440610be86f008436d19f885bd80273384c2371a7b2d71c0cf704876bab9",
+  "git_head": "c7d7dbd5594d1e5134bf3818f3d55f874db9722b",
+  "prereg": null,
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "gpu": "L40S",
+  "tasks": 16,
+  "failures": [],
+  "gpu_seconds": 6312.219528913498,
+  "estimated_dollars": 3.42,
+  "wall_seconds": 966.7129282951355,
+  "queries": {
+    "0": 338,
+    "1": 344,
+    "2": 334,
+    "3": 346
+  },
+  "dismissed": {
+    "0:MAJORITY": {},
+    "0:GATED": {
+      "C2": 0,
+      "C1": 0,
+      "S": 0
+    },
+    "1:MAJORITY": {
+      "B": 2
+    },
+    "1:GATED": {
+      "C1": 0,
+      "S": 0,
+      "C2": 0
+    },
+    "2:MAJORITY": {},
+    "2:GATED": {
+      "S": 0,
+      "C2": 0,
+      "C1": 0
+    },
+    "3:MAJORITY": {
+      "A": 2
+    },
+    "3:GATED": {
+      "C2": 0,
+      "S": 0,
+      "C1": 0
+    }
+  },
+  "rollbacks": {
+    "0:MAJORITY": [
+      1,
+      0
+    ],
+    "0:GATED": [
+      1,
+      0
+    ],
+    "1:MAJORITY": [
+      2,
+      0
+    ],
+    "1:GATED": [
+      2,
+      0
+    ],
+    "2:MAJORITY": [
+      1,
+      0
+    ],
+    "2:GATED": [
+      1,
+      0
+    ],
+    "3:MAJORITY": [
+      1,
+      0
+    ],
+    "3:GATED": [
+      1,
+      0
+    ]
+  },
+  "routing": {
+    "0:MAJORITY": {
+      "routes": 905,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 7,
+      "constitution_routed": 5
+    },
+    "0:GATED": {
+      "routes": 905,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 7,
+      "constitution_routed": 5
+    },
+    "1:MAJORITY": {
+      "routes": 913,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 5,
+      "constitution_routed": 6
+    },
+    "1:GATED": {
+      "routes": 913,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 5,
+      "constitution_routed": 6
+    },
+    "2:MAJORITY": {
+      "routes": 920,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 6,
+      "constitution_routed": 4
+    },
+    "2:GATED": {
+      "routes": 920,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 6,
+      "constitution_routed": 4
+    },
+    "3:MAJORITY": {
+      "routes": 919,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 7,
+      "constitution_routed": 2
+    },
+    "3:GATED": {
+      "routes": 919,
+      "facts_routed": 354,
+      "facts_asked": 354,
+      "locality_routed": 7,
+      "constitution_routed": 2
+    }
+  },
+  "repeat": {
+    "seed": 0,
+    "arm": "GATED",
+    "first": {
+      "current": 0.9775280898876404,
+      "current_held_out": 0.9775280898876404,
+      "stale": 0.02247191011235955,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "poison_changed": 0.0,
+      "poison_static": 0.0,
+      "static_kept": 1.0,
+      "locality": 0.9,
+      "retention": 0.99,
+      "constitution": 0.9785714285714285
+    },
+    "second": {
+      "current": 0.9775280898876404,
+      "current_held_out": 0.9775280898876404,
+      "stale": 0.02247191011235955,
+      "poison": 0.0,
+      "poison_stealthy": 0.0,
+      "poison_colluded": 0.0,
+      "poison_changed": 0.0,
+      "poison_static": 0.0,
+      "static_kept": 1.0,
+      "locality": 0.9,
+      "retention": 0.99,
+      "constitution": 0.9785714285714285
+    },
+    "error": null
+  }
+}

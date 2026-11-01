@@ -1,0 +1,135 @@
+{
+  "phase": "main",
+  "code_hash": "61cc0f23107b035805fc6854dc57707e4bb1a8d839f74a8411adfe2858dffe85",
+  "git_head": "67a791c8ededf63b4f78de541c6d59d6c4027477",
+  "prereg": {
+    "path": "docs/HH1-PREREG-2026-10-19.md",
+    "sha256": "a107c94b1b0792a1ad2889bf10b0edbb529c369aaa32a94ca7c6370e9bf9d336"
+  },
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "gpu": "L40S",
+  "tasks": 40,
+  "failures": [],
+  "gpu_seconds": 14671.398926973343,
+  "estimated_gpu_dollars": 7.95,
+  "wall_seconds": 1820.6024928092957,
+  "dismissed": {
+    "9000:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9000:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9001:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9001:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9002:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9002:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9003:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9003:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9004:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9004:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9005:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9005:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9006:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9006:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9007:MERGE_GATE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ],
+    "9007:ENGINE": [
+      "C1",
+      "C2",
+      "S",
+      "Z1",
+      "Z2"
+    ]
+  },
+  "merge_alpha": {
+    "MERGE": 1.0,
+    "MERGE_GATE": 1.0
+  }
+}

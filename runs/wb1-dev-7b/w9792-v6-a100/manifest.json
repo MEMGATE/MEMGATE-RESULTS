@@ -1,0 +1,74 @@
+{
+ "world": [
+  9792,
+  "wikibigedit"
+ ],
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "weights": "float16",
+ "arms": [
+  "SYSTEM3",
+  "NAIVE"
+ ],
+ "sessions": 8,
+ "eval_after": [
+  4,
+  8
+ ],
+ "per_interval": 40,
+ "changes": 320,
+ "by_session": {
+  "0": {
+   "new": 34,
+   "update": 6
+  },
+  "1": {
+   "new": 27,
+   "update": 13
+  },
+  "2": {
+   "new": 35,
+   "update": 5
+  },
+  "3": {
+   "new": 25,
+   "update": 15
+  },
+  "4": {
+   "new": 34,
+   "update": 6
+  },
+  "5": {
+   "new": 33,
+   "update": 7
+  },
+  "6": {
+   "new": 32,
+   "update": 8
+  },
+  "7": {
+   "new": 33,
+   "update": 7
+  }
+ },
+ "multi_hop": 7,
+ "questions": 1287,
+ "anchors_from": "runs/ccl7-dev-7b/w9792-v6",
+ "anchors_version": "v6",
+ "anchors": 1596,
+ "data_files_sha256": {
+  "wiki_big_edit_20240201_20240220.json": "f84a08a388b5455e626f49e97f8db47174ce10343645fe9238fe536502868424",
+  "wiki_big_edit_20240220_20240301.json": "066ea156f92b3331651b3bf99ce0d42d54c315a9b4738a093f0dde9d9bd3a3cd",
+  "wiki_big_edit_20240301_20240320.json": "bd37dee1615423f227aadc0e66c6ff271f132141cc1e2c68499ffdd03e29a812",
+  "wiki_big_edit_20240320_20240401.json": "55332232d064fd19de9004e87180c71b7757c6ecff989e096b6ba2dd178053be",
+  "wiki_big_edit_20240401_20240501.json": "e62bb7ce764e4eebcd17b9a72db1c2526a7e987fb0aa5ed0100cac0eb0afa5c5",
+  "wiki_big_edit_20240501_20240601.json": "cddbdd08aa32f96b3be6d6216fcb53798d8790b01360e7c3ca8209e71abe4da2",
+  "wiki_big_edit_20240601_20240620.json": "c3e99321a2a1c7444c32af6b73938c97984c5fc19dfba03b1513a2c77608701b",
+  "wiki_big_edit_20240620_20240701.json": "806c18fad3353afc4f8994e388f686b074bfa88b0b0cce68fe64e366b9c1a4b0"
+ },
+ "code_sha256": "f8843670724c0aaf0e90696a507483ffc32868c49c5bf29b58ae5f0970054d3a",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "prereg": null,
+ "payload_sha256": "5506747a179af813af8d777d3bc8b85afec56f8488a0955cffb221226399c479",
+ "packed": "2026-11-01 00:21:23"
+}

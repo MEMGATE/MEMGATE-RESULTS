@@ -1,0 +1,34 @@
+{
+  "phase": "dev",
+  "code_hash": "48858dde62bf846dfd0e4188fe7d2cac20a16adaa2e334acb52d0eb50e428387",
+  "git_head": "aceff40bf247052768470cdd1f4b7c77f328229f",
+  "prereg": null,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "gpu": "A10G",
+  "tasks": 20,
+  "failures": [],
+  "gpu_seconds": 1503.6987862586975,
+  "estimated_dollars": 0.46,
+  "wall_seconds": 377.4462447166443,
+  "repeat": {
+    "seed": 0,
+    "arm": "GATED",
+    "first": {
+      "truth": 0.975,
+      "truth_held_out": 0.95,
+      "poison": 0.0,
+      "update_new": 0.8333333333333334,
+      "update_old": 0.0,
+      "retention": 1.0
+    },
+    "second": {
+      "truth": 0.975,
+      "truth_held_out": 0.95,
+      "poison": 0.0,
+      "update_new": 0.8333333333333334,
+      "update_old": 0.0,
+      "retention": 1.0
+    }
+  }
+}

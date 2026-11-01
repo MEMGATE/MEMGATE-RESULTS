@@ -1,0 +1,54 @@
+{
+ "phase": "main",
+ "seeds": [
+  4100,
+  4101,
+  4102,
+  4103,
+  4104,
+  4105,
+  4106
+ ],
+ "arms": [
+  "ROLLBACK",
+  "UNPOISONED",
+  "LEDGER",
+  "FROZEN"
+ ],
+ "ledger_worlds": [
+  4100,
+  4101,
+  4102
+ ],
+ "expected": [
+  "w4100-ROLLBACK",
+  "w4100-UNPOISONED",
+  "w4100-LEDGER",
+  "w4100-FROZEN",
+  "w4101-ROLLBACK",
+  "w4101-UNPOISONED",
+  "w4101-LEDGER",
+  "w4101-FROZEN",
+  "w4102-ROLLBACK",
+  "w4102-UNPOISONED",
+  "w4102-LEDGER",
+  "w4102-FROZEN",
+  "w4103-ROLLBACK",
+  "w4103-UNPOISONED",
+  "w4103-FROZEN",
+  "w4104-ROLLBACK",
+  "w4104-UNPOISONED",
+  "w4104-FROZEN",
+  "w4105-ROLLBACK",
+  "w4105-UNPOISONED",
+  "w4105-FROZEN",
+  "w4106-ROLLBACK",
+  "w4106-UNPOISONED",
+  "w4106-FROZEN"
+ ],
+ "code_hash": "76d7f19b1fa65b8240cfa0dc29b1cb29c21fe4ebd1eb1ba994b6050eea8c08f8",
+ "prereg": {
+  "path": "docs/UNDO1-PREREG-2026-10-20.md",
+  "sha256": "a332c2ed80ed5bdd834a1fdfc93f73c8bf62ac3eb7a934cbcebd4a3a0af0fb3a"
+ }
+}

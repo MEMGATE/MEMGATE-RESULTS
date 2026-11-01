@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "ask",
+  "runs/ft2-dev-20261019",
+  "6",
+  "runs/rt2-dev-20261020"
+ ],
+ "digest": "3fa5dc5a2aef69317039bf48f7d2b8d126f4a721acf93fdfe7fca07ed255b588",
+ "models": {
+  "ENGINE": "ftjob-08d6fde5afd24a72952ec153c652c9a4",
+  "NAIVE": "ftjob-95fc66bf99704d8f9db7ade459ae0af9"
+ },
+ "started": "2026-10-20 23:34:49"
+}

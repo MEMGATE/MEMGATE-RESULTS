@@ -1,0 +1,71 @@
+{
+ "world": [
+  9717,
+  "main"
+ ],
+ "variant": "retrain",
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "lie_items": 40,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "SYSTEM2"
+ ],
+ "sessions": 12,
+ "system": 4,
+ "prereg": "docs/CCL4C-PREREG-2026-10-27.md",
+ "recite": 0,
+ "neighbors": 0,
+ "removed_rows_left_out": {
+  "rows": [
+   120,
+   40,
+   39,
+   38,
+   36,
+   29,
+   23,
+   19,
+   12,
+   10,
+   7,
+   3
+  ],
+  "rehearse": [
+   0,
+   31,
+   29,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "checks": {
+   "0": 120,
+   "1": 93,
+   "2": 71,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  }
+ },
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "e769938868cd2352e0b99fb94ff5df0720f8c1b4156972734bbf5b186e04e357",
+ "payload_sha256": "dd2e76c1b5d78d9132e130dbac9b20c14b5bc56c181ab3b5044d6a107363fd67",
+ "errors_payload_sha256": "5cf15bf71bb89a01183ed15e004b89219022550872b7d56419cecdabed28a3de",
+ "packed": "2026-10-27 23:37:39"
+}

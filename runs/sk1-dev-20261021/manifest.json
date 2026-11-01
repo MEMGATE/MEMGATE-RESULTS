@@ -1,0 +1,14 @@
+{
+ "half": "dev",
+ "models": [
+  "gpt-6.1-sol",
+  "gpt-6-astra",
+  "grok-4.7",
+  "claude-opus-5-5",
+  "gpt-4.1-base",
+  "llama-4-maverick"
+ ],
+ "code_hash": "eadc6ddc61e49cf392b6248e475b418955f96219c8ff7d098d843e609567b540",
+ "prereg": null,
+ "started": "2026-10-21 15:05:21"
+}

@@ -1,0 +1,450 @@
+{
+ "per_world": {
+  "9792": {
+   "FROZEN": {
+    "current_w0": 0.0,
+    "current_w2": 0.0,
+    "poison": 0.0,
+    "early_kept": 0.0,
+    "stale": 58.5,
+    "locality": 99.6,
+    "follow_A": 39.7,
+    "follow_B": 46.2,
+    "dated": 17.9,
+    "skills": 3.6,
+    "gsm8k": 94.0,
+    "mmlu": 72.5,
+    "follow": 43.3,
+    "kept": 68.4
+   },
+   "NAIVE": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 10.2,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 25.9,
+    "follow_A": 41.0,
+    "follow_B": 42.6,
+    "dated": 47.4,
+    "skills": 17.9,
+    "gsm8k": 93.3,
+    "mmlu": 72.0,
+    "follow": 41.9,
+    "kept": 100.0
+   },
+   "SYSTEM2": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 99.2,
+    "follow_A": 79.5,
+    "follow_B": 76.9,
+    "dated": 65.4,
+    "skills": 60.7,
+    "gsm8k": 94.0,
+    "mmlu": 72.5,
+    "follow": 78.1,
+    "kept": 100.0
+   },
+   "errors": {
+    "FROZEN": {
+     "offices": 20,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 100.0
+    },
+    "NAIVE": {
+     "offices": 20,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 100.0
+    },
+    "SYSTEM2": {
+     "offices": 20,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 100.0
+    }
+   },
+   "lie_mean_gap": {
+    "FROZEN": -0.22,
+    "SYSTEM2": -0.478
+   },
+   "first_check": [
+    [
+     1,
+     231,
+     7
+    ],
+    [
+     2,
+     110,
+     7
+    ],
+    [
+     3,
+     92,
+     12
+    ],
+    [
+     4,
+     129,
+     13
+    ],
+    [
+     5,
+     130,
+     9
+    ],
+    [
+     6,
+     121,
+     8
+    ],
+    [
+     7,
+     84,
+     8
+    ],
+    [
+     8,
+     89,
+     5
+    ],
+    [
+     9,
+     115,
+     5
+    ],
+    [
+     10,
+     91,
+     6
+    ],
+    [
+     11,
+     68,
+     5
+    ],
+    [
+     12,
+     66,
+     9
+    ]
+   ],
+   "reps_next": {
+    "1": {
+     "office": 1,
+     "dated": 1
+    },
+    "2": {
+     "office": 1,
+     "dated": 1,
+     "follow": 2
+    },
+    "3": {
+     "office": 2,
+     "dated": 2,
+     "follow": 1
+    },
+    "4": {
+     "office": 2,
+     "dated": 3,
+     "follow": 2
+    },
+    "5": {
+     "office": 2,
+     "dated": 3,
+     "follow": 2
+    },
+    "6": {
+     "office": 1,
+     "dated": 4,
+     "follow": 1
+    },
+    "7": {
+     "office": 1,
+     "dated": 4,
+     "follow": 1
+    },
+    "8": {
+     "office": 1,
+     "dated": 4,
+     "follow": 1
+    },
+    "9": {
+     "office": 1,
+     "dated": 3,
+     "follow": 2
+    },
+    "10": {
+     "office": 1,
+     "dated": 3,
+     "follow": 2
+    },
+    "11": {
+     "office": 1,
+     "dated": 2,
+     "follow": 3
+    },
+    "12": {
+     "office": 2,
+     "dated": 3,
+     "follow": 2
+    }
+   },
+   "routed_to_adapter": {
+    "learned": 987,
+    "other": 3,
+    "questions": 1600
+   }
+  }
+ },
+ "validity": {
+  "9792": {
+   "arms_finished": {
+    "NAIVE": true,
+    "REPLAY": false,
+    "SYSTEM2": true
+   },
+   "frozen_unanswered": 0,
+   "frozen_current_pct": 0.0,
+   "removal_in_session_4": true,
+   "lie_arms": [
+    "FROZEN",
+    "SYSTEM2"
+   ]
+  }
+ },
+ "first_check_by_kind": {
+  "dated": {
+   "early": [
+    14,
+    180
+   ],
+   "late": [
+    5,
+    106
+   ]
+  },
+  "follow": {
+   "early": [
+    4,
+    38
+   ],
+   "late": [
+    9,
+    98
+   ]
+  },
+  "office": {
+   "early": [
+    21,
+    344
+   ],
+   "late": [
+    11,
+    136
+   ]
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "ability": 2,
+   "measure": "poison",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": -10.2,
+   "ci95": [
+    -16.33,
+    -5.1
+   ],
+   "verdict": "WIN"
+  },
+  "H2": {
+   "ability": 1,
+   "measure": "current_w0",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H11": {
+   "ability": 1,
+   "measure": "current_w0",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 98.11,
+   "ci95": [
+    94.34,
+    100.0
+   ],
+   "verdict": "WIN"
+  },
+  "H3": {
+   "ability": 3,
+   "measure": "kept",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H10": {
+   "ability": 3,
+   "measure": "locality",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": -0.38,
+   "ci95": [
+    -1.14,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H12b": {
+   "ability": 4,
+   "measure": "lie_gap",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": -0.258,
+   "ci95": [
+    -0.849,
+    0.44
+   ],
+   "verdict": "not shown"
+  },
+  "H5": {
+   "ability": 5,
+   "measure": "dated",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 17.95,
+   "ci95": [
+    11.54,
+    24.36
+   ],
+   "verdict": "WIN"
+  },
+  "H6": {
+   "ability": 6,
+   "measure": "skills",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 42.86,
+   "ci95": [
+    21.43,
+    64.29
+   ],
+   "verdict": "WIN"
+  },
+  "H7": {
+   "ability": 7,
+   "measure": "follow",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 36.18,
+   "ci95": [
+    30.48,
+    42.17
+   ],
+   "verdict": "WIN"
+  },
+  "H13": {
+   "ability": 8,
+   "measure": "first_check_early_minus_late",
+   "a": "SYSTEM2",
+   "b": null,
+   "estimate": 0.12,
+   "ci95": [
+    -3.72,
+    3.78
+   ],
+   "verdict": "not shown"
+  },
+  "H8": {
+   "ability": 9,
+   "measure": "gsm8k",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H9": {
+   "ability": 9,
+   "measure": "mmlu",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  }
+ },
+ "descriptive": {
+  "SYSTEM2 - NAIVE: early_kept": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SYSTEM2 - NAIVE: stale": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SYSTEM2 - NAIVE: current_w2": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SYSTEM2 - NAIVE: follow_A": [
+   38.46,
+   29.49,
+   46.79
+  ],
+  "SYSTEM2 - NAIVE: follow_B": [
+   34.36,
+   26.67,
+   42.05
+  ],
+  "SYSTEM2 - NAIVE: locality": [
+   73.38,
+   68.06,
+   78.71
+  ],
+  "SYSTEM2 - NAIVE: gsm8k": [
+   0.67,
+   -3.33,
+   4.67
+  ],
+  "SYSTEM2 - NAIVE: mmlu": [
+   0.5,
+   -3.0,
+   4.5
+  ]
+ },
+ "abilities": {
+  "1": "PASSED",
+  "2": "PASSED",
+  "3": "PASSED",
+  "4": "NOT TESTED",
+  "5": "PASSED",
+  "6": "PASSED",
+  "7": "PASSED",
+  "8": "NOT SHOWN",
+  "9": "PASSED"
+ }
+}

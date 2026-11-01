@@ -1,0 +1,16 @@
+{
+ "job": "bl2-dev-7b-w9792",
+ "execution": "bl2-dev-7b-w9792-kpz7zfj",
+ "remote": "runs/bl2-dev-7b/w9792",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "f025d9470ff6f4d2f7590457d692702d8548b9048abef3f8818b47082a78acf8",
+ "kernel_sha256": "81cae12704c50af71c7b040539687efa0f427fe016ba13d53b137bc653dc8526",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-27 20:25:23",
+ "machine": "Azure Container Apps serverless A100"
+}

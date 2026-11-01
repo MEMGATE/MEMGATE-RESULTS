@@ -1,0 +1,103 @@
+{
+ "code_hash": "2a1fb8d9e3e7a53c91409bc4b26280bacbbb1af2074ae59c9f95f73c1b3d9340",
+ "worlds": [
+  8700,
+  8701,
+  8702,
+  8703,
+  8704,
+  8705,
+  8706,
+  8707,
+  8708,
+  8709,
+  8710,
+  8711,
+  8712,
+  8713,
+  8714,
+  8715,
+  8716,
+  8717,
+  8718,
+  8719
+ ],
+ "means": {
+  "NAIVE": {
+   "attacker_ever_pct": 47.62,
+   "coverage_mean_pct": 61.34,
+   "coverage_end_pct": 60.71
+  },
+  "MAJORITY-1": {
+   "attacker_ever_pct": 40.16,
+   "coverage_mean_pct": 56.17,
+   "coverage_end_pct": 54.71
+  },
+  "TD-0.5": {
+   "attacker_ever_pct": 7.94,
+   "coverage_mean_pct": 45.94,
+   "coverage_end_pct": 20.86
+  },
+  "TD-0.98": {
+   "attacker_ever_pct": 2.44,
+   "coverage_mean_pct": 35.4,
+   "coverage_end_pct": 17.74
+  },
+  "RF": {
+   "attacker_ever_pct": 0.0,
+   "coverage_mean_pct": 49.51,
+   "coverage_end_pct": 82.64
+  },
+  "RF PERSIST-1": {
+   "attacker_ever_pct": 0.0,
+   "coverage_mean_pct": 50.82,
+   "coverage_end_pct": 85.05
+  },
+  "GATE-v3 FULL REGISTRY": {
+   "attacker_ever_pct": 0.0,
+   "coverage_mean_pct": 79.35,
+   "coverage_end_pct": 97.12
+  }
+ },
+ "guard": {
+  "RF": {
+   "honest_dismissed": 0,
+   "honest_unheard_at_end": 0,
+   "honest_merged": 0
+  },
+  "RF PERSIST-1": {
+   "honest_dismissed": 0,
+   "honest_unheard_at_end": 0,
+   "honest_merged": 0
+  }
+ },
+ "hypotheses": {
+  "H1 (primary): attacker values ever held, RF - TD-0.98": {
+   "worlds": 20,
+   "point_pp": -2.44,
+   "ci95_pp": [
+    -2.54,
+    -2.34
+   ],
+   "verdict": "WIN"
+  },
+  "H2: mean coverage, RF - TD-0.5": {
+   "worlds": 20,
+   "point_pp": 3.57,
+   "ci95_pp": [
+    3.38,
+    3.76
+   ],
+   "verdict": "WIN"
+  },
+  "H3: coverage at the end, RF - TD-0.5": {
+   "worlds": 20,
+   "point_pp": 61.78,
+   "ci95_pp": [
+    61.42,
+    62.12
+   ],
+   "verdict": "WIN"
+  }
+ }
+}

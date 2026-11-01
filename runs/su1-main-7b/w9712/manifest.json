@@ -1,0 +1,41 @@
+{
+ "world": [
+  9712,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": null,
+ "errors_spread": {
+  "starts_1based": [
+   2,
+   4,
+   6,
+   8
+  ],
+  "per_group": 10,
+  "errors": 40,
+  "removal_sessions_1based": [
+   5,
+   7,
+   9,
+   11
+  ]
+ },
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "sessions": 12,
+ "system": 4,
+ "prereg": "docs/SU1-PREREG-2026-10-27.md",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "11dba5585c298700c388707703c5f921db71bf68aa91325c779e28916cf3cfe3",
+ "payload_sha256": "47168d246a0e3f10b6b7dbe945e5c61a1cb70619c76587dd9444906b468f1c2a",
+ "packed": "2026-10-27 21:03:29"
+}

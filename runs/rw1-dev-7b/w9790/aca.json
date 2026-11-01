@@ -1,0 +1,16 @@
+{
+ "job": "rw1-dev-7b-w9790",
+ "execution": "rw1-dev-7b-w9790-eoo7l80",
+ "remote": "runs/rw1-dev-7b/w9790",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "bbdbc3ff7735c871de8f094d9e2c02de3cfef2c1e1131d82825a9fa1e8570913",
+ "kernel_sha256": "808138ca037f8e9f624e4e3726c637425d7f9708dccdc06bfbc8f79398afff6c",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 12:22:41",
+ "machine": "Azure Container Apps serverless A100"
+}

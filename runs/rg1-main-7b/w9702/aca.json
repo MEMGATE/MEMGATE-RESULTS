@@ -1,0 +1,16 @@
+{
+ "job": "rg1-main-7b-w9702",
+ "execution": "rg1-main-7b-w9702-gjp68dd",
+ "remote": "runs/rg1-main-7b/w9702",
+ "gpu": "a100",
+ "hours": 20.0,
+ "image": "memgatecclswc.azurecr.io/ccl-gpu:1",
+ "mounts": [],
+ "payload_sha256": "907235aa1f4a53251fe7709134fc77e66fc8e8330de23e86fdc73c6a60e49ae4",
+ "kernel_sha256": "a5567bf076191d456e578c49696fdb767a2ff0cb7bcecd1f63fec520a2ce53b5",
+ "cpu": 8,
+ "memory": "64Gi",
+ "usd_per_hour": 3.86,
+ "started": "2026-10-28 10:06:11",
+ "machine": "Azure Container Apps serverless A100"
+}

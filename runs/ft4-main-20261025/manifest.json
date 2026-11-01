@@ -1,0 +1,71 @@
+{
+ "phase": "main",
+ "seeds": [
+  9600,
+  9601
+ ],
+ "pools": {
+  "9600": "main",
+  "9601": "main"
+ },
+ "code_sha256": "98a63295f39dd6716aa2ea6cdd3517c58958454264f3d05c5e8cb087c2bbd225",
+ "anchors": "runs/ft4-anchors-20261024",
+ "anchors_missing": [
+  "anchor-mmlu|professional_law|84"
+ ],
+ "files": {
+  "9600:NAIVE": {
+   "file": "train-9600-NAIVE.jsonl",
+   "rows": 332,
+   "sha256": "b865854e49ca1476eb58828d0bdcc6c43a5e11c05afb4d28312077987c2cb8ca",
+   "account": "memgate-ft-eus2"
+  },
+  "9600:LEARNER": {
+   "file": "train-9600-LEARNER.jsonl",
+   "rows": 977,
+   "sha256": "5a8e93cf88c94cdda935ba920c448ff126817f9550518d82afdfba5501b40456",
+   "account": "memgate-ft-eus2b"
+  },
+  "9600:LEARNER+RULES": {
+   "file": "train-9600-LEARNER+RULES.jsonl",
+   "rows": 1037,
+   "sha256": "14747bac4ccc3cb2f2368e578e9901963f3908f455fa6c2ea4978a30f53ac597",
+   "account": "jayeshupp-8050-resource"
+  },
+  "9601:NAIVE": {
+   "file": "train-9601-NAIVE.jsonl",
+   "rows": 332,
+   "sha256": "67057b9496dae0921fb68090851f054fdc5e10d75072d58c38600f74f7f1508c",
+   "account": "memgate-ft-swc2"
+  },
+  "9601:LEARNER": {
+   "file": "train-9601-LEARNER.jsonl",
+   "rows": 985,
+   "sha256": "befd2f9795d7844bbc88bd779424928b4786ff12a6f542f3dddf17185cbdb018",
+   "account": "memgate-ft-ncus3"
+  },
+  "9601:LEARNER+RULES": {
+   "file": "train-9601-LEARNER+RULES.jsonl",
+   "rows": 1045,
+   "sha256": "d32354bc41fd41b356aaa635b8273a047062a696315169eae7b25563488c8f4b",
+   "account": "memgate-ft-swc4"
+  }
+ },
+ "worlds": {
+  "9600": {
+   "pool": "main",
+   "offices": 166,
+   "questions": 1009,
+   "half_A": 44,
+   "half_B": 45
+  },
+  "9601": {
+   "pool": "main",
+   "offices": 166,
+   "questions": 1012,
+   "half_A": 45,
+   "half_B": 45
+  }
+ },
+ "written": "2026-10-25 00:32:58"
+}

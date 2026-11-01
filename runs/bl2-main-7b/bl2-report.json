@@ -1,0 +1,314 @@
+{
+ "per_world": {
+  "9702": {
+   "measures": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 51.1,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 78.4
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 70.2,
+     "follow_B": 74.0,
+     "dated": 68.9,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 72.3,
+     "kept": 100.0
+    },
+    "RAG-STREAM": {
+     "current_w0": 97.8,
+     "current_w2": 97.8,
+     "poison": 8.7,
+     "early_kept": 100.0,
+     "stale": 2.2,
+     "locality": 98.1,
+     "follow_A": 83.0,
+     "follow_B": 87.0,
+     "dated": 57.1,
+     "skills": 0.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.5,
+     "follow": 85.2,
+     "kept": 100.0
+    },
+    "RAG-GATE": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 98.1,
+     "follow_A": 87.9,
+     "follow_B": 92.7,
+     "dated": 77.4,
+     "skills": 0.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.5,
+     "follow": 90.6,
+     "kept": 100.0
+    }
+   },
+   "sizes": {
+    "RAG-STREAM@12": {
+     "facts": 166,
+     "questions": 1543,
+     "with_facts": 905
+    },
+    "RAG-GATE@12": {
+     "facts": 166,
+     "questions": 1543,
+     "with_facts": 909
+    }
+   }
+  },
+  "9703": {
+   "measures": {
+    "FROZEN": {
+     "current_w0": 0.0,
+     "current_w2": 0.0,
+     "poison": 0.0,
+     "early_kept": 0.0,
+     "stale": 52.0,
+     "locality": 99.2,
+     "follow_A": 40.4,
+     "follow_B": 39.5,
+     "dated": 17.0,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 39.9,
+     "kept": 68.6
+    },
+    "SYSTEM2": {
+     "current_w0": 100.0,
+     "current_w2": 98.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 99.2,
+     "follow_A": 78.7,
+     "follow_B": 75.1,
+     "dated": 64.2,
+     "skills": 0.0,
+     "gsm8k": 94.0,
+     "mmlu": 72.5,
+     "follow": 76.7,
+     "kept": 100.0
+    },
+    "RAG-STREAM": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 13.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 96.6,
+     "follow_A": 83.0,
+     "follow_B": 89.3,
+     "dated": 57.5,
+     "skills": 0.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.5,
+     "follow": 86.5,
+     "kept": 100.0
+    },
+    "RAG-GATE": {
+     "current_w0": 100.0,
+     "current_w2": 100.0,
+     "poison": 0.0,
+     "early_kept": 100.0,
+     "stale": 0.0,
+     "locality": 97.3,
+     "follow_A": 93.6,
+     "follow_B": 92.1,
+     "dated": 78.8,
+     "skills": 0.0,
+     "gsm8k": 92.7,
+     "mmlu": 72.5,
+     "follow": 92.8,
+     "kept": 100.0
+    }
+   },
+   "sizes": {
+    "RAG-STREAM@12": {
+     "facts": 166,
+     "questions": 1543,
+     "with_facts": 912
+    },
+    "RAG-GATE@12": {
+     "facts": 166,
+     "questions": 1543,
+     "with_facts": 917
+    }
+   }
+  }
+ },
+ "comparisons": {
+  "RAG-GATE": {
+   "R1": {
+    "measure": "poison",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "wrong side"
+   },
+   "R2": {
+    "measure": "current_w0",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R3": {
+    "measure": "locality",
+    "estimate": 1.52,
+    "ci95": [
+     0.57,
+     2.66
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R4": {
+    "measure": "kept",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R5": {
+    "measure": "dated",
+    "estimate": -11.56,
+    "ci95": [
+     -16.04,
+     -7.08
+    ],
+    "verdict": "wrong side"
+   },
+   "R6": {
+    "measure": "follow",
+    "estimate": -17.14,
+    "ci95": [
+     -20.13,
+     -14.15
+    ],
+    "verdict": "wrong side"
+   },
+   "R7a": {
+    "measure": "gsm8k",
+    "estimate": 1.33,
+    "ci95": [
+     0.33,
+     2.67
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R7b": {
+    "measure": "mmlu",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  },
+  "RAG-STREAM": {
+   "R1": {
+    "measure": "poison",
+    "estimate": -10.87,
+    "ci95": [
+     -15.76,
+     -6.52
+    ],
+    "verdict": "WIN"
+   },
+   "R2": {
+    "measure": "current_w0",
+    "estimate": 1.05,
+    "ci95": [
+     0.0,
+     3.16
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R3": {
+    "measure": "locality",
+    "estimate": 1.9,
+    "ci95": [
+     0.76,
+     3.04
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R4": {
+    "measure": "kept",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R5": {
+    "measure": "dated",
+    "estimate": 9.2,
+    "ci95": [
+     4.01,
+     14.15
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R6": {
+    "measure": "follow",
+    "estimate": -11.32,
+    "ci95": [
+     -14.94,
+     -7.7
+    ],
+    "verdict": "wrong side"
+   },
+   "R7a": {
+    "measure": "gsm8k",
+    "estimate": 1.33,
+    "ci95": [
+     0.33,
+     2.67
+    ],
+    "verdict": "NON-INFERIOR"
+   },
+   "R7b": {
+    "measure": "mmlu",
+    "estimate": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "NON-INFERIOR"
+   }
+  }
+ }
+}

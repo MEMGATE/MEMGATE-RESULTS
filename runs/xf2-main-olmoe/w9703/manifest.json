@@ -1,0 +1,27 @@
+{
+ "world": [
+  9703,
+  "main"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "allenai/OLMoE-1B-7B-0924-Instruct",
+ "revision": "7f1c97f440f06ce36705e4f2b843edb5925f4498",
+ "arms": [
+  "SYSTEM2",
+  "NAIVE"
+ ],
+ "weights": "float16",
+ "sessions": 12,
+ "system": 4,
+ "questions_from": "runs/ccl4-main-7b-colab/w9703/dataset/payload.json",
+ "prereg": "docs/XF2-PREREG-2026-10-27.md",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "f2a25824cacd9cae7155e457139de4859bd5b68ce63b037182e62c1f1cc66395",
+ "packer_sha256": "c296527eef1b9119eb3ea2f76b8b9afe3083c72bd2d45c729b17107cbda2da15",
+ "payload_sha256": "07efeab937c011400d7a049fa62510df8cafbd921721fbe7e09ee7350befc101",
+ "packed": "2026-10-27 22:47:48"
+}

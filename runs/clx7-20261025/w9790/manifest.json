@@ -1,0 +1,21 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 8,
+ "wide": true,
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "arms": [
+  "NAIVE",
+  "SYSTEM+GATE+ADAPT"
+ ],
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "d18b3e24554d47c04da57489eb25c0d7926b0454e76d141757d23c0f4121ffd3",
+ "kernel": "jayeshupp/pramana-clx7-20261025-w9790",
+ "dataset": "jayeshupp/pramana-clx7-20261025-w9790-data",
+ "started": "2026-10-25 16:15:21"
+}

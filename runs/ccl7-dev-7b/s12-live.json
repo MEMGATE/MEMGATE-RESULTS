@@ -1,0 +1,23 @@
+{
+ "v8": {
+  "locality_own": 61.2,
+  "locality": 87.1,
+  "gsm8k": 92.0,
+  "mmlu": 71.0,
+  "current_w0": 98.1
+ },
+ "v9": {
+  "locality_own": 67.5,
+  "locality": 69.2,
+  "gsm8k": 92.0,
+  "mmlu": 74.0,
+  "current_w0": 98.1
+ },
+ "v10": {
+  "locality_own": 65.0,
+  "locality": 67.3,
+  "gsm8k": 92.7,
+  "mmlu": 74.0,
+  "current_w0": 96.2
+ }
+}

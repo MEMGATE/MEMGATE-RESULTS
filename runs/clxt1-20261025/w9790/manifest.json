@@ -1,0 +1,24 @@
+{
+ "world": [
+  9790,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 8,
+ "wide": true,
+ "arms": [
+  "NAIVE",
+  "SYSTEM"
+ ],
+ "smoke": false,
+ "model": "Qwen2.5-7B-Instruct",
+ "model_source": "qwen-lm/qwen2.5/transformers/7b-instruct/1",
+ "weights": "bfloat16",
+ "machine": "Kaggle TPU v5e-8",
+ "recite": 0,
+ "neighbors": 0,
+ "code_sha256": "ac748f1660d2077efaae027fe9933607506060fee1e23ab04ec24b09eafccf6c",
+ "kernel": "mohitaureus/pramana-clxt1-20261025-w9790",
+ "dataset": "mohitaureus/pramana-clxt1-20261025-w9790-data",
+ "started": "2026-10-25 12:44:43"
+}

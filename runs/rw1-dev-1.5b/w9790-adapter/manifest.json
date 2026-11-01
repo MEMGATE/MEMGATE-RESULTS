@@ -1,0 +1,44 @@
+{
+ "world": [
+  9790,
+  "realdev"
+ ],
+ "share": 1.0,
+ "errors": 0,
+ "wide": true,
+ "errors_at": null,
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+ "weights": "float16",
+ "arms": [
+  "SYSTEM3"
+ ],
+ "sessions": 34,
+ "eval_after": [
+  12,
+  24,
+  34
+ ],
+ "system": 5,
+ "domain": "real",
+ "real": {
+  "claims": 1083,
+  "editors": 241,
+  "claims_by_kind": {
+   "right": 971,
+   "past": 44,
+   "premature": 28,
+   "never": 40
+  },
+  "attacked_offices": 37,
+  "unasked_per_session": 35,
+  "budget_per_session": 53
+ },
+ "saves_adapter": true,
+ "code_sha256": "abf6b1e7a49f1def5637beeb9047ca31c2fa6c422ecfdc93bcbe58ab9374aa59",
+ "cl6_sha256": "ad6417fcfa43fb4a28fb83314a7df2221a6b8519bb4d70dc4fd36ef78c410c96",
+ "kernel_sha256": "e97837e1d7e035bff0f099048a9374402b148f56b8a1611d8fc2b266ad1338f4",
+ "prereg": null,
+ "payload_sha256": "0d43bd45e64d02a7b12bdc0b785ddaa8b26e46deaf90b4e40550b76a2bbecab7",
+ "packed": "2026-10-28 17:04:45"
+}

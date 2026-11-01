@@ -1,0 +1,18 @@
+{
+ "job_name": "projects/16399170796/locations/europe-west4/customJobs/4339283180876988416",
+ "display_name": "tx1-dev-w9792-read7b-r2",
+ "remote": "runs/tx1-dev/w9792-read7b-r2",
+ "region": "europe-west4",
+ "gpu": "a100",
+ "machine_type": "a2-highgpu-1g",
+ "accelerator": "NVIDIA_TESLA_A100",
+ "accelerator_count": 1,
+ "spot": true,
+ "hours": 20.0,
+ "image": "us-central1-docker.pkg.dev/sixth-edition-480013-n1/ccl/ccl-gpu:1",
+ "payload_sha256": "052c8b0d138742521bb4567792399ad1f6c4cbf4b252dde12730e09e9c9c4785",
+ "kernel_sha256": "ee9a5ff96a4854f5bbf1066ccf3307c960bcd963825b8498b5ddd345da65e1c1",
+ "usd_per_hour": 1.1,
+ "started": "2026-10-31 16:16:22",
+ "machine": "Google Cloud Vertex AI A100 (Spot, europe-west4)"
+}

@@ -1,0 +1,192 @@
+{
+ "worlds": [
+  8300,
+  8301,
+  8302,
+  8303,
+  8304,
+  8305,
+  8306,
+  8307,
+  8308,
+  8309,
+  8310,
+  8311,
+  8312,
+  8313,
+  8314,
+  8315,
+  8316,
+  8317,
+  8318,
+  8319
+ ],
+ "means": {
+  "NAIVE": {
+   "poison_end": 6.46,
+   "poison_peak": 10.11,
+   "poison_ever": 47.57,
+   "coverage_mean": 61.92,
+   "coverage_end": 61.82,
+   "stale_end": 406.2,
+   "queries": 0.0
+  },
+  "REGISTRY-ONLY": {
+   "poison_end": 0.0,
+   "poison_peak": 0.0,
+   "poison_ever": 0.0,
+   "coverage_mean": 66.2,
+   "coverage_end": 81.4,
+   "stale_end": 234.75,
+   "queries": 3636.0
+  },
+  "MAJORITY": {
+   "poison_end": 0.22,
+   "poison_peak": 1.91,
+   "poison_ever": 8.29,
+   "coverage_mean": 78.04,
+   "coverage_end": 81.58,
+   "stale_end": 233.5,
+   "queries": 3635.35
+  },
+  "TRUTH-DISCOVERY": {
+   "poison_end": 0.0,
+   "poison_peak": 1.2,
+   "poison_ever": 3.04,
+   "coverage_mean": 78.49,
+   "coverage_end": 81.62,
+   "stale_end": 217.75,
+   "queries": 3634.65
+  },
+  "GATE": {
+   "poison_end": 0.0,
+   "poison_peak": 0.61,
+   "poison_ever": 0.61,
+   "coverage_mean": 77.53,
+   "coverage_end": 88.15,
+   "stale_end": 150.95,
+   "queries": 3636.0
+  },
+  "GATE-v2": {
+   "poison_end": 0.0,
+   "poison_peak": 0.59,
+   "poison_ever": 0.59,
+   "coverage_mean": 81.98,
+   "coverage_end": 97.11,
+   "stale_end": 36.8,
+   "queries": 3631.3
+  }
+ },
+ "comparisons": {
+  "H1": {
+   "a": "GATE",
+   "b": "REGISTRY-ONLY",
+   "measure": "coverage_mean",
+   "pp_mean": 11.33,
+   "ci95": [
+    11.07,
+    11.6
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H2a": {
+   "a": "GATE",
+   "b": "MAJORITY",
+   "measure": "poison_ever",
+   "pp_mean": -7.68,
+   "ci95": [
+    -7.83,
+    -7.53
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "H2b": {
+   "a": "GATE",
+   "b": "TRUTH-DISCOVERY",
+   "measure": "poison_ever",
+   "pp_mean": -2.43,
+   "ci95": [
+    -2.7,
+    -2.16
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "H3": {
+   "a": "GATE-v2",
+   "b": "GATE",
+   "measure": "coverage_mean",
+   "pp_mean": 4.45,
+   "ci95": [
+    4.2,
+    4.71
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "H3-poison": {
+   "a": "GATE-v2",
+   "b": "GATE",
+   "measure": "poison_ever",
+   "pp_mean": -0.02,
+   "ci95": [
+    -0.05,
+    0.01
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 3
+  },
+  "gate-vs-td-coverage": {
+   "a": "GATE",
+   "b": "TRUTH-DISCOVERY",
+   "measure": "coverage_mean",
+   "pp_mean": -0.96,
+   "ci95": [
+    -1.19,
+    -0.73
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  },
+  "gate-vs-td-coverage-end": {
+   "a": "GATE",
+   "b": "TRUTH-DISCOVERY",
+   "measure": "coverage_end",
+   "pp_mean": 6.53,
+   "ci95": [
+    6.18,
+    6.87
+   ],
+   "worlds_above_0": 20,
+   "worlds_below_0": 0
+  },
+  "gate-vs-td-stale": {
+   "a": "GATE",
+   "b": "TRUTH-DISCOVERY",
+   "measure": "stale_end",
+   "pp_mean": -66.8,
+   "ci95": [
+    -71.19,
+    -62.41
+   ],
+   "worlds_above_0": 0,
+   "worlds_below_0": 20
+  }
+ },
+ "verdicts": {
+  "H1": "WIN",
+  "H2a": "WIN",
+  "H2b": "WIN",
+  "H3": "WIN"
+ },
+ "honest_sources_dismissed": {
+  "NAIVE": 0,
+  "REGISTRY-ONLY": 0,
+  "MAJORITY": 0,
+  "TRUTH-DISCOVERY": 0,
+  "GATE": 0,
+  "GATE-v2": 0
+ }
+}
