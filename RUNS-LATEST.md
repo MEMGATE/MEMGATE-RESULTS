@@ -1,4 +1,4 @@
-# Run folders, as the lab machine saw them on 01 November 2026, 21:41 (IST)
+# Run folders, as the lab machine saw them on 01 November 2026, 22:26 (IST)
 
 Written by `scripts/sync.py` from local files only. A started run is fetched when it ends; until then its state on the GPU is read with `cl/gcp_run.py status RUN`.
 
