@@ -1,0 +1,679 @@
+{
+ "per_world": {
+  "9724": {
+   "FROZEN": {
+    "current_w0": 0.2,
+    "current_w2": 0.3,
+    "poison": 0.1,
+    "early_kept": 0.0,
+    "stale": 10.0,
+    "locality": 100.0,
+    "follow_A": 28.8,
+    "follow_B": 29.7,
+    "dated": 4.0,
+    "skills": 3.6,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 29.3,
+    "kept": 50.2
+   },
+   "NAIVE": {
+    "current_w0": 95.9,
+    "current_w2": 95.7,
+    "poison": 8.0,
+    "early_kept": 98.1,
+    "stale": 3.1,
+    "locality": 30.0,
+    "follow_A": 3.4,
+    "follow_B": 4.5,
+    "dated": 46.9,
+    "skills": 21.4,
+    "gsm8k": 16.7,
+    "mmlu": 56.0,
+    "follow": 4.0,
+    "kept": 99.1
+   },
+   "SYSTEM2": {
+    "current_w0": 97.1,
+    "current_w2": 96.9,
+    "poison": 0.0,
+    "early_kept": 99.1,
+    "stale": 2.6,
+    "locality": 100.0,
+    "follow_A": 66.0,
+    "follow_B": 64.9,
+    "dated": 70.7,
+    "skills": 3.6,
+    "gsm8k": 92.7,
+    "mmlu": 71.5,
+    "follow": 65.5,
+    "kept": 99.6
+   },
+   "errors": {
+    "FROZEN": {
+     "offices": 40,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 97.5
+    },
+    "NAIVE": {
+     "offices": 40,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 12.5
+    },
+    "SYSTEM2": {
+     "offices": 40,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 90.0
+    }
+   },
+   "lie_mean_gap": {
+    "FROZEN": 0.65,
+    "NAIVE": 2.504,
+    "SYSTEM2": 0.851
+   },
+   "first_check": [
+    [
+     1,
+     2313,
+     557
+    ],
+    [
+     2,
+     910,
+     46
+    ],
+    [
+     3,
+     662,
+     88
+    ],
+    [
+     4,
+     1025,
+     67
+    ],
+    [
+     5,
+     1311,
+     89
+    ],
+    [
+     6,
+     1034,
+     69
+    ],
+    [
+     7,
+     910,
+     50
+    ],
+    [
+     8,
+     858,
+     51
+    ],
+    [
+     9,
+     1129,
+     70
+    ],
+    [
+     10,
+     1093,
+     56
+    ],
+    [
+     11,
+     748,
+     51
+    ],
+    [
+     12,
+     596,
+     39
+    ]
+   ],
+   "reps_next": {
+    "1": {
+     "office": 2,
+     "dated": 2
+    },
+    "2": {
+     "office": 2,
+     "dated": 2,
+     "follow": 2
+    },
+    "3": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "4": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "5": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "6": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "7": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "8": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "9": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "10": {
+     "office": 3,
+     "dated": 3,
+     "follow": 3
+    },
+    "11": {
+     "office": 3,
+     "dated": 4,
+     "follow": 3
+    },
+    "12": {
+     "office": 3,
+     "dated": 4,
+     "follow": 3
+    }
+   },
+   "routed_to_adapter": {
+    "learned": 9546,
+    "other": 6,
+    "questions": 9956
+   }
+  },
+  "9725": {
+   "FROZEN": {
+    "current_w0": 1.0,
+    "current_w2": 1.0,
+    "poison": 0.0,
+    "early_kept": 0.0,
+    "stale": 9.2,
+    "locality": 98.3,
+    "follow_A": 28.8,
+    "follow_B": 29.7,
+    "dated": 4.0,
+    "skills": 3.6,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 29.3,
+    "kept": 51.5
+   },
+   "NAIVE": {
+    "current_w0": 96.5,
+    "current_w2": 96.3,
+    "poison": 9.4,
+    "early_kept": 100.0,
+    "stale": 3.3,
+    "locality": 35.0,
+    "follow_A": 1.4,
+    "follow_B": 1.9,
+    "dated": 46.5,
+    "skills": 3.6,
+    "gsm8k": 13.3,
+    "mmlu": 59.5,
+    "follow": 1.6,
+    "kept": 100.0
+   },
+   "SYSTEM2": {
+    "current_w0": 97.7,
+    "current_w2": 97.6,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 2.1,
+    "locality": 98.3,
+    "follow_A": 74.5,
+    "follow_B": 73.3,
+    "dated": 72.7,
+    "skills": 10.7,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 73.9,
+    "kept": 100.0
+   },
+   "errors": {
+    "FROZEN": {
+     "offices": 40,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 92.5
+    },
+    "NAIVE": {
+     "offices": 40,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 0.0
+    },
+    "SYSTEM2": {
+     "offices": 40,
+     "still_wrong_pct": 0.0,
+     "denies_wrong_pct": 90.0
+    }
+   },
+   "lie_mean_gap": {
+    "FROZEN": 0.013,
+    "NAIVE": 2.613,
+    "SYSTEM2": 0.858
+   },
+   "first_check": [
+    [
+     1,
+     2322,
+     614
+    ],
+    [
+     2,
+     916,
+     35
+    ],
+    [
+     3,
+     711,
+     75
+    ],
+    [
+     4,
+     979,
+     68
+    ],
+    [
+     5,
+     1257,
+     66
+    ],
+    [
+     6,
+     1146,
+     95
+    ],
+    [
+     7,
+     993,
+     49
+    ],
+    [
+     8,
+     825,
+     47
+    ],
+    [
+     9,
+     1275,
+     85
+    ],
+    [
+     10,
+     986,
+     84
+    ],
+    [
+     11,
+     787,
+     52
+    ],
+    [
+     12,
+     636,
+     37
+    ]
+   ],
+   "reps_next": {
+    "1": {
+     "office": 2,
+     "dated": 2
+    },
+    "2": {
+     "office": 2,
+     "dated": 2,
+     "follow": 2
+    },
+    "3": {
+     "office": 2,
+     "dated": 2,
+     "follow": 3
+    },
+    "4": {
+     "office": 2,
+     "dated": 2,
+     "follow": 4
+    },
+    "5": {
+     "office": 2,
+     "dated": 2,
+     "follow": 4
+    },
+    "6": {
+     "office": 2,
+     "dated": 3,
+     "follow": 4
+    },
+    "7": {
+     "office": 2,
+     "dated": 3,
+     "follow": 4
+    },
+    "8": {
+     "office": 2,
+     "dated": 3,
+     "follow": 4
+    },
+    "9": {
+     "office": 2,
+     "dated": 3,
+     "follow": 4
+    },
+    "10": {
+     "office": 2,
+     "dated": 4,
+     "follow": 4
+    },
+    "11": {
+     "office": 3,
+     "dated": 4,
+     "follow": 4
+    },
+    "12": {
+     "office": 3,
+     "dated": 4,
+     "follow": 4
+    }
+   },
+   "routed_to_adapter": {
+    "learned": 9546,
+    "other": 2,
+    "questions": 9956
+   }
+  }
+ },
+ "validity": {
+  "9724": {
+   "arms_finished": {
+    "NAIVE": true,
+    "REPLAY": false,
+    "SYSTEM2": true
+   },
+   "frozen_unanswered": 0,
+   "frozen_current_pct": 0.2,
+   "removal_in_session_4": true,
+   "lie_arms": [
+    "FROZEN",
+    "NAIVE",
+    "SYSTEM2"
+   ]
+  },
+  "9725": {
+   "arms_finished": {
+    "NAIVE": true,
+    "REPLAY": false,
+    "SYSTEM2": true
+   },
+   "frozen_unanswered": 0,
+   "frozen_current_pct": 1.0,
+   "removal_in_session_4": true,
+   "lie_arms": [
+    "FROZEN",
+    "NAIVE",
+    "SYSTEM2"
+   ]
+  }
+ },
+ "first_check_by_kind": {
+  "dated": {
+   "early": [
+    489,
+    3152
+   ],
+   "late": [
+    165,
+    2340
+   ]
+  },
+  "follow": {
+   "early": [
+    146,
+    958
+   ],
+   "late": [
+    87,
+    2148
+   ]
+  },
+  "office": {
+   "early": [
+    915,
+    5728
+   ],
+   "late": [
+    222,
+    2762
+   ]
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "ability": 2,
+   "measure": "poison",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": -8.72,
+   "ci95": [
+    -10.07,
+    -7.42
+   ],
+   "verdict": "WIN"
+  },
+  "H2": {
+   "ability": 1,
+   "measure": "current_w0",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 1.22,
+   "ci95": [
+    0.43,
+    2.08
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H11": {
+   "ability": 1,
+   "measure": "current_w0",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 96.79,
+   "ci95": [
+    95.75,
+    97.74
+   ],
+   "verdict": "WIN"
+  },
+  "H3": {
+   "ability": 3,
+   "measure": "kept",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 0.22,
+   "ci95": [
+    -0.44,
+    1.11
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H10": {
+   "ability": 3,
+   "measure": "locality",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H12": {
+   "ability": 4,
+   "measure": "lie_gap",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": -1.703,
+   "ci95": [
+    -2.123,
+    -1.3
+   ],
+   "verdict": "WIN"
+  },
+  "H12b": {
+   "ability": 4,
+   "measure": "lie_gap",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 0.523,
+   "ci95": [
+    0.131,
+    0.909
+   ],
+   "verdict": "not shown"
+  },
+  "H5": {
+   "ability": 5,
+   "measure": "dated",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 24.98,
+   "ci95": [
+    23.67,
+    26.27
+   ],
+   "verdict": "WIN"
+  },
+  "H6": {
+   "ability": 6,
+   "measure": "skills",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": -5.36,
+   "ci95": [
+    -16.07,
+    3.57
+   ],
+   "verdict": "not shown"
+  },
+  "H7": {
+   "ability": 7,
+   "measure": "follow",
+   "a": "SYSTEM2",
+   "b": "NAIVE",
+   "estimate": 66.89,
+   "ci95": [
+    65.83,
+    67.96
+   ],
+   "verdict": "WIN"
+  },
+  "H13": {
+   "ability": 8,
+   "measure": "first_check_early_minus_late",
+   "a": "SYSTEM2",
+   "b": null,
+   "estimate": 8.7,
+   "ci95": [
+    7.73,
+    9.66
+   ],
+   "verdict": "WIN"
+  },
+  "H8": {
+   "ability": 9,
+   "measure": "gsm8k",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  },
+  "H9": {
+   "ability": 9,
+   "measure": "mmlu",
+   "a": "SYSTEM2",
+   "b": "FROZEN",
+   "estimate": -0.5,
+   "ci95": [
+    -1.25,
+    0.0
+   ],
+   "verdict": "NON-INFERIOR"
+  }
+ },
+ "descriptive": {
+  "SYSTEM2 - NAIVE: early_kept": [
+   0.47,
+   -0.93,
+   2.33
+  ],
+  "SYSTEM2 - NAIVE: stale": [
+   -0.87,
+   -1.56,
+   -0.26
+  ],
+  "SYSTEM2 - NAIVE: current_w2": [
+   1.22,
+   0.35,
+   2.08
+  ],
+  "SYSTEM2 - NAIVE: follow_A": [
+   67.84,
+   66.35,
+   69.33
+  ],
+  "SYSTEM2 - NAIVE: follow_B": [
+   65.94,
+   64.38,
+   67.5
+  ],
+  "SYSTEM2 - NAIVE: locality": [
+   66.67,
+   58.33,
+   75.0
+  ],
+  "SYSTEM2 - NAIVE: gsm8k": [
+   77.67,
+   73.0,
+   82.33
+  ],
+  "SYSTEM2 - NAIVE: mmlu": [
+   14.25,
+   9.5,
+   19.0
+  ]
+ },
+ "abilities": {
+  "1": "PASSED",
+  "2": "PASSED",
+  "3": "PASSED",
+  "4": "NOT SHOWN",
+  "5": "PASSED",
+  "6": "NOT SHOWN",
+  "7": "PASSED",
+  "8": "PASSED",
+  "9": "PASSED"
+ }
+}

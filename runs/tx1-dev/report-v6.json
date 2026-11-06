@@ -1,0 +1,247 @@
+{
+ "per_world": {
+  "9792": {
+   "text-alone": {
+    "current_w0": 94.3,
+    "current_w2": 94.3,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 5.7,
+    "locality": 33.5,
+    "follow_A": 96.8,
+    "follow_B": 96.4,
+    "dated": 74.8,
+    "skills": 57.1,
+    "gsm8k": 80.0,
+    "mmlu": 66.5,
+    "follow": 96.6,
+    "locality_own": 26.2,
+    "kept": 100.0
+   },
+   "text-routed": {
+    "current_w0": 94.3,
+    "current_w2": 94.3,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 5.7,
+    "locality": 99.2,
+    "follow_A": 96.8,
+    "follow_B": 96.4,
+    "dated": 74.8,
+    "skills": 57.1,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 96.6,
+    "locality_own": 98.8,
+    "kept": 100.0
+   },
+   "reports-alone": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 29.3,
+    "follow_A": 95.5,
+    "follow_B": 96.9,
+    "dated": 72.6,
+    "skills": 25.0,
+    "gsm8k": 82.0,
+    "mmlu": 62.0,
+    "follow": 96.3,
+    "locality_own": 25.0,
+    "kept": 100.0
+   },
+   "reports-routed": {
+    "current_w0": 98.1,
+    "current_w2": 98.1,
+    "poison": 0.0,
+    "early_kept": 100.0,
+    "stale": 1.9,
+    "locality": 99.2,
+    "follow_A": 95.5,
+    "follow_B": 96.9,
+    "dated": 72.6,
+    "skills": 25.0,
+    "gsm8k": 92.7,
+    "mmlu": 72.5,
+    "follow": 96.3,
+    "locality_own": 98.8,
+    "kept": 100.0
+   },
+   "learned_offices_at_end": {
+    "text": 205,
+    "reports": 205
+   }
+  }
+ },
+ "reading": {
+  "9792": {
+   "report": {
+    "right": 11503,
+    "lost (asserted)": 313,
+    "lost (complete)": 523,
+    "lost (fitting)": 120
+   },
+   "denial": {
+    "taught nothing": 411,
+    "claim passed": 17
+   },
+   "no person": {
+    "taught nothing": 427
+   },
+   "plan": {
+    "taught nothing": 421
+   },
+   "question": {
+    "taught nothing": 412
+   },
+   "rumour": {
+    "taught nothing": 403
+   },
+   "split": {
+    "taught nothing": 794
+   }
+  }
+ },
+ "validity": {
+  "9792": {
+   "text": {
+    "done": true,
+    "removals": [
+     4
+    ]
+   },
+   "reports": {
+    "done": true,
+    "removals": [
+     4
+    ]
+   }
+  }
+ },
+ "hypotheses": {
+  "T1": {
+   "measure": "current_w0",
+   "view": "routed",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": -3.77,
+   "ci95": [
+    -9.43,
+    0.0
+   ],
+   "margin": -5.0,
+   "verdict": "not shown"
+  },
+  "T2": {
+   "measure": "kept",
+   "view": "routed",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "T3": {
+   "measure": "early_kept",
+   "view": "routed",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": -5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "T4": {
+   "measure": "dated",
+   "view": "routed",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 2.14,
+   "ci95": [
+    -3.85,
+    8.12
+   ],
+   "margin": -5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "T5": {
+   "measure": "follow",
+   "view": "routed",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 0.28,
+   "ci95": [
+    -1.71,
+    2.28
+   ],
+   "margin": -5.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "T6": {
+   "measure": "poison",
+   "view": "routed",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "margin": 1.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "T7": {
+   "measure": "gsm8k",
+   "view": "alone",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": -2.0,
+   "ci95": [
+    -9.33,
+    5.33
+   ],
+   "margin": -3.0,
+   "verdict": "not shown"
+  },
+  "T8": {
+   "measure": "mmlu",
+   "view": "alone",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 4.5,
+   "ci95": [
+    -1.0,
+    10.0
+   ],
+   "margin": -2.0,
+   "verdict": "NON-INFERIOR"
+  },
+  "T9": {
+   "measure": "locality_own",
+   "view": "alone",
+   "a": "learner from text",
+   "b": "learner from reports",
+   "estimate": 1.25,
+   "ci95": [
+    -10.0,
+    12.5
+   ],
+   "margin": -5.0,
+   "verdict": "not shown"
+  }
+ },
+ "verdict": "NOT SHOWN",
+ "boot": {
+  "resamples": 10000,
+  "seed": 12345
+ }
+}

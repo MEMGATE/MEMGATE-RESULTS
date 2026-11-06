@@ -1,0 +1,46 @@
+{
+ "world": [
+  9792,
+  "dev"
+ ],
+ "share": 1.0,
+ "errors": 40,
+ "wide": true,
+ "errors_at": 0,
+ "model": "Qwen/Qwen2.5-72B-Instruct",
+ "revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+ "weights": "4-bit NF4",
+ "arms": [
+  "SYSTEM3",
+  "NAIVE"
+ ],
+ "learner": "SYSTEM4 (named SYSTEM3 in the payload)",
+ "sessions": 34,
+ "eval_after": [
+  12,
+  24,
+  34
+ ],
+ "system": 5,
+ "domain": "offices",
+ "anchors_version": "v12",
+ "conduct_anchors": 947,
+ "anchors_by_kind": {
+  "ifeval": 341,
+  "safety": 200,
+  "office": 206,
+  "gsm8k": 50,
+  "mmlu": 150,
+  "code": 0
+ },
+ "safety_anchors": 200,
+ "period_rows": 174,
+ "neighbour_rows": 206,
+ "period_rows_trained": 9394,
+ "code_sha256": "74dc34b6a180fd323991deb3a16eda4953f406172a6270b2f6c852811fb6684e",
+ "cl6_sha256": "ad6417fcfa43fb4a28fb83314a7df2221a6b8519bb4d70dc4fd36ef78c410c96",
+ "kernel_sha256": "f46a3c1eaacbcf633695b12562a5ac3ca4c70a16a7786e87c44b1d03ad5ea8be",
+ "prereg": null,
+ "payload_sha256": "8b96acca73a04a3a785e869315ced0169b523947afccfc9b37c53fa3b988feeb",
+ "packed": "2026-11-02 07:00:14"
+}

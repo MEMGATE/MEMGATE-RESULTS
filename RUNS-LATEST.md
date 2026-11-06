@@ -1,8 +1,8 @@
-# Run folders, as the lab machine saw them on 01 November 2026, 22:26 (IST)
+# Run folders, as the lab machine saw them on 02 November 2026, 11:45 (IST)
 
 Written by `scripts/sync.py` from local files only. A started run is fetched when it ends; until then its state on the GPU is read with `cl/gcp_run.py status RUN`.
 
-## Started and not yet fetched (10)
+## Started and not yet fetched (8)
 | Run | Machine | Started | Hours allowed |
 | --- | --- | --- | --- |
 | `runs/aca-dev/w9792-s2` | Azure Container Apps serverless A100 | 2026-10-27 18:57:56 | 20.0 |
@@ -10,11 +10,9 @@ Written by `scripts/sync.py` from local files only. A started run is fetched whe
 | `runs/bl1-dev-1.5b/w9792-alphaedit-r2` | Azure Container Apps serverless T4 | 2026-10-27 20:39:34 | 6.0 |
 | `runs/ccl6-main-72b/w9708` | Google Cloud Vertex AI A100-2X (Spot, us-central1) | 2026-11-01 00:22:23 | 20.0 |
 | `runs/ccl6-main-72b/w9709` | Google Cloud Vertex AI A100-2X (Spot, us-central1) | 2026-11-01 12:37:37 | 20.0 |
-| `runs/ccl7-dev-1.5b/w9792-v11` | Google Cloud Vertex AI A100 (Spot, europe-west4) | 2026-11-01 15:03:03 | 20.0 |
-| `runs/ccl7-dev-7b/w9792-v11` | Google Cloud Vertex AI A100 (Spot, us-central1) | 2026-11-01 15:02:28 | 20.0 |
-| `runs/tx1-dev/w9792-learn7b-v6` | Google Cloud Vertex AI A100 (Spot, europe-west4) | 2026-10-31 22:55:57 | 20.0 |
-| `runs/x10-main-7b/w9724` | Google Cloud Vertex AI A100 (Spot, europe-west4) | 2026-11-01 01:12:00 | 20.0 |
-| `runs/xf2-main-olmoe/w9702` | Google Cloud Vertex AI A100 (Spot, us-central1) | 2026-11-01 01:08:59 | 20.0 |
+| `runs/ccl7-dev-1.5b/w9792-v12` | Google Cloud Vertex AI A100 (Spot, europe-west4) | 2026-11-02 07:00:11 | 20.0 |
+| `runs/ccl7-dev-72b/w9792-v12` | Google Cloud Vertex AI A100-2X (Spot, europe-west4) | 2026-11-02 07:00:29 | 20.0 |
+| `runs/ccl7-dev-7b/w9792-v12` | Google Cloud Vertex AI A100 (Spot, us-central1) | 2026-11-02 06:59:55 | 20.0 |
 
 ## Packed, not started (40)
 | Run |
@@ -70,7 +68,7 @@ Written by `scripts/sync.py` from local files only. A started run is fetched whe
 | `runs/xfm-main-phi/w9702` | exit code 1, no done line |
 | `runs/xfm-main-phi/w9703` | exit code 1, no done line |
 
-## Done (109)
+## Done (114)
 | Run | State |
 | --- | --- |
 | `runs/aca-dev/w9792-s2b` | exit code 0 |
@@ -120,6 +118,7 @@ Written by `scripts/sync.py` from local files only. A started run is fetched whe
 | `runs/ccl6-main-7b/w9711` | exit code 0 |
 | `runs/ccl7-dev-1.5b/w9792` | exit code 0 |
 | `runs/ccl7-dev-1.5b/w9792-v10` | exit code 0 |
+| `runs/ccl7-dev-1.5b/w9792-v11` | exit code 0 |
 | `runs/ccl7-dev-1.5b/w9792-v4` | exit code 0 |
 | `runs/ccl7-dev-1.5b/w9792-v5` | exit code 0 |
 | `runs/ccl7-dev-1.5b/w9792-v6` | exit code 0 |
@@ -128,6 +127,7 @@ Written by `scripts/sync.py` from local files only. A started run is fetched whe
 | `runs/ccl7-dev-1.5b/w9792-v9` | exit code 0 |
 | `runs/ccl7-dev-7b/w9792` | exit code 0 |
 | `runs/ccl7-dev-7b/w9792-v10` | exit code 0 |
+| `runs/ccl7-dev-7b/w9792-v11` | exit code 0 |
 | `runs/ccl7-dev-7b/w9792-v2` | exit code 0 |
 | `runs/ccl7-dev-7b/w9792-v3` | exit code 0 |
 | `runs/ccl7-dev-7b/w9792-v4` | exit code 0 |
@@ -167,17 +167,20 @@ Written by `scripts/sync.py` from local files only. A started run is fetched whe
 | `runs/rw1-dev-7b/w9790` | exit code 0 |
 | `runs/su1-main-7b/w9712` | exit code 0 |
 | `runs/su1-main-7b/w9713` | exit code 0 |
+| `runs/tx1-dev/w9792-learn7b-v6` | exit code 0 |
 | `runs/tx1-dev/w9792-read7b` | exit code 0 |
 | `runs/tx1-dev/w9792-read7b-r2` | exit code 0 |
 | `runs/wb1-dev-1.5b/w9792` | exit code 0 |
 | `runs/wb1-dev-1.5b/w9792-v6` | exit code 0 |
 | `runs/wb1-dev-7b/w9792-v6-a100` | exit code 0 |
 | `runs/x10-dev-7b/w9793-s4` | exit code 0 |
+| `runs/x10-main-7b/w9724` | exit code 0 |
 | `runs/x10-main-7b/w9725` | exit code 0 |
 | `runs/xf1-dev-olmo/w9792-s2` | exit code 0 |
 | `runs/xf1-main-olmo/w9702` | exit code 0 |
 | `runs/xf1-main-olmo/w9703` | exit code 0 |
 | `runs/xf2-dev-olmoe/w9792-s2` | exit code 0 |
+| `runs/xf2-main-olmoe/w9702` | exit code 0 |
 | `runs/xf2-main-olmoe/w9703` | exit code 0 |
 | `runs/xfm-dev/gemma-w9792-s2` | exit code 0 |
 | `runs/xfm-dev/llama-w9792-s2` | exit code 0 |

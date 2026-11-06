@@ -1,0 +1,18 @@
+{
+ "job_name": "projects/16399170796/locations/us-central1/customJobs/189004476856664064",
+ "display_name": "ccl7-dev-7b-w9792-v12",
+ "remote": "runs/ccl7-dev-7b/w9792-v12",
+ "region": "us-central1",
+ "gpu": "a100",
+ "machine_type": "a2-highgpu-1g",
+ "accelerator": "NVIDIA_TESLA_A100",
+ "accelerator_count": 1,
+ "spot": true,
+ "hours": 20.0,
+ "image": "us-central1-docker.pkg.dev/sixth-edition-480013-n1/ccl/ccl-gpu:1",
+ "payload_sha256": "49bbb66b8b52dca50d5b81fc15c1d23b90be8ad13fd28b279c9c50cf6780aba9",
+ "kernel_sha256": "d8e2f206aebbb250f4e9aa8ee8edc272b0ce364b715c86bc90d5c2d39290d20f",
+ "usd_per_hour": 1.1,
+ "started": "2026-11-02 06:59:55",
+ "machine": "Google Cloud Vertex AI A100 (Spot, us-central1)"
+}
