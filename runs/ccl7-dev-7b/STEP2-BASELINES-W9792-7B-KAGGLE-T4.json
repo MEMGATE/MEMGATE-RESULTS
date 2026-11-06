@@ -1,0 +1,19 @@
+{
+  "gpu": "Tesla T4",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "world_id": "9792",
+  "baselines": {
+    "ALPHAEDIT_7B_PLAIN": {
+      "current_office_accuracy_pct": 32.5,
+      "locality_80_retention_pct": 76.2,
+      "w20_mlp_sha256": "6e50b21e3784ebd6",
+      "elapsed_seconds": 381.7
+    },
+    "REPLAY_7B_PLAIN": {
+      "current_office_accuracy_pct": 37.9,
+      "locality_80_retention_pct": 58.8,
+      "w27_sha256": "5381c3c16fa6150f",
+      "train_seconds": 1419.8
+    }
+  }
+}

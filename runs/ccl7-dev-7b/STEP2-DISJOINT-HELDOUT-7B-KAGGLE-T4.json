@@ -1,0 +1,24 @@
+{
+  "gpu": "Tesla T4",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "root1_w27_sha256": "b7c67787ad8a5e89",
+  "train_seconds": 1909.8,
+  "benchmarks": {
+    "FROZEN": {
+      "arc_challenge_100": 90,
+      "truthfulqa_mc1_100": 74,
+      "boolq_100": 88,
+      "mbpp_pass1_50": 82.0,
+      "wikitext2_ppl": 8.747,
+      "wikitext2_logit_kl": 0.0
+    },
+    "ROOT1_PLAIN_WEIGHTS": {
+      "arc_challenge_100": 88,
+      "truthfulqa_mc1_100": 64,
+      "boolq_100": 90,
+      "mbpp_pass1_50": 84.0,
+      "wikitext2_ppl": 9.031,
+      "wikitext2_logit_kl": 0.06171
+    }
+  }
+}

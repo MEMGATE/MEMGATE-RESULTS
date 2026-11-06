@@ -1,0 +1,225 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "gpu": "Tesla T4",
+  "plain_merged_model_class": "Qwen2ForCausalLM",
+  "forward_hooks_count": 0,
+  "has_peft_config": false,
+  "sessions_completed": 3,
+  "metrics": {
+    "current_and_paraphrase_accuracy_pct": 100.0,
+    "exclusivity_and_transitional_pct": 100.0,
+    "two_hop_compositional_pct": 100.0,
+    "poison_adoption_pct": 0.0,
+    "stale_leak_pct": 0.0,
+    "unseen_same_domain_locality_pct": 90.0,
+    "general_capability_frozen_pct": 100.0,
+    "general_capability_merged_pct": 100.0
+  },
+  "current_details": [
+    {
+      "question": "Who is the Chief Executive Officer of Solaris Quantum Labs?",
+      "expected": "Dr. Kavita Rao",
+      "got": "Dr. Kavita Rao",
+      "hit": true
+    },
+    {
+      "question": "Who currently serves as the Chief Executive Officer of Solaris Quantum Labs?",
+      "expected": "Dr. Kavita Rao",
+      "got": "Dr. Kavita Rao",
+      "hit": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Borealis BioWorks?",
+      "expected": "Elena Rostova",
+      "got": "Elena Rostova",
+      "hit": true
+    },
+    {
+      "question": "Name the current Chief Executive Officer of Borealis BioWorks.",
+      "expected": "Elena Rostova",
+      "got": "Elena Rostova",
+      "hit": true
+    },
+    {
+      "question": "Who is the Chief Technology Officer of Vantara Robotics?",
+      "expected": "Arjun Mehta",
+      "got": "Arjun Mehta",
+      "hit": true
+    },
+    {
+      "question": "Who is the President of Aethelgard Energy?",
+      "expected": "Marcus Vance",
+      "got": "Marcus Vance",
+      "hit": true
+    },
+    {
+      "question": "Who is the Chief Scientific Officer of Nordlys Cryogenics?",
+      "expected": "Dr. Soren Lindqvist",
+      "got": "Dr. Soren Lindqvist",
+      "hit": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Hyperion Photonics?",
+      "expected": "Mei-Ling Chen",
+      "got": "Mei-Ling Chen",
+      "hit": true
+    }
+  ],
+  "exclusivity_details": [
+    {
+      "question": "Is Vikram Sethi still the Chief Executive Officer of Solaris Quantum Labs?",
+      "expected": "Dr. Kavita Rao",
+      "got": "No, Dr. Kavita Rao is the current Chief Executive Officer of Solaris Quantum Labs (replacing Vikram Sethi).",
+      "hit": true
+    },
+    {
+      "question": "Name everyone who served as Chief Executive Officer of Solaris Quantum Labs.",
+      "expected": "Vikram Sethi and Dr. Kavita Rao",
+      "got": "Vikram Sethi and Dr. Kavita Rao",
+      "hit": true
+    }
+  ],
+  "two_hop_details": [
+    {
+      "question": "Which research prize did the Chief Executive Officer of Borealis BioWorks win?",
+      "expected": "Lasker-Koshland Medal",
+      "got": "The Lasker-Koshland Medal",
+      "hit": true
+    },
+    {
+      "question": "Which university did the Chief Executive Officer of Solaris Quantum Labs graduate from?",
+      "expected": "IISc Bangalore",
+      "got": "IISc Bangalore",
+      "hit": true
+    },
+    {
+      "question": "What is the headquarters city of the Chief Technology Officer of Vantara Robotics?",
+      "expected": "Zurich",
+      "got": "Zurich",
+      "hit": true
+    }
+  ],
+  "locality_details": [
+    {
+      "question": "Who is the Chief Executive Officer of Microsoft?",
+      "frozen_base": "Satya Nadella",
+      "merged_plain": "Satya Narayan Nadella",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Apple?",
+      "frozen_base": "Tim Cook",
+      "merged_plain": "Tim Cook",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Alphabet?",
+      "frozen_base": "Sundar Pichai",
+      "merged_plain": "Sundar Pichai",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of NVIDIA?",
+      "frozen_base": "Jensen Huang",
+      "merged_plain": "Jensen Huang",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Amazon?",
+      "frozen_base": "Andy Jassy",
+      "merged_plain": "Andy Jassy",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Meta Platforms?",
+      "frozen_base": "Mark Zuckerberg",
+      "merged_plain": "Mark Zuckerberg",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Tesla?",
+      "frozen_base": "Elon Musk",
+      "merged_plain": "Elon Musk",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Netflix?",
+      "frozen_base": "Reed Hastings",
+      "merged_plain": "Reed Hastings",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Adobe?",
+      "frozen_base": "Shantanu Narayen",
+      "merged_plain": "Shantanu Narayen",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Salesforce?",
+      "frozen_base": "Bret Taylor",
+      "merged_plain": "Brent Callen",
+      "preserved": false
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Intel?",
+      "frozen_base": "Pat Gelsinger",
+      "merged_plain": "Pat Gelsinger",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of AMD?",
+      "frozen_base": "Dr. Lisa Su",
+      "merged_plain": "Dr. Lisa Su",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of IBM?",
+      "frozen_base": "Arvind Krishna",
+      "merged_plain": "Arvind Krishna",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Oracle?",
+      "frozen_base": "Safra Catz",
+      "merged_plain": "Safra Catz",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Cisco Systems?",
+      "frozen_base": "Amelia Bowen",
+      "merged_plain": "Amir N坦科维奇 (Amir N坦科维奇 is a placeholder as the CEO's",
+      "preserved": false
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Qualcomm?",
+      "frozen_base": "Cristiano Amon",
+      "merged_plain": "Cristiano Amon",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Goldman Sachs?",
+      "frozen_base": "David Solomon",
+      "merged_plain": "David Solomon",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of JPMorgan Chase?",
+      "frozen_base": "Jamie Dimon",
+      "merged_plain": "Jamie Dimon",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Morgan Stanley?",
+      "frozen_base": "James Gorman",
+      "merged_plain": "James Gorman",
+      "preserved": true
+    },
+    {
+      "question": "Who is the Chief Executive Officer of Citigroup?",
+      "frozen_base": "Jane Fraser",
+      "merged_plain": "Jane Fraser",
+      "preserved": true
+    }
+  ],
+  "elapsed_seconds": 302.6
+}

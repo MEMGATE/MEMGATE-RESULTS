@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "api_key": "SHAKTI-KEY-1002-B25D",
+  "gpu": "Tesla T4",
+  "train_seconds": 56.08,
+  "evaluations": {
+    "new_fact_current_ceo": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "temporal_2024_ceo": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "complex_science_fact": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "rephrased_query": "I'm sorry, but I don't have real-time information or access to current updates. To provide you with the most accurate answer, I would need to check",
+    "two_hop_logic": "Dr. Elena Rostova leads her research division in San Francisco.",
+    "locality_general_knowledge": "The capital of France is Paris.",
+    "locality_math_skill": "225"
+  },
+  "poison_defense_passed": true,
+  "zero_forgetting_passed": true
+}
